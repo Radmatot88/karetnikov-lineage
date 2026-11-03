@@ -260,13 +260,25 @@ import '../styles/heritage.css';
           </div>
 
           <!-- 4 Clans Filter Bar -->
-          <div class="scroll-clan-pills" id="scrollClanPills">
-            <button type="button" class="scroll-clan-pill active" data-clan="all">Все 4 рода</button>
-            <button type="button" class="scroll-clan-pill" data-clan="Каретниковы"><svg class="svg-icon sm"><use href="#icon-clan-karetnikov"/></svg> Каретниковы</button>
-            <button type="button" class="scroll-clan-pill" data-clan="Юхины"><svg class="svg-icon sm"><use href="#icon-clan-yukhin"/></svg> Юхины</button>
-            <button type="button" class="scroll-clan-pill" data-clan="Зубковы"><svg class="svg-icon sm"><use href="#icon-clan-zubkov"/></svg> Зубковы</button>
-            <button type="button" class="scroll-clan-pill" data-clan="Куманины"><svg class="svg-icon sm"><use href="#icon-clan-kumanin"/></svg> Куманины</button>
-            <button type="button" class="scroll-clan-pill" data-clan="hypotheses"><svg class="svg-icon sm"><use href="#icon-orbit-hypothesis"/></svg> Гипотезы (15)</button>
+          <div class="scroll-clan-pills clan-switcher-bar" id="scrollClanPills">
+            <button type="button" class="scroll-clan-pill clan-theme-pill active" data-clan="all" data-clan-theme="all">
+              <svg class="svg-icon sm"><use href="#icon-shield-fortress"/></svg> Все 4 рода
+            </button>
+            <button type="button" class="scroll-clan-pill clan-theme-pill" data-clan="Каретниковы" data-clan-theme="karetnikov">
+              <svg class="svg-icon sm"><use href="#icon-clan-karetnikov"/></svg> Каретниковы
+            </button>
+            <button type="button" class="scroll-clan-pill clan-theme-pill" data-clan="Куманины" data-clan-theme="kumanin">
+              <svg class="svg-icon sm"><use href="#icon-clan-kumanin"/></svg> Куманины
+            </button>
+            <button type="button" class="scroll-clan-pill clan-theme-pill" data-clan="Зубковы" data-clan-theme="zubkov">
+              <svg class="svg-icon sm"><use href="#icon-clan-zubkov"/></svg> Зубковы
+            </button>
+            <button type="button" class="scroll-clan-pill clan-theme-pill" data-clan="Юхины" data-clan-theme="yukhin">
+              <svg class="svg-icon sm"><use href="#icon-clan-yukhin"/></svg> Юхины
+            </button>
+            <button type="button" class="scroll-clan-pill clan-theme-pill" data-clan="hypotheses" data-clan-theme="hypotheses">
+              <svg class="svg-icon sm"><use href="#icon-orbit-hypothesis"/></svg> Гипотезы (15)
+            </button>
           </div>
 
           <!-- Quick Generation Jump Bar (I -> VII) -->
@@ -296,6 +308,28 @@ import '../styles/heritage.css';
         </button>
         <!-- Floating Top HUD -->
         <div id="roadmapHudTop" class="roadmap-hud-top">
+                    <!-- Гербовый Селектор 4 Домов (Four Houses Heraldic Selector) -->
+          <div class="hud-panel clan-switcher-panel" style="pointer-events:auto;">
+            <span style="font-size:11.5px; color:var(--text-muted); font-weight:700;">Гербовый Дом:</span>
+            <div class="clan-switcher-bar" id="treeClanSwitcher">
+              <button type="button" class="clan-theme-pill active" data-clan-theme="all" title="Свод всех четырех родов">
+                <svg class="svg-icon sm"><use href="#icon-shield-fortress"/></svg> Все 4 рода
+              </button>
+              <button type="button" class="clan-theme-pill" data-clan-theme="karetnikov" title="Гербовый пурпур и золото Каретниковых">
+                <svg class="svg-icon sm"><use href="#icon-clan-karetnikov"/></svg> Каретниковы
+              </button>
+              <button type="button" class="clan-theme-pill" data-clan-theme="kumanin" title="Лазурит и золото именитых граждан Куманиных">
+                <svg class="svg-icon sm"><use href="#icon-clan-kumanin"/></svg> Куманины
+              </button>
+              <button type="button" class="clan-theme-pill" data-clan-theme="zubkov" title="Малахитовый изумруд фабрикантов Зубковых">
+                <svg class="svg-icon sm"><use href="#icon-clan-zubkov"/></svg> Зубковы
+              </button>
+              <button type="button" class="clan-theme-pill" data-clan-theme="yukhin" title="Аметист и волжская медь старшин Юхиных">
+                <svg class="svg-icon sm"><use href="#icon-clan-yukhin"/></svg> Юхины
+              </button>
+            </div>
+          </div>
+
           <!-- Эпистемический переключатель: 100% ФАКТ vs Полное Древо 7 Колен -->
           <div class="hud-panel mode-toggle-panel">
             <div class="epistemic-segmented-control" role="radiogroup" aria-label="Эпистемический режим отображения">
@@ -556,6 +590,106 @@ import '../styles/heritage.css';
   <!-- ================= CLIENT-SIDE WEB CRYPTO, PHOTO VAULT & ROADMAP ENGINE ================= -->
   <script is:inline>
     // --- SENIOR FONT SCALER ENGINE (WCAG AAA 15.2:1 & SENIOR READABILITY 60+) ---
+    
+    // ================= DYNAMIC 4-CLAN HERALDIC THEME ENGINE =================
+    let currentHeraldicTheme = 'all';
+
+    function setHeraldicClanTheme(themeName) {
+      if (!themeName) themeName = 'all';
+      currentHeraldicTheme = themeName;
+      document.documentElement.setAttribute('data-clan-theme', themeName);
+      document.body.setAttribute('data-clan-theme', themeName);
+      try { localStorage.setItem('karetnikov_clan_theme', themeName); } catch(e){}
+
+      // Sync active pills across both Scroll and Tree views
+      document.querySelectorAll('.clan-theme-pill').forEach(pill => {
+        const pTheme = pill.getAttribute('data-clan-theme');
+        pill.classList.toggle('active', pTheme === themeName);
+      });
+
+      // Update Topbar Brand Seal
+      const iconMap = {
+        all: '#icon-shield-fortress',
+        karetnikov: '#icon-clan-karetnikov',
+        kumanin: '#icon-clan-kumanin',
+        zubkov: '#icon-clan-zubkov',
+        yukhin: '#icon-clan-yukhin',
+        hypotheses: '#icon-orbit-hypothesis'
+      };
+      const titleMap = {
+        all: 'Свод 4 Родов',
+        karetnikov: 'Род Каретниковых',
+        kumanin: 'Род Куманиных',
+        zubkov: 'Род Зубковых',
+        yukhin: 'Род Юхиных',
+        hypotheses: 'Парящие Гипотезы'
+      };
+
+      const iconUse = document.querySelector('#topbarBrandIcon use');
+      if (iconUse && iconMap[themeName]) {
+        iconUse.setAttribute('href', iconMap[themeName]);
+      }
+      const badgeEl = document.getElementById('topbarBrandBadge');
+      if (badgeEl && titleMap[themeName]) {
+        badgeEl.textContent = titleMap[themeName];
+      }
+
+      // Highlight matching nodes on 2D Tree Roadmap
+      highlightClanOnTree(themeName);
+    }
+
+    function highlightClanOnTree(themeName) {
+      const clanMap = {
+        karetnikov: 'Каретниковы',
+        kumanin: 'Куманины',
+        zubkov: 'Зубковы',
+        yukhin: 'Юхины'
+      };
+      const targetClan = clanMap[themeName];
+
+      document.querySelectorAll('#roadmapNodesLayer .rm-node:not(.floating-hypothesis-node)').forEach(card => {
+        const ahn = parseInt(card.getAttribute('data-ahnentafel') || '0', 10);
+        if (ahn === 1 || !targetClan) {
+          // Proband is always visible at 100%
+          card.style.opacity = '1';
+          card.style.filter = '';
+          return;
+        }
+        const cardClan = card.getAttribute('data-node-clan') || '';
+        if (cardClan.includes(targetClan)) {
+          card.style.opacity = '1';
+          card.style.filter = 'drop-shadow(0 0 12px var(--theme-glow))';
+        } else {
+          card.style.opacity = '0.42';
+          card.style.filter = 'grayscale(35%)';
+        }
+      });
+    }
+
+    function initHeraldicThemeEngine() {
+      let savedTheme = 'all';
+      try {
+        savedTheme = localStorage.getItem('karetnikov_clan_theme') || 'all';
+      } catch(e){}
+
+      // Attach event listeners to all clan switcher pills in Scroll and Tree HUD
+      document.querySelectorAll('.clan-theme-pill').forEach(pill => {
+        pill.addEventListener('click', (ev) => {
+          const theme = pill.getAttribute('data-clan-theme') || 'all';
+          setHeraldicClanTheme(theme);
+
+          // If in scroll view, also sync scroll filter
+          const clanFilterVal = pill.getAttribute('data-clan');
+          if (clanFilterVal && typeof scrollClanFilter !== 'undefined') {
+            scrollClanFilter = clanFilterVal;
+            if (lineageData) renderMobileScroll(lineageData);
+          }
+        });
+      });
+
+      setHeraldicClanTheme(savedTheme);
+    }
+
     function initFontScaling() {
       const saved = localStorage.getItem('karetnikov_font_scale') || 'normal';
       applyFontScale(saved);
@@ -583,7 +717,7 @@ import '../styles/heritage.css';
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', initFontScaling);
     } else {
-      initFontScaling();
+      initFontScaling(); initHeraldicThemeEngine();
     }
 
     let encryptedBundle = null;
@@ -1197,11 +1331,17 @@ import '../styles/heritage.css';
               class="${cardClasses}"
               style="left:${box.x}px; top:${box.y}px; width:${box.w}px; ${searchHighlightStyle}"
               data-ahnentafel="${node.ahnentafel}"
+              data-node-clan="${node.sub_clan || node.clan || ''}"
             >
               <div class="rm-card-top-bar">
-                <span class="ahnentafel-badge">${node.is_collateral ? `Брат #${node.sibling_of_ahnentafel}` : `Слот #${node.ahnentafel}`}</span>
-                ${factBadge}
-                <span class="branch-tag ${node.branch}">${branchLabel}</span>
+                <div style="display:flex; align-items:center; gap:5px;">
+                  <span class="rm-gen-pill">${romanNumerals[node.generation]} КОЛЕНО</span>
+                  <span class="ahnentafel-badge">${node.is_collateral ? `Брат #${node.sibling_of_ahnentafel}` : `Слот #${node.ahnentafel}`}</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:5px;">
+                  ${factBadge}
+                  <span class="branch-tag ${node.branch}">${branchLabel}</span>
+                </div>
               </div>
               <div class="rm-card-body">
                 <div class="rm-portrait" data-photo-trigger="${node.id}" title="Нажмите, чтобы загрузить или обновить фотографию">
@@ -3056,6 +3196,8 @@ import '../styles/heritage.css';
         document.querySelectorAll('#scrollClanPills .scroll-clan-pill').forEach(p => p.classList.remove('active'));
         pill.classList.add('active');
         scrollClanFilter = pill.getAttribute('data-clan') || 'all';
+        const theme = pill.getAttribute('data-clan-theme') || 'all';
+        setHeraldicClanTheme(theme);
         if (scrollClanFilter === 'hypotheses' && scrollEpistemicMode === 'facts_only') {
           scrollEpistemicMode = 'all_levels';
           syncScrollModeButtons();

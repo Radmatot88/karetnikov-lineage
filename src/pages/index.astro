@@ -358,8 +358,8 @@ import '../styles/heritage.css';
           <button id="zoomOutBtn" class="zoom-btn" title="Отдалить (Колесико вниз)">−</button>
           <span id="zoomReadout" class="zoom-readout">85%</span>
           <button id="zoomInBtn" class="zoom-btn" title="Приблизить (Колесико вверх)">+</button>
-          <button id="zoomResetBtn" class="chip-btn" title="Сфокусировать на мне (#1)"><svg class="svg-icon sm"><use href="#icon-focus"/></svg> От меня (#1)</button>
-          <button id="zoomFitBtn" class="chip-btn" title="Показать всю карту целиком"><svg class="svg-icon sm"><use href="#icon-tree"/></svg> Весь масштаб</button>
+          <button id="zoomResetBtn" class="chip-btn" title="Сфокусировать на мне (#1)"><svg class="svg-icon sm"><use href="#icon-focus"/></svg> Я (#1)</button>
+          <button id="zoomFitBtn" class="chip-btn" title="Показать всю карту целиком"><svg class="svg-icon sm"><use href="#icon-tree"/></svg> Вся карта</button>
         </div>
 
         <!-- Transformable World -->
@@ -979,9 +979,9 @@ import '../styles/heritage.css';
         genGroups[g].sort((a, b) => a.ahnentafel - b.ahnentafel);
       }
 
-      const COL_X_STEP = 450;
-      const CARD_W = 310;
-      const CARD_H = 108;
+      const COL_X_STEP = 470;
+      const CARD_W = 350;
+      const CARD_H = 124;
 
       // Insert collateral siblings right next to their sibling in the same generation column so cards never overlap
       visibleCollateral.forEach(c => {
@@ -1045,7 +1045,7 @@ import '../styles/heritage.css';
           coordsByAhn[node.ahnentafel] = {
             x: colX,
             y,
-            w: node.ahnentafel === 1 ? 330 : CARD_W,
+            w: node.ahnentafel === 1 ? 370 : CARD_W,
             h: CARD_H,
             node
           };
@@ -1079,15 +1079,21 @@ import '../styles/heritage.css';
         7: ['VII КОЛЕНО — 64 СЛОТА', 'Прапрапрапрадеды • 1815–1834 гг. (#64–#127)']
       };
 
-      for (let g = 1; g <= maxGen; g++) {
+      const romanNumerals = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII'];
+      // Generation Banners: start from g = 2 because Proband (#1) has its own sovereign royal crown header
+      for (let g = 2; g <= maxGen; g++) {
         const colX = 80 + (g - 1) * COL_X_STEP;
         const colH = getColHeight(g);
-        const bannerTop = Math.max(18, (centerY - colH / 2) - 58);
+        const startY = centerY - colH / 2;
+        const bannerTop = Math.max(24, startY - 82);
         const [t1, t2] = genTitles[g];
         htmlParts.push(`
-          <div class="canvas-gen-banner" style="left:${colX}px; top:${bannerTop}px;">
-            <div class="t1">${t1}</div>
-            <div class="t2">${t2}</div>
+          <div class="canvas-gen-banner" style="left:${colX}px; top:${bannerTop}px; width:${CARD_W}px;">
+            <div class="gen-banner-badge">${romanNumerals[g]}</div>
+            <div class="gen-banner-titles">
+              <div class="t1">${t1}</div>
+              <div class="t2">${t2}</div>
+            </div>
           </div>
         `);
 
@@ -1096,14 +1102,14 @@ import '../styles/heritage.css';
         if (hypsInGen.length > 0) {
           const hypBannerTop = (centerY - colH / 2) + colH + 24;
           htmlParts.push(`
-            <div class="canvas-hyp-banner" style="left:${colX}px; top:${hypBannerTop}px;">
+            <div class="canvas-hyp-banner" style="left:${colX}px; top:${hypBannerTop}px; width:${CARD_W}px;">
               <svg class="svg-icon sm"><use href="#icon-orbit-hypothesis"/></svg> ПАРЯЩИЕ ГИПОТЕЗЫ КОЛЕНА (${hypsInGen.length})
             </div>
           `);
         }
       }
 
-      // Render direct & collateral nodes
+      // Render direct & collateral nodes (Imperial Architectural Standard)
       Object.values(coordsByAhn).forEach(box => {
         const node = box.node;
         const photoSrc = getNodePhoto(node);
@@ -1145,36 +1151,75 @@ import '../styles/heritage.css';
         if (isFactConfirmed) cardClasses += ' is-fact-confirmed';
         if (isPendingSlot) cardClasses += ' is-pending-fact';
 
-        const factBadge = isFactConfirmed ? `<span class="badge-fact-100"><svg class="svg-icon sm"><use href="#icon-seal-confirmed"/></svg> 100% ФАКТ</span>` : '';
+        const factBadge = isFactConfirmed ? `<span class="badge-fact-100"><svg class="svg-icon xs"><use href="#icon-seal-confirmed"/></svg> 100% ФАКТ</span>` : '';
         const displayName = isPendingSlot
           ? `Слот #${node.ahnentafel} • Ожидает выписки архива`
           : node.full_name;
 
-        htmlParts.push(`
-          <article
-            class="${cardClasses}"
-            style="left:${box.x}px; top:${box.y}px; ${searchHighlightStyle}"
-            data-ahnentafel="${node.ahnentafel}"
-          >
-            <div class="rm-portrait" data-photo-trigger="${node.id}" title="Нажмите, чтобы загрузить или обновить фотографию">
-              ${portraitInner}
-              <span class="rm-photo-badge"><svg class="svg-icon sm"><use href="#icon-photo"/></svg> Фото</span>
-            </div>
-            <div class="rm-content">
-              <div class="rm-top-badges">
+        // PROBAND (#1): Sovereign Royal Master Card
+        if (node.ahnentafel === 1) {
+          htmlParts.push(`
+            <article
+              class="${cardClasses}"
+              style="left:${box.x}px; top:${box.y}px; width:${box.w}px; ${searchHighlightStyle}"
+              data-ahnentafel="1"
+            >
+              <div class="rm-proband-crown-bar">
+                <div class="rm-proband-crown-title">
+                  <svg class="svg-icon xs" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"/>
+                  </svg>
+                  <span>I КОЛЕНО • ПРОБАНД (ОСНОВАТЕЛЬ)</span>
+                </div>
+                ${factBadge}
+              </div>
+              <div class="rm-card-body">
+                <div class="rm-portrait proband-portrait" data-photo-trigger="${node.id}" title="Загрузить фотографию Пробанда">
+                  ${portraitInner}
+                  <span class="rm-photo-badge"><svg class="svg-icon sm"><use href="#icon-photo"/></svg> Фото</span>
+                </div>
+                <div class="rm-content">
+                  <div class="rm-proband-clan">КАРЕТНИКОВЫ • ЗУБКОВЫ • КУМАНИНЫ • ЮХИНЫ</div>
+                  <div class="rm-name proband-name">${displayName}</div>
+                  <div class="rm-role-sub">Глава рода • Родовой архив 127 предков</div>
+                  <div class="rm-meta-row">
+                    <span class="rm-dates"><svg class="svg-icon xs"><use href="#icon-calendar"/></svg> 14.09.1994</span>
+                    <span class="rm-place"><svg class="svg-icon xs"><use href="#icon-pin"/></svg> г. Самара</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          `);
+        } else {
+          // GENERATIONS II-VII & COLLATERALS
+          htmlParts.push(`
+            <article
+              class="${cardClasses}"
+              style="left:${box.x}px; top:${box.y}px; width:${box.w}px; ${searchHighlightStyle}"
+              data-ahnentafel="${node.ahnentafel}"
+            >
+              <div class="rm-card-top-bar">
                 <span class="ahnentafel-badge">${node.is_collateral ? `Брат #${node.sibling_of_ahnentafel}` : `Слот #${node.ahnentafel}`}</span>
                 ${factBadge}
                 <span class="branch-tag ${node.branch}">${branchLabel}</span>
               </div>
-              <div class="rm-name">${displayName}</div>
-              <div class="rm-dates">${node.birth_date || ''}${deathStr}</div>
-              <div class="rm-place" title="${node.birth_place || ''}"><svg class="svg-icon sm"><use href="#icon-pin"/></svg> ${node.birth_place || ''}</div>
-            </div>
-          </article>
-        `);
+              <div class="rm-card-body">
+                <div class="rm-portrait" data-photo-trigger="${node.id}" title="Нажмите, чтобы загрузить или обновить фотографию">
+                  ${portraitInner}
+                  <span class="rm-photo-badge"><svg class="svg-icon sm"><use href="#icon-photo"/></svg> Фото</span>
+                </div>
+                <div class="rm-content">
+                  <div class="rm-name">${displayName}</div>
+                  <div class="rm-dates"><svg class="svg-icon xs"><use href="#icon-calendar"/></svg> ${node.birth_date || ''}${deathStr}</div>
+                  <div class="rm-place" title="${node.birth_place || ''}"><svg class="svg-icon xs"><use href="#icon-pin"/></svg> ${node.birth_place || 'Село не указано'}</div>
+                </div>
+              </div>
+            </article>
+          `);
+        }
       });
 
-      // Render floating orbital hypotheses
+      // Render floating orbital hypotheses    // Render floating orbital hypotheses
       Object.values(coordsByHyp).forEach(box => {
         const hyp = box.hyp;
         let hypHighlightStyle = '';
@@ -1231,8 +1276,8 @@ import '../styles/heritage.css';
             const cpx1 = x1 + (x2 - x1) * 0.45;
             const cpx2 = x1 + (x2 - x1) * 0.55;
             const strokeColor = dstBox.node.branch === 'paternal'
-              ? 'rgba(224, 122, 95, 0.72)'
-              : 'rgba(42, 157, 143, 0.72)';
+              ? '#8B261E'
+              : '#146C43';
             const strokeWidth = dstBox.node.status === 'UNKNOWN_SLOT' ? '1.5' : '2.8';
             const dash = dstBox.node.status === 'UNKNOWN_SLOT' ? 'stroke-dasharray="6,5"' : '';
 
@@ -1244,7 +1289,8 @@ import '../styles/heritage.css';
                 stroke-width="${strokeWidth}"
                 ${dash}
               />
-              <circle cx="${x2}" cy="${y2}" r="4" fill="${strokeColor}" />
+              <circle cx="${x1}" cy="${y1}" r="3.5" fill="#8C6D32" />
+              <circle cx="${x2}" cy="${y2}" r="3.5" fill="${strokeColor}" />
             `;
           });
         } else {
@@ -1330,15 +1376,15 @@ import '../styles/heritage.css';
     function focusOnProband() {
       const shell = document.getElementById('roadmapShell');
       const probandCard = document.querySelector('.rm-node[data-ahnentafel="1"]');
-      zoom = 0.65;
-      if (probandCard && shell) {
-        const cardTop = parseFloat(probandCard.style.top || '450');
-        panX = 40;
-        panY = (shell.clientHeight / 2) - ((cardTop + 54) * zoom);
-      } else {
-        panX = 40;
-        panY = 80;
-      }
+      if (!shell || !probandCard) return;
+      const isMobile = window.innerWidth <= 860;
+      zoom = isMobile ? 0.82 : 0.95;
+      const cardLeft = parseFloat(probandCard.style.left || '80');
+      const cardTop = parseFloat(probandCard.style.top || '450');
+      const cardW = parseFloat(probandCard.style.width || '370');
+      const cardH = probandCard.offsetHeight || 152;
+      panX = (shell.clientWidth / 2) - ((cardLeft + cardW / 2) * zoom);
+      panY = (shell.clientHeight / 2) - ((cardTop + cardH / 2) * zoom);
       applyRoadmapTransform();
     }
 

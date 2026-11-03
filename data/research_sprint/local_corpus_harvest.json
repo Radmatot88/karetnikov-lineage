@@ -1,0 +1,2894 @@
+{
+  "serkin_tsiolkovsky_scan": {
+    "files_scanned": 447,
+    "unique_archive_markers": [
+      "АПТЕКАРСКОГО ПРИКАЗ",
+      "Аптекарский приказ",
+      "Аптекарским приказ",
+      "Аптекарского приказ",
+      "Аптекарском приказ",
+      "ГапО",
+      "ПРЕОБРАЖЕНСКИЙ ПРИКАЗ",
+      "ПРЕОБРАЖЕНСКОМ ПРИКАЗ",
+      "Преображенский приказ",
+      "Преображенского приказ",
+      "Преображенском приказ",
+      "Приказ Тайных дел",
+      "Приказа Тайных дел",
+      "Приказе тайных дел",
+      "Приказные дела старых лет",
+      "Приказом Тайных дел",
+      "РАЗРЯДНОГО ПРИКАЗ",
+      "РАЗРЯДНОМ ПРИКАЗ",
+      "РГАДА",
+      "РГИА",
+      "Разрядного приказ",
+      "Разрядном приказ",
+      "Разрядный приказ",
+      "Разрядным приказ",
+      "Столбцы Белгородского стола",
+      "Столбцы Московского стола",
+      "Столбцы Севского стола",
+      "Столбцы Шацкого стола",
+      "Ф. 1",
+      "Ф. 1182",
+      "Ф. 141",
+      "Ф. 143",
+      "Ф. 210",
+      "Ф. 214",
+      "Ф. 27",
+      "Ф. 371",
+      "Ф. 396",
+      "Ф. 6",
+      "Ф. 7",
+      "Ф. 796",
+      "Фонд 141",
+      "Фонд 210",
+      "Фонд 27",
+      "Фонд 371",
+      "Фонд 396",
+      "Фонд 7",
+      "гапо",
+      "ф. 210",
+      "ф. 371",
+      "ф. 7"
+    ],
+    "total_hits": 457,
+    "hits": [
+      {
+        "file": "ECOSYSTEM_OPUS_DOSSIER.md",
+        "line": 326,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Каретников"
+        ],
+        "snippet": "- **Клиент / Владелец:** `Prime Lead Internal / Founders` (Каретников)"
+      },
+      {
+        "file": "INDEX.md",
+        "line": 135,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "ломов"
+        ],
+        "snippet": "- [00_MASTER_SYNTHESIS_AND_INDEX.md](./references/archaic_codex/00_MASTER_SYNTHESIS_AND_INDEX.md) — **Мастер-Индекс Архаического Кодекса:** тезисный свод лестницы сложности, 7 точек схождения, 6 разломов и экспертных оценок"
+      },
+      {
+        "file": "INDEX.md",
+        "line": 137,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "ломов"
+        ],
+        "snippet": "- [06_cross_tradition_intersections_and_divergences.md](./references/archaic_codex/06_cross_tradition_intersections_and_divergences.md) — **Синтез и кросс-матрица 4 традиций + ядро PRJ-22:** 7 фундаментальных точек пересечения и 6 непримиримых разломов (74 KB)"
+      },
+      {
+        "file": "INDEX.md",
+        "line": 152,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Степана Разина",
+          "Алёны Арзамасской"
+        ],
+        "snippet": "- [04G_factcheck_military_and_torture_anesthesia_cases.md](./references/archaic_codex/04G_factcheck_military_and_torture_anesthesia_cases.md) — **Военно-исторический и нейрофизиологический фактчекинг (Том Ж):** миф о пуленепробиваемости Степана Разина и Алёны Арзамасской (1670–1671), солдатские лада"
+      },
+      {
+        "file": "MEMORY_ROADMAP.md",
+        "line": 164,
+        "archive_matches": [
+          "РГАДА"
+        ],
+        "geo_or_clan_matches": [
+          "Алёны Арзамасской"
+        ],
+        "snippet": "- Обеспечение способности агента Локи в режиме реального времени цитировать следственные столбцы РГАДА XVII века (дела Алёны Арзамасской, Левки Кобылки, Андрея Безобразова), исландские манускрипты (*Lækningakver*, *Galdrabók*) и психоментальную этнографию Широкогорова/Ксенофонтова;"
+      },
+      {
+        "file": "ROADMAP_V2.md",
+        "line": 330,
+        "archive_matches": [
+          "РГАДА"
+        ],
+        "geo_or_clan_matches": [
+          "Алёны Арзамасской"
+        ],
+        "snippet": "- Обеспечение способности агента Локи в режиме реального времени цитировать следственные столбцы РГАДА XVII века (дела Алёны Арзамасской, Левки Кобылки, Андрея Безобразова), исландские манускрипты (*Lækningakver*, *Galdrabók*) и психоментальную этнографию Широкогорова/Ксенофонтова;"
+      },
+      {
+        "file": "specs\\SPEC_PART2B_GUEST_IDENTITY_AND_GIT_TOAST.md",
+        "line": 227,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Каретников"
+        ],
+        "snippet": "1. Основной оператор и создатель системы — Дмитрий (Граф Каретников). По умолчанию на старте новой сессии в эфире находится Дмитрий."
+      },
+      {
+        "file": "Папки и файлы РС\\Алхимия капитала\\Планы\\council_ux_selflearning_2026-03-21.md",
+        "line": 94,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "Владелец сети автосервисов «АвтоТри» (Самара). 3 точки, 12 сотрудников, оборот 4.5M₽/мес."
+      },
+      {
+        "file": "Папки и файлы РС\\Алхимия капитала\\dance-site\\.agent\\skills\\financial-teardown\\SKILL.md",
+        "line": 107,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "Запрос: \"[Название ООО]\" арбитраж иск Самара"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Gold_Standard_HTML_Architecture.md",
+        "line": 13,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "* Пример: `🔥 WS: 2 084 WS РФ / 17 WS Самара`."
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 2,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "## Студия дизайна интерьера и премиального ремонта «Грани Пространства» (Самара)"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 6,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "**Основа данных:** 8 800+ поисковых запросов Яндекс.Директа (`search_queries_report.tsv`), верифицированная база Яндекс Cloud Wordstat v2 API (Регион 51 — Самара, Регион 225 — РФ), CustDev-интервью с Дмитрием Жариковым."
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 19,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "| 🌐 **SEO-Блог сайта** | **26 статей** | Захват коммерческого/инфо спроса Самары (ЖК, Просеки), Silo-перелинковка на услуги и портфолио |"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 32,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `смета на ремонт квартиры` (2 084 WS РФ / 17 WS Самара), `скрытые работы в смете`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 43,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `договор на ремонт квартиры` (3 412 WS РФ / 42 WS Самара), `договор подряда с фиксированной ценой`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 54,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `монтаж котельной в частном доме` (438 WS РФ / 12 WS Самара), `отопление загородного дома под ключ`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 76,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `шумоизоляция квартиры в новостройке` (164 WS РФ / 8 WS Самара), `звукоизоляция потолка и стен`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 79,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **Лид-магнит и CTA:** Схема правильного акустического пирога для квартир в ЖК бизнес-класса Самары."
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 87,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `сколько стоит дизайнерский ремонт` (340 WS Самара / 12 400 WS РФ), `стоимость ремонта за квадратный метр`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 98,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `разводка электрики в новостройке` (114 WS РФ / 6 WS Самара), `сборка электрощита в квартире`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 109,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `теневой плинтус монтаж` (22 365 WS РФ / 211 WS Самара), `двери скрытого монтажа invisible`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 120,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `укладка крупноформатного керамогранита` (8 106 WS РФ / 84 WS Самара), `запил под 45 градусов керамогранит`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 142,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `полусухая стяжка пола плюсы и минусы` (14 200 WS РФ / 160 WS Самара), `стяжка пола по маякам`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 153,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `приточная вентиляция в квартире` (11 800 WS РФ / 125 WS Самара), `канальное кондиционирование в новостройке`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 164,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `умный дом под ключ в квартире` (1 950 WS РФ / 24 WS Самара), `проводной умный дом KNX Wiren Board`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 175,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `инженерный узел водоснабжения` (240 WS РФ / 8 WS Самара), `монтаж сантехники Rehau в квартире`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 186,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `приемка квартиры в новостройке` (6 155 WS РФ / 78 WS Самара), `тепловизионное обследование квартиры`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 188,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **Смысловой хук (Core Thesis):** Как экспертная приёмка квартиры экономит новосёлу от 200 000 до 600 000 рублей на переделках кривых стен и замене бракованных стеклопакетов. Реальные примеры дефектов в ЖК Самары."
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 208,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `согласование перепланировки квартиры` (4 300 WS РФ / 52 WS Самара), `перепланировка мокрых зон нормы`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 244,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `планировка 3 комнатной квартиры` (2 100 WS РФ / 28 WS Самара), `дизайн проект трехкомнатной квартиры`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 254,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `розетки на кухне схема размещения` (1 850 WS РФ / 22 WS Самара), `высота розеток на фартуке кухни`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 264,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайн ванной комнаты премиум` (920 WS РФ / 14 WS Самара), `душевая зона в строительном исполнении`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 274,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `двери скрытого монтажа отзывы` (1 420 WS РФ / 18 WS Самара), `двери невидимки в интерьере`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 304,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `что лучше кварцвинил или инженерная доска` (2 300 WS РФ / 31 WS Самара), `керамогранит под дерево в интерьере`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 314,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `мастер спальня планировка` (1 150 WS РФ / 16 WS Самара), `дизайн мастер спальни с гардеробной`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 324,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `внутренняя отделка дома из газобетона` (720 WS РФ / 15 WS Самара), `штукатурка стен в коттедже`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 354,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `теплый пол электрический или водяной` (1 650 WS РФ / 24 WS Самара), `расход электроэнергии теплого пола в квартире`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 364,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `инсталляция для унитаза какая лучше` (3 200 WS РФ / 38 WS Самара), `встраиваемый гигиенический душ монтаж`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 374,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `теневой натяжной потолок eurokraab` (1 890 WS РФ / 26 WS Самара), `теневой потолок из гипсокартона`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 384,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайн прихожей в квартире современный` (4 200 WS РФ / 46 WS Самара), `грязная зона в прихожей плитка`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 404,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `кухня без верхних шкафов дизайн фото` (2 400 WS РФ / 29 WS Самара), `кухня с колоннами и островом`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 414,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `отделка террасы загородного дома` (540 WS РФ / 12 WS Самара), `террасная доска дпк монтаж`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 424,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `фартук для кухни из керамогранита` (1 120 WS РФ / 17 WS Самара), `кухонный фартук из кварцевого камня`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 434,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `постирочная в квартире дизайн` (830 WS РФ / 11 WS Самара), `колонна стиральная и сушильная машина в шкафу`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 444,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайн спальни современный стиль` (5 400 WS РФ / 68 WS Самара), `шумоизоляция спальни`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 450,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*Фокус: Захват горячего и теплого поискового спроса Самары (Регион 51), гео-привязка к ЖК бизнес-класса и элитным поселкам, Silo-линковка на услуги и портфолио, конверсионные коммерческие офферы.*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 456,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Сколько стоит ремонт квартиры в Самаре в 2026 году: реальные расценки за м², структура сметы и честный калькулятор»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 458,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `сколько стоит ремонт квартиры в самаре` (76 WS / 454 Директ), `ремонт квартир самара цены` (180 WS / 71 Директ)"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 459,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **LSI-ключи:** *стоимость ремонта под ключ в самаре, расценки на отделочные работы 2026 самара, смета на 1-2-3 комнатную квартиру, смета без скрытых доплат*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 468,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Дизайнерский ремонт квартир в Самаре: от авторского 3D-проекта до премиальной реализации под ключ с гарантией 12 месяцев»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 470,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайнерский ремонт самара` (18 WS / 340 WS РФ), `дизайнерский ремонт квартир в самаре под ключ`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 480,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **H1:** «Ремонт квартиры в новостройке Самары: пошаговые этапы от черновой стяжки до чистовой отделки без переделок»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 482,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт в новостройке самара` (48 WS / 320 общий кластер), `ремонт квартиры с нуля в новостройке самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 483,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *черновой ремонт новостройка самара, разводка электрики и сантехники, возведение стен из пазогребня/газоблока, приемка квартиры у застройщика*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 492,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт и отделка коттеджей в Самаре (8–9 Просека, Красная Глинка, Царевщина): инженерия, котельные и дизайн под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 494,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт коттеджей самара` (24 WS / 120 общий кластер), `отделка загородных домов самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 495,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *внутренняя отделка дома самара, монтаж отопления и котельной, ремонт частного дома под ключ, кейс 380 м2 8 просека*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 504,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **H1:** «Ремонт квартир в ЖК \"Панова Парк\" (Самара): готовые дизайн-решения, схемы перепланировки и опыт реализации»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 506,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк панова парк самара планировки` (42 WS), `ремонт в жк панова парк`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 516,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **H1:** «Дизайнерский ремонт в ЖК \"Волга\" (Самара): панорамные виды, шумоизоляция и премиальная отделка под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 518,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк волга самара ремонт квартир` (28 WS), `дизайн проект жк волга`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 528,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **H1:** «Ремонт и дизайн интерьера в ЖК \"Гранд Империал\": инженерные стандарты премиум-класса в историческом центре Самары»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 530,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк гранд империал самара дизайн квартир` (19 WS), `элитный ремонт квартир самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 531,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *система кондиционирования, премиальная электрика, высокие потолки, авторский надзор, дизайн интерьера центр самара*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 540,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт ванной комнаты и санузла под ключ в Самаре: укладка керамогранита, скрытая сантехника и гидроизоляция»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 542,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт ванной комнаты под ключ в самаре` (45 WS / 211 общий кластер), `ремонт санузла самара цены`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 543,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *укладка плитки самара, запил под 45 градусов, гидроизоляция ceresit/knauf, коллекторная разводка труб, инсталляция geberit*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 554,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `отделка коттеджей красная глинка` (14 WS), `ремонт домов пос волжский самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 564,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **H1:** «Капитальный ремонт квартир во вторичном фонде Самары: демонтаж, замена перекрытий и коммуникаций под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 566,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `капитальный ремонт квартир самара` (26 WS / 66 общий кластер), `капитальный ремонт вторички самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 576,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт квартиры 100 кв. м в Самаре: пример детальной сметы, сроки выполнения и этапы работ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 578,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт квартиры 100 кв м стоимость` (320 WS РФ / 18 WS Самара), `смета на ремонт 100 метров`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 588,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт двухкомнатной квартиры в Самаре под ключ: варианты перепланировок, смета и дизайн-проекты»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 590,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт двухкомнатной квартиры самара` (21 WS / 140 общий кластер), `дизайн проект двухкомнатной квартиры самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 600,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Шумоизоляция квартиры в Самаре: цены за м², эффективные звукоизоляционные материалы и монтаж под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 602,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `шумоизоляция квартиры самара цена` (14 WS), `звукоизоляция стен в квартире самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 612,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Монтаж отопления в частном доме и коттедже в Самаре: котельные, водяной теплый пол, радиаторы и автоматика»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 614,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `монтаж отопления в частном доме самара` (34 WS / 180 общий кластер), `отопление коттеджа самара цена под ключ`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 624,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Укладка керамогранита в Самаре: расценки за м², крупный формат 120х60 и 120х280, запил под 45 градусов»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 626,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `укладка керамогранита самара цена за м2` (14 WS), `плиточные работы самара прайс`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 636,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Электромонтажные работы в квартире под ключ в Самаре: штробление, сборка щитов, слаботочка и ГОСТ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 638,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `электромонтажные работы самара прайс` (22 WS), `разводка электрики в квартире цена самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 648,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **H1:** «Ремонт и дизайн квартир в ЖК \"Аквариум\" (Самара): индивидуальные планировки, панорамные окна и инженерия»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 650,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк аквариум самара планировки` (16 WS), `дизайн проект жк аквариум`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 651,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *дизайнерский ремонт ленинский район самара, шумоизоляция потолков, конвекторы, панорамное остекление*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 660,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **H1:** «Дизайн-проект и ремонт в ЖК \"Парус\" (Самара): видовые квартиры на Волгу, климат-контроль и премиум-материалы»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 662,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк парус самара дизайн интерьера` (12 WS), `ремонт квартир октябрьский район самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 666,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **Коммерческий CTA:** Запишитесь на просмотр готовых объектов студии в Октябрьском районе Самары."
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 672,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Полусухая стяжка пола в Самаре: цены за м², технология укладки за 1 день и подготовка под паркет»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 674,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `стяжка пола цена за м2 самара` (15 WS / 60 общий), `полусухая стяжка пола самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 684,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Штукатурка стен по маякам в Самаре: механизированная и ручная под покраску и обои с геометрией 90°»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 686,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `штукатурка стен в самаре` (14 WS / 40 общий), `механизированная штукатурка стен самара цена`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 698,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт коттеджей царевщина` (11 WS), `отделка домов малая царевщина самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 708,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт 1-комнатной квартиры в Самаре: грамотное зонирование пространства, смета и дизайн-проект под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 710,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт однокомнатной квартиры самара` (24 WS / 320 Директ), `стоимость ремонта однушки в самаре`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 720,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Договор на ремонт квартиры в Самаре: образец с фиксированной ценой, графиком оплат и гарантией 12 месяцев»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 722,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `договор на ремонт квартиры самара` (12 WS), `договор на отделочные работы с гарантией`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 732,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Чистовая отделка квартир в Самаре: покраска стен без полос, укладка паркета, монтаж света и дверей под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 734,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `чистовая отделка квартиры самара` (18 WS / 106 общий), `малярные работы самара под покраску`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 744,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Дизайн интерьера коттеджей и загородных домов в Самаре: планировки, 3D-визуализация, ведомости материалов и надзор»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 746,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайн интерьера коттеджа самара` (15 WS / 305 общий), `дизайн проект загородного дома самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 756,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Где читать реальные отзывы о ремонте квартир в Самаре: Яндекс.Карты, 2GIS и на что смотреть при выборе студии»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 758,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `отзывы о ремонте квартир в самаре` (22 WS / 70 общий), `ремонт квартир самара рейтинг компаний`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 762,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **Коммерческий CTA:** Запишитесь на живую экскурсию по 2-3 строящимся объектам студии в Самаре, чтобы лично оценить культуру производства и качество работ."
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 781,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "│ го спроса Самары │        │ экспертный трафик│        │ До/После, гайды  │"
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 789,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "3. **Bottom of Funnel (BoFU):** Прямой оффер на выезд инженера для замера, проверки сметы сторонних бригад или живой экскурсии на строящиеся объекты «Граней Пространства» в Самаре."
+      },
+      {
+        "file": "Папки и файлы РС\\.agents\\skills\\omnichannel-wordstat-content-engine\\references\\Wordstat_v2_API_Guide.md",
+        "line": 12,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самарская",
+          "Самара"
+        ],
+        "snippet": "* `51` — Самара и Самарская область"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Gold_Standard_HTML_Architecture.md",
+        "line": 13,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "* Пример: `🔥 WS: 2 084 WS РФ / 17 WS Самара`."
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 2,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "## Студия дизайна интерьера и премиального ремонта «Грани Пространства» (Самара)"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 6,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "**Основа данных:** 8 800+ поисковых запросов Яндекс.Директа (`search_queries_report.tsv`), верифицированная база Яндекс Cloud Wordstat v2 API (Регион 51 — Самара, Регион 225 — РФ), CustDev-интервью с Дмитрием Жариковым."
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 19,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "| 🌐 **SEO-Блог сайта** | **26 статей** | Захват коммерческого/инфо спроса Самары (ЖК, Просеки), Silo-перелинковка на услуги и портфолио |"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 32,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `смета на ремонт квартиры` (2 084 WS РФ / 17 WS Самара), `скрытые работы в смете`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 43,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `договор на ремонт квартиры` (3 412 WS РФ / 42 WS Самара), `договор подряда с фиксированной ценой`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 54,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `монтаж котельной в частном доме` (438 WS РФ / 12 WS Самара), `отопление загородного дома под ключ`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 76,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `шумоизоляция квартиры в новостройке` (164 WS РФ / 8 WS Самара), `звукоизоляция потолка и стен`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 79,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **Лид-магнит и CTA:** Схема правильного акустического пирога для квартир в ЖК бизнес-класса Самары."
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 87,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `сколько стоит дизайнерский ремонт` (340 WS Самара / 12 400 WS РФ), `стоимость ремонта за квадратный метр`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 98,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `разводка электрики в новостройке` (114 WS РФ / 6 WS Самара), `сборка электрощита в квартире`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 109,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `теневой плинтус монтаж` (22 365 WS РФ / 211 WS Самара), `двери скрытого монтажа invisible`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 120,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `укладка крупноформатного керамогранита` (8 106 WS РФ / 84 WS Самара), `запил под 45 градусов керамогранит`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 142,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `полусухая стяжка пола плюсы и минусы` (14 200 WS РФ / 160 WS Самара), `стяжка пола по маякам`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 153,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `приточная вентиляция в квартире` (11 800 WS РФ / 125 WS Самара), `канальное кондиционирование в новостройке`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 164,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `умный дом под ключ в квартире` (1 950 WS РФ / 24 WS Самара), `проводной умный дом KNX Wiren Board`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 175,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `инженерный узел водоснабжения` (240 WS РФ / 8 WS Самара), `монтаж сантехники Rehau в квартире`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 186,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `приемка квартиры в новостройке` (6 155 WS РФ / 78 WS Самара), `тепловизионное обследование квартиры`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 188,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **Смысловой хук (Core Thesis):** Как экспертная приёмка квартиры экономит новосёлу от 200 000 до 600 000 рублей на переделках кривых стен и замене бракованных стеклопакетов. Реальные примеры дефектов в ЖК Самары."
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 208,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `согласование перепланировки квартиры` (4 300 WS РФ / 52 WS Самара), `перепланировка мокрых зон нормы`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 244,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `планировка 3 комнатной квартиры` (2 100 WS РФ / 28 WS Самара), `дизайн проект трехкомнатной квартиры`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 254,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `розетки на кухне схема размещения` (1 850 WS РФ / 22 WS Самара), `высота розеток на фартуке кухни`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 264,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайн ванной комнаты премиум` (920 WS РФ / 14 WS Самара), `душевая зона в строительном исполнении`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 274,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `двери скрытого монтажа отзывы` (1 420 WS РФ / 18 WS Самара), `двери невидимки в интерьере`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 304,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `что лучше кварцвинил или инженерная доска` (2 300 WS РФ / 31 WS Самара), `керамогранит под дерево в интерьере`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 314,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `мастер спальня планировка` (1 150 WS РФ / 16 WS Самара), `дизайн мастер спальни с гардеробной`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 324,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `внутренняя отделка дома из газобетона` (720 WS РФ / 15 WS Самара), `штукатурка стен в коттедже`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 354,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `теплый пол электрический или водяной` (1 650 WS РФ / 24 WS Самара), `расход электроэнергии теплого пола в квартире`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 364,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `инсталляция для унитаза какая лучше` (3 200 WS РФ / 38 WS Самара), `встраиваемый гигиенический душ монтаж`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 374,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `теневой натяжной потолок eurokraab` (1 890 WS РФ / 26 WS Самара), `теневой потолок из гипсокартона`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 384,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайн прихожей в квартире современный` (4 200 WS РФ / 46 WS Самара), `грязная зона в прихожей плитка`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 404,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `кухня без верхних шкафов дизайн фото` (2 400 WS РФ / 29 WS Самара), `кухня с колоннами и островом`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 414,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `отделка террасы загородного дома` (540 WS РФ / 12 WS Самара), `террасная доска дпк монтаж`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 424,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `фартук для кухни из керамогранита` (1 120 WS РФ / 17 WS Самара), `кухонный фартук из кварцевого камня`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 434,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `постирочная в квартире дизайн` (830 WS РФ / 11 WS Самара), `колонна стиральная и сушильная машина в шкафу`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 444,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайн спальни современный стиль` (5 400 WS РФ / 68 WS Самара), `шумоизоляция спальни`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 450,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*Фокус: Захват горячего и теплого поискового спроса Самары (Регион 51), гео-привязка к ЖК бизнес-класса и элитным поселкам, Silo-линковка на услуги и портфолио, конверсионные коммерческие офферы.*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 456,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Сколько стоит ремонт квартиры в Самаре в 2026 году: реальные расценки за м², структура сметы и честный калькулятор»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 458,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `сколько стоит ремонт квартиры в самаре` (76 WS / 454 Директ), `ремонт квартир самара цены` (180 WS / 71 Директ)"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 459,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **LSI-ключи:** *стоимость ремонта под ключ в самаре, расценки на отделочные работы 2026 самара, смета на 1-2-3 комнатную квартиру, смета без скрытых доплат*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 468,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Дизайнерский ремонт квартир в Самаре: от авторского 3D-проекта до премиальной реализации под ключ с гарантией 12 месяцев»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 470,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайнерский ремонт самара` (18 WS / 340 WS РФ), `дизайнерский ремонт квартир в самаре под ключ`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 480,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **H1:** «Ремонт квартиры в новостройке Самары: пошаговые этапы от черновой стяжки до чистовой отделки без переделок»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 482,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт в новостройке самара` (48 WS / 320 общий кластер), `ремонт квартиры с нуля в новостройке самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 483,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *черновой ремонт новостройка самара, разводка электрики и сантехники, возведение стен из пазогребня/газоблока, приемка квартиры у застройщика*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 492,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт и отделка коттеджей в Самаре (8–9 Просека, Красная Глинка, Царевщина): инженерия, котельные и дизайн под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 494,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт коттеджей самара` (24 WS / 120 общий кластер), `отделка загородных домов самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 495,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *внутренняя отделка дома самара, монтаж отопления и котельной, ремонт частного дома под ключ, кейс 380 м2 8 просека*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 504,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **H1:** «Ремонт квартир в ЖК \"Панова Парк\" (Самара): готовые дизайн-решения, схемы перепланировки и опыт реализации»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 506,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк панова парк самара планировки` (42 WS), `ремонт в жк панова парк`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 516,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **H1:** «Дизайнерский ремонт в ЖК \"Волга\" (Самара): панорамные виды, шумоизоляция и премиальная отделка под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 518,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк волга самара ремонт квартир` (28 WS), `дизайн проект жк волга`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 528,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **H1:** «Ремонт и дизайн интерьера в ЖК \"Гранд Империал\": инженерные стандарты премиум-класса в историческом центре Самары»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 530,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк гранд империал самара дизайн квартир` (19 WS), `элитный ремонт квартир самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 531,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *система кондиционирования, премиальная электрика, высокие потолки, авторский надзор, дизайн интерьера центр самара*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 540,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт ванной комнаты и санузла под ключ в Самаре: укладка керамогранита, скрытая сантехника и гидроизоляция»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 542,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт ванной комнаты под ключ в самаре` (45 WS / 211 общий кластер), `ремонт санузла самара цены`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 543,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *укладка плитки самара, запил под 45 градусов, гидроизоляция ceresit/knauf, коллекторная разводка труб, инсталляция geberit*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 554,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `отделка коттеджей красная глинка` (14 WS), `ремонт домов пос волжский самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 564,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **H1:** «Капитальный ремонт квартир во вторичном фонде Самары: демонтаж, замена перекрытий и коммуникаций под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 566,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `капитальный ремонт квартир самара` (26 WS / 66 общий кластер), `капитальный ремонт вторички самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 576,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт квартиры 100 кв. м в Самаре: пример детальной сметы, сроки выполнения и этапы работ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 578,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт квартиры 100 кв м стоимость` (320 WS РФ / 18 WS Самара), `смета на ремонт 100 метров`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 588,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт двухкомнатной квартиры в Самаре под ключ: варианты перепланировок, смета и дизайн-проекты»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 590,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт двухкомнатной квартиры самара` (21 WS / 140 общий кластер), `дизайн проект двухкомнатной квартиры самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 600,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Шумоизоляция квартиры в Самаре: цены за м², эффективные звукоизоляционные материалы и монтаж под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 602,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `шумоизоляция квартиры самара цена` (14 WS), `звукоизоляция стен в квартире самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 612,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Монтаж отопления в частном доме и коттедже в Самаре: котельные, водяной теплый пол, радиаторы и автоматика»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 614,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `монтаж отопления в частном доме самара` (34 WS / 180 общий кластер), `отопление коттеджа самара цена под ключ`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 624,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Укладка керамогранита в Самаре: расценки за м², крупный формат 120х60 и 120х280, запил под 45 градусов»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 626,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `укладка керамогранита самара цена за м2` (14 WS), `плиточные работы самара прайс`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 636,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Электромонтажные работы в квартире под ключ в Самаре: штробление, сборка щитов, слаботочка и ГОСТ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 638,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `электромонтажные работы самара прайс` (22 WS), `разводка электрики в квартире цена самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 648,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **H1:** «Ремонт и дизайн квартир в ЖК \"Аквариум\" (Самара): индивидуальные планировки, панорамные окна и инженерия»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 650,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк аквариум самара планировки` (16 WS), `дизайн проект жк аквариум`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 651,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **LSI-ключи:** *дизайнерский ремонт ленинский район самара, шумоизоляция потолков, конвекторы, панорамное остекление*"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 660,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "*   **H1:** «Дизайн-проект и ремонт в ЖК \"Парус\" (Самара): видовые квартиры на Волгу, климат-контроль и премиум-материалы»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 662,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `жк парус самара дизайн интерьера` (12 WS), `ремонт квартир октябрьский район самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 666,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "*   **Коммерческий CTA:** Запишитесь на просмотр готовых объектов студии в Октябрьском районе Самары."
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 672,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Полусухая стяжка пола в Самаре: цены за м², технология укладки за 1 день и подготовка под паркет»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 674,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `стяжка пола цена за м2 самара` (15 WS / 60 общий), `полусухая стяжка пола самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 684,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Штукатурка стен по маякам в Самаре: механизированная и ручная под покраску и обои с геометрией 90°»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 686,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `штукатурка стен в самаре` (14 WS / 40 общий), `механизированная штукатурка стен самара цена`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 698,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт коттеджей царевщина` (11 WS), `отделка домов малая царевщина самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 708,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Ремонт 1-комнатной квартиры в Самаре: грамотное зонирование пространства, смета и дизайн-проект под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 710,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `ремонт однокомнатной квартиры самара` (24 WS / 320 Директ), `стоимость ремонта однушки в самаре`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 720,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Договор на ремонт квартиры в Самаре: образец с фиксированной ценой, графиком оплат и гарантией 12 месяцев»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 722,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `договор на ремонт квартиры самара` (12 WS), `договор на отделочные работы с гарантией`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 732,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Чистовая отделка квартир в Самаре: покраска стен без полос, укладка паркета, монтаж света и дверей под ключ»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 734,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `чистовая отделка квартиры самара` (18 WS / 106 общий), `малярные работы самара под покраску`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 744,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Дизайн интерьера коттеджей и загородных домов в Самаре: планировки, 3D-визуализация, ведомости материалов и надзор»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 746,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `дизайн интерьера коттеджа самара` (15 WS / 305 общий), `дизайн проект загородного дома самара`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 756,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **H1:** «Где читать реальные отзывы о ремонте квартир в Самаре: Яндекс.Карты, 2GIS и на что смотреть при выборе студии»"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 758,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "самара",
+          "самаре"
+        ],
+        "snippet": "*   **Опорный запрос Wordstat:** `отзывы о ремонте квартир в самаре` (22 WS / 70 общий), `ремонт квартир самара рейтинг компаний`"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 762,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "*   **Коммерческий CTA:** Запишитесь на живую экскурсию по 2-3 строящимся объектам студии в Самаре, чтобы лично оценить культуру производства и качество работ."
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 781,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самары"
+        ],
+        "snippet": "│ го спроса Самары │        │ экспертный трафик│        │ До/После, гайды  │"
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Master_Editorial_Matrix_66_Articles_Reference.md",
+        "line": 789,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самаре"
+        ],
+        "snippet": "3. **Bottom of Funnel (BoFU):** Прямой оффер на выезд инженера для замера, проверки сметы сторонних бригад или живой экскурсии на строящиеся объекты «Граней Пространства» в Самаре."
+      },
+      {
+        "file": "Папки и файлы РС\\.agent\\skills\\omnichannel-wordstat-content-engine\\references\\Wordstat_v2_API_Guide.md",
+        "line": 12,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самарская",
+          "Самара"
+        ],
+        "snippet": "* `51` — Самара и Самарская область"
+      },
+      {
+        "file": "telemetry\\sessions\\session_1790994595069_sess_murrn7td_k2ubj.md",
+        "line": 32,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "| 02:27:29.300 | info | tool | search_start | {\"message\":\"Поиск в сети: «Самара 3 октября 6 утра погода клев щуки»...\",\"fillerText\":\"Подожди, свер | - |"
+      },
+      {
+        "file": "telemetry\\sessions\\session_1790994595069_sess_murrn7td_k2ubj.md",
+        "line": 33,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Самара"
+        ],
+        "snippet": "| 02:27:30.719 | info | tool | search_idle | {\"message\":\"Поиск завершен: «Самара 3 октября 6 утра погода клев щуки»\"} | - |"
+      },
+      {
+        "file": "references\\archaic_codex\\00_intro_and_5_filters.md",
+        "line": 18,
+        "archive_matches": [
+          "РГАДА"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "A --> C[\"Фильтр 2: Архивы и Спецхраны (РГАДА, Кунсткамера, Arni Magnusson, Clm 849)\"]"
+      },
+      {
+        "file": "references\\archaic_codex\\00_intro_and_5_filters.md",
+        "line": 27,
+        "archive_matches": [
+          "Преображенского приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "Коммерческому издательству (АСТ, Эксмо, Весь) невыгодно издавать 800-страничный свод рукописных заговоров XVII века из архивов Преображенского приказа или перевод латинского кодекса некромантии XV века *Clm 849*. Почему?"
+      },
+      {
+        "file": "references\\archaic_codex\\00_intro_and_5_filters.md",
+        "line": 34,
+        "archive_matches": [
+          "ф. 7",
+          "РГАДА",
+          "Преображенский приказ",
+          "ф. 210",
+          "Разрядный приказ",
+          "Преображенском приказ",
+          "ф. 371"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "* После пыточных допросов в Разрядном, Тайном и Преображенском приказах самого ведуна сжигали в срубе или рубили голову, а его заветную тетрадь зашивали в следственное дело под грифом секретности и отправляли в архив (сегодня — **РГАДА, ф. 210 «Разрядный приказ», ф. 371 «Преображенский приказ», ф. 7"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 14,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "ломов"
+        ],
+        "snippet": "* Шаг 2: [`06_cross_tradition_intersections_and_divergences.md`](file:///C:/Серкин,%20Циолковский/references/archaic_codex/06_cross_tradition_intersections_and_divergences.md) — 7 точек схождения и 6 фундаментальных разломов между традициями + синтез с Серкиным, Циолковским и А. Н. Кысь."
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 17,
+        "archive_matches": [
+          "Аптекарского приказ"
+        ],
+        "geo_or_clan_matches": [
+          "Степана Разина"
+        ],
+        "snippet": "* Последовательное чтение восьмитомника **`04A` ➔ `04B` ➔ `04C` ➔ `04D` ➔ `04E` ➔ `04F` ➔ `04G` ➔ `04H`** (`416.7 КБ`): от общей механики Разрядного и Аптекарского приказов до пошаговых историй кремлёвских заговоров, казни Безобразова на Красной площади, нейротоксикологии белены/аконита, баллистики "
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 78,
+        "archive_matches": [
+          "Приказе тайных дел",
+          "Разрядном приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "* **О чём:** Юридическая и оперативная типология «лихих дел» в Разрядном приказе и Приказе тайных дел: «вынимание следа» из-под ноги, «напуск по ветру», ведовской травник, вязание «наузов» и залом колосьев («пережин»)."
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 82,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Алатырь"
+        ],
+        "snippet": "* **О чём:** Анатомия вынутых из-за голенищ сапог и гашников «воровских писем»; **Олонецкий сборник 1620–1640-х гг.** (БАН `21.4.14`); структура русского заговора («Океан-море — бел-горюч камень Алатырь — 77 жил — ключ и замок»); заговоры «чтобы на дыбе терпеть»."
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 84,
+        "archive_matches": [
+          "Аптекарский приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "#### Глава 9. Судебная машина сыска: Аптекарский приказ, 3 степени дыбы и сруб на площади"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 103,
+        "archive_matches": [
+          "Аптекарского приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "#### Глава 12. ФАКТЧЕКИНГ №3: Ботаника и нейротоксикология Аптекарского приказа XVII века"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 106,
+        "archive_matches": [
+          "Аптекарском приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "1. Парадокс **Артура Ди (Артемия Дия)** — сына алхимика Джона Ди — во главе экспертизы русского ведовства в Аптекарском приказе;"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 110,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Степан Разин"
+        ],
+        "snippet": "#### Глава 13. ФАКТЧЕКИНГ №4: Военная магия («ружьезаговорщики»), Степан Разин и 4 механизма «сна на дыбе»"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 113,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Степана Разина",
+          "Симбирском",
+          "Алёны Арзамасской"
+        ],
+        "snippet": "1. Демистификация «пуленепробиваемости» **Степана Разина** и сожжённой в срубе атаманши **Алёны Арзамасской (1670–1671 гг.)**: физика дымного пороха, потеря энергии круглой пули на излёте против войлочного тегиляя, сквозное ранение Разина под Симбирском в упор и физиология ларингоспазма при 500 °C в"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 133,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "ломов"
+        ],
+        "snippet": "#### Глава 16. Сводная кросс-матрица: 7 точек схождения и 6 разломов между традициями + синтез с Серкиным и Циолковским"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_READING_GUIDE_TOC.md",
+        "line": 165,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Каретникову"
+        ],
+        "snippet": "#### Глава 22. Семь онтологических вопросов к Графу Каретникову"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_SYNTHESIS_AND_INDEX.md",
+        "line": 22,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "ломов"
+        ],
+        "snippet": "| **06** | [`06_cross_tradition_intersections_and_divergences.md`](file:///C:/Серкин,%20Циолковский/references/archaic_codex/06_cross_tradition_intersections_and_divergences.md) | 74.1 КБ | **Подробный модуль II:** Сводная таблица по 10 осям, 7 фундаментальных точек схождения, 6 непримиримых разломо"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_SYNTHESIS_AND_INDEX.md",
+        "line": 47,
+        "archive_matches": [
+          "Разрядного приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "* *Волховство:* **Н. Я. Новомбергский** (*Колдовство в Московской Руси XVII столетия* — допросные речи и выемки тетрадей Разрядного приказа)."
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_SYNTHESIS_AND_INDEX.md",
+        "line": 82,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "ЛОМОВ"
+        ],
+        "snippet": "## ⚔️ 4. ТЕЗИСНО: В ЧЁМ ОНИ ФУНДАМЕНТАЛЬНО РАСХОДЯТСЯ (6 РАЗЛОМОВ)"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_SYNTHESIS_AND_INDEX.md",
+        "line": 116,
+        "archive_matches": [
+          "Аптекарского приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "* [`04A_prikazy_cases_royal_and_military_witchcraft.md`](file:///C:/Серкин,%20Циолковский/references/archaic_codex/04A_prikazy_cases_royal_and_military_witchcraft.md) (`40.4 КБ`) — полная классификация деяний («вынимание следа», «напуск по ветру», ведовской травник Аптекарского приказа, наузы, залом"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_SYNTHESIS_AND_INDEX.md",
+        "line": 118,
+        "archive_matches": [
+          "Аптекарском приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "* [`04C_prikazy_judicial_mechanics_and_execution_verdicts.md`](file:///C:/Серкин,%20Циолковский/references/archaic_codex/04C_prikazy_judicial_mechanics_and_execution_verdicts.md) (`21.9 КБ`) — юридическая механика сыска (Стоглав 1551 г., Соборное Уложение 1649 г., Воинский Артикул Петра I 1715 г.), "
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_SYNTHESIS_AND_INDEX.md",
+        "line": 121,
+        "archive_matches": [
+          "Аптекарского приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "* [`04F_factcheck_aptekarsky_prikaz_botany_vs_superstition.md`](file:///C:/Серкин,%20Циолковский/references/archaic_codex/04F_factcheck_aptekarsky_prikaz_botany_vs_superstition.md) (`66.2 КБ`) — **Судебно-ботанический и токсикологический фактчекинг Аптекарского приказа:** парадокс Артура Ди (Артемия"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_SYNTHESIS_AND_INDEX.md",
+        "line": 122,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Степана Разина",
+          "Алёны Арзамасской"
+        ],
+        "snippet": "* [`04G_factcheck_military_and_torture_anesthesia_cases.md`](file:///C:/Серкин,%20Циолковский/references/archaic_codex/04G_factcheck_military_and_torture_anesthesia_cases.md) (`80.0 КБ`) — **Военно-исторический и нейрофизиологический фактчекинг ратных и пыточных дел:** демистификация «неуязвимости о"
+      },
+      {
+        "file": "references\\archaic_codex\\00_MASTER_SYNTHESIS_AND_INDEX.md",
+        "line": 128,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "Каретникова"
+        ],
+        "snippet": "* [`09D_western_uni_assessments_and_practical_limits_factcheck.md`](file:///C:/Серкин,%20Циолковский/references/archaic_codex/09D_western_uni_assessments_and_practical_limits_factcheck.md) (`50.7 КБ`) — исчерпывающий институциональный фактчек по вопросу Графа Каретникова: формы сдачи зачётов по QAA "
+      },
+      {
+        "file": "references\\archaic_codex\\02_necromancy_thanatology_codex.md",
+        "line": 158,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "масонский"
+        ],
+        "snippet": "3. **Псевдо-масонский пафос:** Введение степеней посвящения, клятв неразглашения и эстетики нео-готики без опоры на подлинные палеографические первоисточники."
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 12,
+        "archive_matches": [
+          "Разрядный приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "1. **Разрядный приказ**: верховный военно-административный орган. Вёл следствия по обвинениям дворян, детей боярских, ратных людей, стрельцов и полковых казаков в хранении «заговорных писем», «воровских трав» и попытках наведения мора на полки."
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 13,
+        "archive_matches": [
+          "Приказ Тайных дел"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "2. **Приказ Тайных дел (1654–1676 гг.)**: личная следственная спецслужба царя Алексея Михайловича. Концентрировал эксклюзивное следствие по делам наивысшей государственной опасности — «умышления на государево здоровье», порчи царских покоев, членов царской семьи и ближних бояр."
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 14,
+        "archive_matches": [
+          "Аптекарский приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "3. **Аптекарский приказ**: привлекался в качестве высшей экспертно-криминалистической коллегии. При изъятии у подозреваемых подозрительных трав, корней, порошков, костей или мазей доктора и аптекари приказа (включая иноземных докторов Артемия Дия, Андреаса Энгельгардта и др.) проводили фармакологиче"
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 15,
+        "archive_matches": [
+          "Преображенский приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "4. **Преображенский приказ (с конца XVII в.)**: орган политического розыска Петра I под началом князя Ф. Ю. Ромодановского. Квалифицировал ведовские наговоры на государя как преступление по первой статье «Слова и Дела государева» (государственная измена)."
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 56,
+        "archive_matches": [
+          "Аптекарского приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "### 2.3. «Коренья и зелья» (Ведовской травник Аптекарского приказа)"
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 57,
+        "archive_matches": [
+          "Аптекарского приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "Изъятые у ведунов гербарии и мешочки отправлялись в Москву с опечатанными понятыми ярлыками. По архивным росписям Аптекарского приказа выделялись две группы ингредиентов:"
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 64,
+        "archive_matches": [
+          "Аптекарским приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "5. **Вороний глаз (Paris quadrifolia) и Белена черная (Hyoscyamus niger):** классифицировались Аптекарским приказом как «дурное сонное и смертное зелье»."
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 133,
+        "archive_matches": [
+          "Преображенский приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "- **Провал и арест:** Человек Безобразова был задержан при попытке проникновения к кремлевским переходам с узелком наговорной соли. Дело мгновенно передали в Стрелецкий и Преображенский приказы."
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 154,
+        "archive_matches": [
+          "Разрядного приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "### 3.4. Кейс 4: Полковые и ратные дела Разрядного приказа (1640–1670-е гг.)"
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 155,
+        "archive_matches": [
+          "Разрядный приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "В русской армии XVII века (дворянские сотни, стрельцы, казаки, полки «нового строя») ведовство имело строго прикладной характер: защита от вражеского огня, сабельных ударов и снятие боевого страха. Разрядный приказ вел беспощадную борьбу с носителями таких амулетов."
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 160,
+        "archive_matches": [],
+        "geo_or_clan_matches": [
+          "засечную черту"
+        ],
+        "snippet": "- Воевода отправил травы на освидетельствование в Москву. По вердикту Разряда, несмотря на отсутствие умысла на государя, за ношение бесовских наговоров Кобылка был подвергнут телесному наказанию (битью батогами перед строем полка) и отправлен на земляные работы на засечную черту."
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 169,
+        "archive_matches": [
+          "Разрядного приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "- Характерная деталь сотен протоколов Разрядного приказа: солдаты носили заговорные грамотки **зашитыми под подкладку войлочной шапки**, вшитыми в конские уздечки или зашитыми под нательный крест."
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 181,
+        "archive_matches": [
+          "Приказ Тайных дел",
+          "Преображенский приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "| **Умысел на государево здоровье** | Вынутый след, пепел, узелки у царского ложа, наговорная соль | Приказ Тайных дел, Преображенский приказ | Дыба до 3 раз, встряска, подвешивание с грузом, огненный бой вениками | Смертная казнь: мужчине — отсечение головы или сожжение в срубе; женщине — закапыван"
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 182,
+        "archive_matches": [
+          "Разрядный приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "| **Профессиональное чародейство (ведуны)** | Травники, отреченные тетради, кости мертвецов, лягушачьи вилки | Разрядный приказ, Судный приказ | Дыба, очные ставки, жжение углем | Сожжение заживо в деревянном срубе со смолой и соломой на базарной площади |"
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 183,
+        "archive_matches": [
+          "Разрядный приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "| **Любовное ведовство (присуха бояр)** | Наговоренная соль, пот, волосы, мыло покойника, вино | Поместный приказ, Разрядный приказ | Дыба, батоги | Битье кнутом по торгу, урезание языка, ссылка всей семьей в Сибирь (Пелым, Березов, Нерчинск) |"
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 184,
+        "archive_matches": [
+          "Разрядный приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "| **Ратные воинские заговоры** | «Письма от пуль и сабель», корни одолень-травы под шапкой | Полковой судья, Разрядный приказ | Батоги, железа, расспросные речи | Публичное битье кнутом или батогами перед полком, разжалование, лишение поместного оклада |"
+      },
+      {
+        "file": "references\\archaic_codex\\04A_prikazy_cases_royal_and_military_witchcraft.md",
+        "line": 193,
+        "archive_matches": [
+          "Аптекарского приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "1. **Принцип вещного доказательства:** Судьи Разрядного и Тайного приказов никогда не выносили приговор на основании одних лишь слов или слухов. Обязательно требовалось изъятие материального носителя («коренья», «письма», «следа», «мешочка»), который передавался на очную ставку и экспертизу лекарям "
+      },
+      {
+        "file": "references\\archaic_codex\\04B_prikazy_confiscated_notebooks_and_spells.md",
+        "line": 5,
+        "archive_matches": [
+          "РГАДА",
+          "Преображенский приказ",
+          "Ф. 210",
+          "Разрядный приказ",
+          "Ф. 371",
+          "Ф. 1182"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "> **Источниковая база:** Фундаментальный академический корпус ИМЛИ РАН **А. Л. Топоркова** (*«Русские заговоры из рукописных источников XVII — первой половины XIX в.»*, М.: Индрик, 2010), архивные фонды РГАДА (Ф. 210 *Разрядный приказ*, Ф. 371 *Преображенский приказ*, Ф. 1182 *Приказ книжного печатн"
+      },
+      {
+        "file": "references\\archaic_codex\\04B_prikazy_confiscated_notebooks_and_spells.md",
+        "line": 11,
+        "archive_matches": [
+          "Преображенского приказ"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "В судебных формулярах Разрядного, Тайных дел и Преображенского приказов письменные магические памятники, изымавшиеся при обысках у обвиняемых, обозначались строгими юридическими терминами: **«воровские и заговорные письма»**, **«отреченные тетради»**, **«богоотступные и богохульные листы»**, **«волш"
+      },
+      {
+        "file": "references\\archaic_codex\\04B_prikazy_confiscated_notebooks_and_spells.md",
+        "line": 25,
+        "archive_matches": [
+          "РГАДА"
+        ],
+        "geo_or_clan_matches": [],
+        "snippet": "Подобно тому как Ричард Кикхефер открыл в Западной Европе «клерикальное подполье» (*Clm 849*), статистический анализ следственных дел РГАДА (Смилянская, Лавров, Топорков) показывает: в неграмотной крестьянской стране **основными создателями, переписчиками и хранителями чернокнижных тетрадей были про"
+      }
+    ]
+  },
+  "instagram_vault_scan": {
+    "total_reels_in_scratch": 39,
+    "reels": [
+      {
+        "shortcode": "DaGwWyHIEGf",
+        "url": "https://www.instagram.com/p/DaGwWyHIEGf/",
+        "extracted_at": "2026-11-03T00:31:43.312845",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "genealogy.pro",
+          "memorycode.ru"
+        ],
+        "frames_count": 6,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DaGwWyHIEGf\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DaGwWyHIEGf\\frames\\frame_02.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DaGwWyHIEGf\\frames\\frame_03.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DaGwWyHIEGf\\frames\\frame_04.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DaGwWyHIEGf\\frames\\frame_05.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DaGwWyHIEGf\\frames\\frame_06.jpg"
+        ],
+        "caption_excerpt": "genealogy.pro\nОригинальное аудио\nПодписаться\ngenealogy.pro\n \nОтредактировано\n•\n12 нед.\n*Автоматизированая информационная система  Поиск предков: миф или реальность? 📜\nГлавный миф — что вся история вашей семьи утеряна навсегда, если у вас нет старых грамот. Это не так! Сейчас архивы активно оцифровывают данные, и найти предков реально.\niwan31101\n \n14 нед.\nМои предки были родноверы и их культуру уничтожили крестоносты проводя христианизацию насильно\n1 отметка \"Нравится\"\nОтветить\npodgurrskaya\n \n18 нед.\nФамилисерч хорош 👍откопала там целую ветку)) Генотек неплохо за денежку работает, цены адекватн"
+      },
+      {
+        "shortcode": "Dd1BmuHCrVM",
+        "url": "https://www.instagram.com/p/Dd1BmuHCrVM/",
+        "extracted_at": "2026-10-23T12:43:59.703452",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd1BmuHCrVM\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "yurasergienko1\nПодписаться\nyurasergienko1\n \n3 нед.\nпиши БРЕНД в комм, раскачаем твои просмотры 🤝\ninga.beauty.mk\n \n1 нед.\nБренд\nОтветить\nСмотреть все ответы (1)\nolenka_fedoseeva\n \n1 нед.\nБренд\nОтветить\nСмотреть все ответы (1)\nnatalymalgina_official\n \n1 нед.\nБренд\nОтветить\nСмотреть все ответы (1)\npoxxuizm89\n \n1 нед.\nБренд\nОтветить\nСмотреть все ответы (1)\nmalinovyi_chemodan\n \n6 дн.\nБренд\nОтветить\nСмотреть все ответы (1)\nalekseyyakushev\n \n1 нед.\nБренд\nОтветить\nСмотреть все ответы (1)\nolgaivanova.silaglaza\n \n1 нед.\nБренд\nОтветить\nСмотреть все ответы (1)\nkomissarova0309\n \n1 нед.\nБренд\nОтветить\nСмотр"
+      },
+      {
+        "shortcode": "Dd1yRrHIi5f",
+        "url": "https://www.instagram.com/p/Dd1yRrHIi5f/",
+        "extracted_at": "2026-10-23T12:44:59.084448",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd1yRrHIi5f\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd1yRrHIi5f\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "marketolog.ostrovsky\n и ещё 2\nОригинальное аудио\nmarketolog.ostrovsky\n \n3 нед.\nРостов, встречаемся 6 октября, расскажем как внедрить такую машину в своем бизнесе и раскачать маркетинг ⚡️ запись обязательна, пишите в директ\ni.am.sharapov\n \n3 нед.\nМне кажется недостаточно мониторов и ноутбуков, не очень наглядно получилось\nОтметки \"Нравится\": 42\nОтветить\nСмотреть все ответы (3)\nh_filippp\n \n3 нед.\nПодрочить забыли. Ебаный нейрослоп\nОтметки \"Нравится\": 20\nОтветить\nСмотреть все ответы (2)\nkamskiy4digital\n \n3 нед.\nМне кажется это такая лажа. Я занимаюсь всем этим, и это все проще\nОтметки \"Нравится\":"
+      },
+      {
+        "shortcode": "Dd3mdg3IM2c",
+        "url": "https://www.instagram.com/p/Dd3mdg3IM2c/",
+        "extracted_at": "2026-10-23T12:44:50.677873",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd3mdg3IM2c\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd3mdg3IM2c\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "ai_vibecode_guides\nОригинальное аудио\nПодписаться\nai_vibecode_guides\n \n3 нед.\n4 бесплатных плагина для Claude Code, которые стоит поставить до того, как начнёшь вайбкодить. Все официальные, от Anthropic. Команды вводятся прямо в Claude Code.\n\nClaude Code Setup — изучает проект и подсказывает, каких хуков, скиллов и MCP-серверов не хватает\n/plugin install claude-code-setup@claude-plugins-official\nAgent Skills — Word, Excel, презентации, PDF и skill-creator для своих скиллов\n/plugin marketplace add anthropics/skills\n/plugin install document-skills@anthropic-agent-skills\n/plugin install example-s"
+      },
+      {
+        "shortcode": "Dd67rJ7yyV7",
+        "url": "https://www.instagram.com/p/Dd67rJ7yyV7/",
+        "extracted_at": "2026-10-23T12:44:16.978733",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "kotlyarenko.ru"
+        ],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd67rJ7yyV7\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd67rJ7yyV7\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "art____em\nОригинальное аудио\nПодписаться\nart____em\n \n3 нед.\n👇Пиши в комментарии «Скилл» и я пришлю 5+3 все ссылки, а также команды и промпты для установки\nivzerzy\n \n3 нед.\nСкилл\nОтветить\nСмотреть все ответы (1)\njuliaartemkina\n \n3 нед.\nСкилл\n1 отметка \"Нравится\"\nОтветить\nСмотреть все ответы (1)\nelektricdaisy\n \n3 нед.\nСкилл\nОтветить\nСмотреть все ответы (1)\nartstashhh\n \n3 нед.\nКринж это когда говорят про сайты и обсуждают только дизайн, как будто сайты это красивые картинки\nОтветить\nСмотреть все ответы (1)\nbadlittleduck\n \n3 нед.\nСкилл\nОтветить\nСмотреть все ответы (1)\nbossik222\n \n3 нед.\nСкилл\nОтве"
+      },
+      {
+        "shortcode": "Dd6GTxNx1pS",
+        "url": "https://www.instagram.com/p/Dd6GTxNx1pS/",
+        "extracted_at": "2026-10-23T12:44:41.969953",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd6GTxNx1pS\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd6GTxNx1pS\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "ika.explains\nОригинальное аудио\nПодписаться\nika.explains\n \n3 нед.\nSEO-чеклист для вайбкод-сайта: почему Google не видит твой сайт и что попросить у Claude 👇\nСохрани и прогони по своему проекту.\n✅ sitemap.xml: карта сайта\n✅ robots.txt: правила для краулеров\n❌ noindex: снять запрет индексации\n✅ canonical: защита от дублей\n✅ meta title: заголовок страницы\n✅ meta description: описание в выдаче\n✅ один H1: один на страницу\n✅ header hierarchy: порядок H1→H2→H3\n✅ alt text: подписи картинок\n✅ schema markup: микроразметка\n✅ internal links: перелинковка\n❌ broken links: битые ссылки\n✅ compress images: сжа"
+      },
+      {
+        "shortcode": "Dd9n2NKgEGx",
+        "url": "https://www.instagram.com/p/Dd9n2NKgEGx/",
+        "extracted_at": "2026-10-23T12:43:42.455839",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "ayvazov.pro"
+        ],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd9n2NKgEGx\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "ayvazov.pro\nПодписаться\nayvazov.pro\n \n3 нед.\nSEO — единственный канал, где можно 2–3 месяца работать правильно и не увидеть ни одной заявки. Не потому что не работает, а потому что пропущен один этап из семи, и остальные шесть крутятся вхолостую.\n\nСобрал карту: 7 этапов, в каждом — 5 проверок, которые можно сделать на своём сайте за вечер. И у каждого этапа — ошибка, на которой он ломается чаще всего.\n\nСамая частая из всех — четвёртая: писать блог про «10 советов», когда в каталоге нет ни одного описания товара. В B2B карточка с ценой и сроком собирает больше заявок, чем вся статейная часть са"
+      },
+      {
+        "shortcode": "Dd_h321tFNr",
+        "url": "https://www.instagram.com/p/Dd_h321tFNr/",
+        "extracted_at": "2026-10-23T12:44:26.547701",
+        "github_hints": [
+          "github.com/affaan-m/ECC"
+        ],
+        "extracted_urls_and_domains": [
+          "https://github.com/affaan-m/ECC"
+        ],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd_h321tFNr\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd_h321tFNr\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "roiexpert\nОригинальное аудио\nПодписаться\nroiexpert\n \n2 нед.\nПиши в комменты СЕТАП, пришлю ссылку на эту систему!\npaul_sawyer_espoir\n \n2 нед.\n«Система смотрит как ты пишешь код». Ахаххах. Кто-нибудь, положите этому парню руку на плечо\nОтметки \"Нравится\": 417\nОтветить\nСмотреть все ответы (14)\nvanojkee\n \n2 нед.\nhttps://github.com/affaan-m/ECC\nОтметки \"Нравится\": 172\nОтветить\nСмотреть все ответы (8)\ndukedecode\n \n2 нед.\nБаян и хуйня, проверено\nОтметки \"Нравится\": 2\nОтветить\nСмотреть все ответы (4)\nkaliev_jamshid\n \n2 нед.\nЗачем писать сетап названия сказал же\nОтметки \"Нравится\": 31\nОтветить\nСмотреть"
+      },
+      {
+        "shortcode": "Dd_LUA4FVkh",
+        "url": "https://www.instagram.com/p/Dd_LUA4FVkh/",
+        "extracted_at": "2026-10-23T12:44:08.224977",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "bulygin.ru"
+        ],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dd_LUA4FVkh\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "justprotsenko\nИИ-контент\nПодписаться\njustprotsenko\n \n3 нед.\n5 бесплатных гайдов по SEO и нейросетям — с пошаговыми инструкциями, промптами и шаблонами.\n\nНапиши «ГАЙД» в комментариях — пришлю все материалы бесплатно.\nirina.lach\n \n2 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nby.zorin\n \n2 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nkseniya_ivashkina\n \n2 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nrebelti_\n \n2 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nzilya_seif\n \n2 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nigorkov84\n \n2 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nalena.marien\n \n2 нед.\nГайд\nОтветит"
+      },
+      {
+        "shortcode": "DdbSLA_tVm8",
+        "url": "https://www.instagram.com/p/DdbSLA_tVm8/",
+        "extracted_at": "2026-10-23T12:44:32.247276",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DdbSLA_tVm8\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DdbSLA_tVm8\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "kir.sandakov\nОригинальное аудио\nПодписаться\nkir.sandakov\n \n4 нед.\n?!?!?!\nzotov_sv1\n \n4 нед.\nИнструкция\nОтветить\nСмотреть все ответы (1)\npokins\n \n4 нед.\nИнструкция\nОтветить\nСмотреть все ответы (1)\nmadina_muzaffer\n \n4 нед.\nИнструкция\nОтветить\nСмотреть все ответы (1)\nluzin__a\n \n4 нед.\nИнструкция\nОтветить\nСмотреть все ответы (1)\nalexandrakulyasova\n \n3 нед.\nИнструкция\nОтветить\nСмотреть все ответы (1)\nisa.zohidov\n \n4 нед.\nИнструкция\nОтветить\nСмотреть все ответы (1)\notcovskietradicii\n \n1 нед.\nИнструкция\nОтветить\nСмотреть все ответы (1)\nmr.sedov\n \n4 нед.\nИнструкция\nОтветить\nСмотреть все ответы (1)\nvic"
+      },
+      {
+        "shortcode": "Ddq7ekpoEIf",
+        "url": "https://www.instagram.com/p/Ddq7ekpoEIf/",
+        "extracted_at": "2026-10-23T12:44:45.982883",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Ddq7ekpoEIf\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Ddq7ekpoEIf\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "sabykenova_coach\nCristobal Tapia De Veer•Courtship\nПодписаться\nsabykenova_coach\n \n4 нед.\nПервый сценарий вполне реален. Если вы  умеете выстраивать команду так, чтобы ответственность, решения и процессы не были завязаны только на вас.\n⠀\nЕсли внутри нет системы, то появляются бесконечные вопросы от команды, контроль каждой задачи, сорванные дедлайны и ощущение, что без вас все остановится.\n⠀\nИменно этому посвящен тренинг «Бизнес-ассистент»: как перестать быть главным исполнителем в собственном бизнесе, грамотно делегировать и выстроить работу так, чтобы команда действительно разгружала вас.\n⠀\nЕ"
+      },
+      {
+        "shortcode": "DdwaMSnOo27",
+        "url": "https://www.instagram.com/p/DdwaMSnOo27/",
+        "extracted_at": "2026-10-23T12:44:21.976229",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "sveta.su"
+        ],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DdwaMSnOo27\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DdwaMSnOo27\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "boshnikov\nRonald Figo•INSONAMIA - Slowed\nПодписаться\nboshnikov\n \n3 нед.\nЭти 4 фильма объяснят финaнcы лучше, чем 4 года в универе\nhelenolena_moves\n \n1 дн.\nАзы🔥\n1 отметка \"Нравится\"\nОтветить\nСмотреть все ответы (1)\nviki_europaplus\n \n1 дн.\nазы\nОтветить\nСмотреть все ответы (1)\nbonia77\n \n3 нед.\nАзы\nОтметки \"Нравится\": 3\nОтветить\nСмотреть все ответы (1)\nshilov82\n \n1 дн.\nАзы\nОтветить\nСмотреть все ответы (1)\nvictor_afanasiev.guide\n \n1 дн.\nАзы\nОтветить\nСмотреть все ответы (1)\nevgeniy.17.88\n \n3 нед.\nАзы\nОтметки \"Нравится\": 4\nОтветить\nСмотреть все ответы (1)\nsveta.sunrise\n \n3 нед.\nАзы\n1 отметка \"Нравитс"
+      },
+      {
+        "shortcode": "DdWOYneP60O",
+        "url": "https://www.instagram.com/p/DdWOYneP60O/",
+        "extracted_at": "2026-10-23T12:44:37.491357",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DdWOYneP60O\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DdWOYneP60O\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "morozovdaniill\nCristobal Tapia De Veer•Courtship\nПодписаться\nmorozovdaniill\n \nОтредактировано\n•\n5 нед.\n@morozovdaniill \n\nПривет, я Даниил 👋\nСейчас живу на Бали и работаю откуда хочу 🏝️\n\nНастраиваю бизнесам ИИ и автоматизацию 🤖\n\nЛюблю работу, но не хочу, чтобы вокруг неё крутилась вся жизнь. Поэтому здесь много Бали, природы, поездок и обычных моментов между работой.\n\nЗдесь про работу, деньги и жизнь без офиса 💸\n\nЕсли тебе близок такой формат жизни, оставайся 👀\n\n#explorepage\nbucefal_agro\n \n5 нед.\nЯ тоже дишу\nОтветить\nib_byvalin\n \n4 нед.\n😂🔥\nОтветить\ntatev__arshakyan\n \n2 нед.\n🔥🙌\nОтветить\nkudesnik"
+      },
+      {
+        "shortcode": "DdZXMASNNZW",
+        "url": "https://www.instagram.com/p/DdZXMASNNZW/",
+        "extracted_at": "2026-10-23T12:44:54.581652",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DdZXMASNNZW\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DdZXMASNNZW\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "asya_malyugina\nОригинальное аудио\nПодписаться\nasya_malyugina\n \n5 нед.\nПервая wellness-сказка. Про то, кто на самом деле задал тренд на longevity. \n\n#маркетинговыесказки\nlera_artnail\n \n5 нед.\nПерестала пугать до внесения предоплаты 😂😂😂😂 меня вынесло 😂😂😂😂🔥\nОтметки \"Нравится\": 353\nОтветить\nСмотреть все ответы (5)\ncosm_o_ellena\n \n5 нед.\nАдрес пожалуйста... Мне очень нужно... Или телефон... Прям очень нужно😍\nОтметки \"Нравится\": 394\nОтветить\nСмотреть все ответы (20)\nyana.sir\n \n5 нед.\nЭто капец как круто! Гениальнейшее прочтение 🔥\nОтметки \"Нравится\": 235\nОтветить\nСмотреть все ответы (5)\nasya_malyugin"
+      },
+      {
+        "shortcode": "De18vOVjdNp",
+        "url": "https://www.instagram.com/p/De18vOVjdNp/",
+        "extracted_at": "2026-11-03T00:27:49.548824",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\De18vOVjdNp\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "cbdc_world\ncbdc_world\n \n1 нед.\nНовый личный год на высоте 2375 м.\n\nВ день рождения не тянет подводить громкие итоги. Горы вообще быстро лечат от лишнего пафоса: здесь либо идешь в своем темпе и держишь опору, либо выдыхаешься на первом подъеме.\n\nИ в жизни, и в деле работают одни и те же вещи: ясная голова, надежные люди рядом и дистанция, которую можешь пройти вдолгую. Дальше — больше.\nКомментариев пока нет.\nНачните переписку.\nСтатистика\nПродвигать публикацию\n27\nНравится strizh_stfu и ещё 26\n23 октябрь\nЕщё публикации от cbdc_world"
+      },
+      {
+        "shortcode": "De4nkl1jmZY",
+        "url": "https://www.instagram.com/p/De4nkl1jmZY/",
+        "extracted_at": "2026-11-03T00:28:16.312492",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\De4nkl1jmZY\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "bezikovkirilll\nПодписаться\nbezikovkirilll\n \n1 нед.\nНа GitHub можно найти инструменты для задач, за которые мы привыкли платить подписками 👀\n\nВыбери один под свою задачу и попробуй на реальном примере. Ссылки на репозитории — на слайдах.\n\nВажно: открытый код не всегда означает полностью бесплатную работу. Некоторым инструментам нужны платные API, модели или своё оборудование.\n\n🎁 В шапке профиля забирай подборку топ-20 бесплатных AI-инструментов с GitHub: визуалы, тексты, документы, маркетинг и свой AI-агент без программиста.\n\nСохрани, чтобы вернуться к подборке на выходных.\nКомментариев пока не"
+      },
+      {
+        "shortcode": "De7bz26E8O7",
+        "url": "https://www.instagram.com/p/De7bz26E8O7/",
+        "extracted_at": "2026-11-03T00:28:08.620802",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\De7bz26E8O7\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "ythemark\nПодписаться\nythemark\n \nmukluyd\n \n22 ч.\nНарод только учтите, что для работы нужно будет 48 GB VRAM то есть память видеокарты и это по минимуму, а лучше 80 GB VRAM и оперативы 64 GB RAM, а лучше 128 GB RAM и это плюсом к памяти видюхи и генерация 4 минутного ролика минимум пара часов по времени. А то разводят как маленьких.\n1 отметка \"Нравится\"\nОтветить\nisolovieva__psycholog\n \n9 ч.\nПак\nОтветить\nПоказать перевод\nСмотреть все ответы (1)\numra_tohirhoji\n \n4 ч.\nПак\nОтветить\nПоказать перевод\nСмотреть все ответы (1)\nkatrin_rechkalova\n \n1 дн.\nПак\nОтветить\nПоказать перевод\nСмотреть все ответы (1"
+      },
+      {
+        "shortcode": "De_e0I3xL5x",
+        "url": "https://www.instagram.com/p/De_e0I3xL5x/",
+        "extracted_at": "2026-11-03T00:28:01.330849",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\De_e0I3xL5x\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\De_e0I3xL5x\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "vladneiro_ai\nОригинальное аудио\nПодписаться\nvladneiro_ai\n \n6 дн.\nПиши «SEO» в комментариях, вышлю скилл для твоей нейронки с подробным гайдом, который прокачает твой сайт\ngregori_piston\n \n6 дн.\nХаха https с ним точно сайт в топ улетит)\nОтметки \"Нравится\": 16\nОтветить\nСмотреть все ответы (2)\niamvranka\n \n6 дн.\nSeo\nОтветить\nСмотреть все ответы (1)\nalekseiasadullin\n \n6 дн.\nSeo\nОтветить\nСмотреть все ответы (1)\ndudarev.v.s\n \n6 дн.\nSeo\nОтветить\nСмотреть все ответы (1)\nzudkin\n \n6 дн.\nSeo\nОтветить\nСмотреть все ответы (1)\nkirill.shakura\n \n6 дн.\nSeo\nОтветить\nСмотреть все ответы (1)\nkioto.png\n \n6 дн.\nSeo\n"
+      },
+      {
+        "shortcode": "DecLiKxznSN",
+        "url": "https://www.instagram.com/p/DecLiKxznSN/",
+        "extracted_at": "2026-10-23T12:43:51.415785",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DecLiKxznSN\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DecLiKxznSN\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "devo6o6\nОригинальное аудио\nПодписаться\ndevo6o6\n \nviktor.barv\n \n1 нед.\nПро Llms.txt гугл сам в своей официальной документации в разделе «опровержение мифов» пишет что это хуйня из под коня\nОтметки \"Нравится\": 23\nОтветить\nСмотреть все ответы (6)\nnorthsquirrel\n \n1 нед.\nВот мне прям интересно, кому вы это рассказываете, если любые коды гугла на сайт ставить нельзя, если не хочешь, чтобы ркн натянул тебя за трансконтинентальную передачу данных. Кому, блять?\n1 отметка \"Нравится\"\nОтветить\nСмотреть все ответы (7)\nartembrigert\n \n1 нед.\nJSON LD ?\nОтветить\nПоказать перевод\nСмотреть все ответы (10)\ndevo6o"
+      },
+      {
+        "shortcode": "DegxmkfpS3E",
+        "url": "https://www.instagram.com/p/DegxmkfpS3E/",
+        "extracted_at": "2026-10-23T12:43:47.089926",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DegxmkfpS3E\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DegxmkfpS3E\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "omelnickiy_ai\nОригинальное аудио\nПодписаться\nomelnickiy_ai\n \n1 нед.\nПредставь: твой личный совет директоров — Безос, Баффет, Хормози, Гари Ви, Пол Грэм, Дэн Мартелл и Джино Уикман. И все семеро — агенты в Claude Code 🔥\n\nЭто Roast Room — бесплатный open-source скилл для Claude Code.\n\nКак работает:\n1️⃣ Пишешь /roast-room и своё решение\n2️⃣ Claude Code становится председателем и запускает семь сабагентов\n3️⃣ Три раунда: позиции → спор → голосование\n4️⃣ На выходе — вердикт со взвешенными оценками и PDF-отчёт\n\nУ каждого советника свой вопрос: Безос — обратимо ли решение, Хормози — заплатят ли люди,"
+      },
+      {
+        "shortcode": "DeJNoRXs-cs",
+        "url": "https://www.instagram.com/p/DeJNoRXs-cs/",
+        "extracted_at": "2026-10-23T12:44:12.331761",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DeJNoRXs-cs\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DeJNoRXs-cs\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "zhavoronkov.ks\nОригинальное аудио\nПодписаться\nzhavoronkov.ks\n \n2 нед.\nКак попасть в GEO: три способа.\nchern.lin\n \n2 нед.\nПрикольная идея, как обойти pro аккаунт на VC. Забрал, спасибо\nОтметки \"Нравится\": 19\nОтветить\nСмотреть все ответы (1)\ndashichev_yury\n \n2 нед.\nГлавное не путать GEO и ГЕО 😂😂😂😂\nОтметки \"Нравится\": 21\nОтветить\nСмотреть все ответы (3)\niva_nova_skill\n \n2 нед.\nНу вот, SEO опять не умирает.\nПридётся работать, получается.\nОтметки \"Нравится\": 26\nОтветить\nСмотреть все ответы (1)\nbrutall1zm\n \n2 нед.\nДядь, подскажи, в Экосистеме записи твоих вебинаров можно просмотреть или уже все удал"
+      },
+      {
+        "shortcode": "DemSG3Wz1T6",
+        "url": "https://www.instagram.com/p/DemSG3Wz1T6/",
+        "extracted_at": "2026-11-03T00:28:28.156942",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DemSG3Wz1T6\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DemSG3Wz1T6\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "emil_rustam_kitai\nОригинальное аудио\nВы подписаны\nemil_rustam_kitai\n \naloyan1992\n \n1 нед.\nДобрый вечер, какая цена на этот комплект?\n1 отметка \"Нравится\"\nОтветить\nzoir_05\n \n1 нед.\nКак заказать до Химки Московский область\n1 отметка \"Нравится\"\nОтветить\nvershina_zamena_masla\n \n2 нед.\nДорого\n1 отметка \"Нравится\"\nОтветить\nСмотреть все ответы (1)\ndenis_dodrynin\n \n2 нед.\nКак приобрести\n1 отметка \"Нравится\"\nОтветить\nre.forma_engels\n \n1 нед.\nЗдравствуйте, какая стоимость?\n1 отметка \"Нравится\"\nОтветить\npetr72068\n \n2 нед.\nПриобрести\n1 отметка \"Нравится\"\nОтветить\n49\n7\n2\n17 октябрь\nЕщё публикации от emil_r"
+      },
+      {
+        "shortcode": "DeOoB52DLNS",
+        "url": "https://www.instagram.com/p/DeOoB52DLNS/",
+        "extracted_at": "2026-10-23T12:44:04.014667",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "krasotamarket.ru"
+        ],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DeOoB52DLNS\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "justprotsenko\nИИ-контент\nПодписаться\njustprotsenko\n \n2 нед.\n50 показал в карусели. Хочешь все 100 одним чек-листом — напиши в комментариях «ГАЙД».\ntsvetpet\n \n1 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nalexvsmolentsev\n \n5 дн.\nГайд\nОтветить\nСмотреть все ответы (1)\nnikita_eliseevv\n \n1 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nkirill_minaevv\n \n1 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nshishkinpir\n \n1 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nmaksgo555\n \n1 нед.\nгайд\nОтветить\nСмотреть все ответы (1)\nsahhnov\n \n1 нед.\nГайд\nОтветить\nСмотреть все ответы (1)\nalex.ectem\n \n1 нед.\nГайд\nОтветить\nСмотр"
+      },
+      {
+        "shortcode": "Derg5EQMN_d",
+        "url": "https://www.instagram.com/p/Derg5EQMN_d/",
+        "extracted_at": "2026-11-03T00:28:22.554719",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Derg5EQMN_d\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Derg5EQMN_d\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "vasile_lungo\nОригинальное аудио\nПодписаться\nvasile_lungo\n \n2 нед.\nИногда, чтобы перевести миллионы, нужно не выиграть суд, а специально его проиграть.\n\nКак фиктивные долги превращают в судебные решения и пытаются придать сомнительным деньгам законный вид?\n\nРазобрал одну из самых необычных финансовых схем.\n\nБольше деталей и выводов для бизнеса в закрытом телеграм-канале «Инсайдер». Ссылка в профиле.\nno_name_100500\n \n2 нед.\nА я думал нужно выработать привычки для богатых, стакан воды с утра, обливание холодной водой и никаких рилсиков на ночь, а оказывается вот оно что.\nОтметки \"Нравится\": 1 789"
+      },
+      {
+        "shortcode": "DetuHPpxVwl",
+        "url": "https://www.instagram.com/p/DetuHPpxVwl/",
+        "extracted_at": "2026-10-23T12:12:04.996457",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "nundrone.com"
+        ],
+        "frames_count": 3,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DetuHPpxVwl\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DetuHPpxVwl\\frames\\frame_02.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DetuHPpxVwl\\frames\\frame_03.jpg"
+        ],
+        "caption_excerpt": "nfljarvis\nОригинальное аудио\nПодписаться\nnfljarvis\n \n2 дн.\nComment “DRONE” if you want one too! #halloween #spooky #spookyseason\nПоказать перевод\nnfljarvis\n \n1 дн.\nShop Drones HERE 👉 nundrone.com\nОтметки \"Нравится\": 29\nОтветить\nПоказать перевод\nСмотреть все ответы (11)\nevelyn.b.white\n \n2 дн.\nDrone\nОтметки \"Нравится\": 6\nОтветить\nСмотреть все ответы (1)\nnick918080\n \n2 дн.\nNice 👍 LoL 😆😆😆😆\nОтметки \"Нравится\": 12\nОтветить\nПоказать перевод\nСмотреть все ответы (1)\nroger.5370\n \n2 дн.\n😂😂😂😂😂👏\nОтметки \"Нравится\": 4\nОтветить\nСмотреть все ответы (1)\nteresa_ire\n \n2 дн.\nDrone\n1 отметка \"Нравится\"\nОтветить\nСм"
+      },
+      {
+        "shortcode": "DeuVelDiCYq",
+        "url": "https://www.instagram.com/p/DeuVelDiCYq/",
+        "extracted_at": "2026-10-23T12:12:17.947469",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 3,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DeuVelDiCYq\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DeuVelDiCYq\\frames\\frame_02.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DeuVelDiCYq\\frames\\frame_03.jpg"
+        ],
+        "caption_excerpt": "esucrime\nПодписаться\nesucrime\n \nОтредактировано\n•\n2 дн.\n🌿 ТЁМНЫЙ ФОЛЬКЛОР СЛАВЯН\n\nЗадолго до голливудских вампиров и ведьм у наших предков были свои чудовища. \nЭто кино растёт прямо из земли — из обрядов, суеверий и страхов, которым сотни лет.\n\nЯ собрала 15 фильмов, где оживает тёмная сторона славянской мифологии: от гоголевского «Вия» и завораживающих «Теней забытых предков» до мрачной чешской готики и сербских деревенских ужасов. \nЗдесь нет скримеров и спецэффектов — здесь туман, лес, древние песни и ощущение, что за тобой из темноты смотрит что-то очень старое.\n\nЭто наша, родная жуть — крас"
+      },
+      {
+        "shortcode": "DevyUVgjV6A",
+        "url": "https://www.instagram.com/p/DevyUVgjV6A/",
+        "extracted_at": "2026-10-23T12:11:52.096635",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 3,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DevyUVgjV6A\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DevyUVgjV6A\\frames\\frame_02.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DevyUVgjV6A\\frames\\frame_03.jpg"
+        ],
+        "caption_excerpt": "anarbachoo\nПодписаться\nanarbachoo\n \n2 дн.\nПросто прикиньте, сколько заявок и клиентов вы потеряли из-за того, что не снимаете рилсы? \n\nКак ими выцеплять незатронутых клиентов - узнайте на лекции «Как писать сценарии залетающих рилс» (регистрация по ссылке в шапке профиля) \n\nНа лекции показываю свою технологию создания рилс, которые и залетают, и приводят клиентов\n\nЗа регистрацию заберите редакционная матрица и ещё три бонуса для работы с ИИ 🫰🏼\negorgsleep\n \n2 дн.\n🔥 прикольно сделали\n1 отметка \"Нравится\"\nОтветить\nkostya_mag\n \n19 ч.\nИльдар, на ютубе много сделал, он годами снимает.\nОтветить\nkutme"
+      },
+      {
+        "shortcode": "DewANmLoZ3g",
+        "url": "https://www.instagram.com/p/DewANmLoZ3g/",
+        "extracted_at": "2026-10-23T12:14:22.793360",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "shalaginov.pro"
+        ],
+        "frames_count": 6,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DewANmLoZ3g\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DewANmLoZ3g\\frames\\frame_02.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DewANmLoZ3g\\frames\\frame_03.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DewANmLoZ3g\\frames\\frame_04.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DewANmLoZ3g\\frames\\frame_05.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DewANmLoZ3g\\frames\\frame_06.jpg"
+        ],
+        "caption_excerpt": "w1be.ai\nmalak.academy33•Оригинальное аудио\nПодписаться\nw1be.ai\n \n2 дн.\n@nanomoyka как вам ваш новый сайт?😅\nzagretdinowart\n \n1 дн.\nМобильная версия не вывезла и клиенты пошли на сайт где есть тупо прайс и номер телефона) 99% будут смотреть с телефона, такие анимации при нынешних блокировках не рабочая тема. По этому простота залог успеха)\nОтметки \"Нравится\": 31\nОтветить\nСмотреть все ответы (8)\nshalaginov.pro\n \n19 ч.\nКак же уже заебали все детейлинги, шиномонтажки и т.д. эти вайбкодеры)))\nТак еще и эти идиотские сайты по скроллу, которые не конвертят, а только раздражают человека, которому нужна"
+      },
+      {
+        "shortcode": "Dewwiz_jQl0",
+        "url": "https://www.instagram.com/p/Dewwiz_jQl0/",
+        "extracted_at": "2026-11-03T00:27:45.573655",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dewwiz_jQl0\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "themayeralexander\nПодписаться\nthemayeralexander\n \n1 нед.\n@themayeralexander присоединяйся ‼️\nnataliia_zolotyh\n \n1 нед.\nНи один глава обл администрации не допустит предпринимателя на построить завод по переработке мусора … сами понимаете почему …\nОтметки \"Нравится\": 45\nОтветить\nСмотреть все ответы (2)\nart_rybka\n \n1 нед.\nОчередной иишный высер. :)))\nОтметки \"Нравится\": 20\nОтветить\n19_____10_\n \n1 нед.\nУтилизация мусора. Это бизнес губернаторови глав регионов. Туда не подберёшся. Огромные котлованы,которые остаются после выборки полезных ископаемых(песок,гравий,камень...). Они практически все испо"
+      },
+      {
+        "shortcode": "DeXd4JKjEIC",
+        "url": "https://www.instagram.com/p/DeXd4JKjEIC/",
+        "extracted_at": "2026-10-23T12:43:55.603257",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "structuradigital.ru"
+        ],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DeXd4JKjEIC\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "wryazanov\nПодписаться\nwryazanov\n \n1 нед.\nMeta открыла код инструмента для нейромаркетинга, о котором большинство маркетологов ещё не слышали.\n\nОн называется TRIBE v2. Лучший креатив не заставляет мозг думать напряжённее. Он уменьшает объём его работы.\n\nКрупнейшие платформы электронной коммерции уже направляют своих пользователей в эту сторону. Бренды, которые разберутся сейчас, через 12 месяцев будут далеко впереди.\nyurofff\n \n1 нед.\nОпять всё меняет всё\nОтметки \"Нравится\": 22\nОтветить\nСмотреть все ответы (2)\nevgeniy.vakulenko\n \n1 нед.\nКак уже заебали эти новости по 10 штук в день про рандомную"
+      },
+      {
+        "shortcode": "Dey7sMbiBQB",
+        "url": "https://www.instagram.com/p/Dey7sMbiBQB/",
+        "extracted_at": "2026-11-03T00:28:19.305200",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\Dey7sMbiBQB\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "bezikovkirilll\nПодписаться\nbezikovkirilll\n \n1 нед.\nЗачем перепечатывать текст со скрина, вручную делать субтитры и искать очередной платный сервис, если на GitHub уже есть инструменты для этих задач? 👀\n\nЧасть работает прямо на компьютере без интернета. Где-то установка займёт пару минут, где-то придётся разобраться — нюансы оставил на слайдах.\n\nА ещё больше бесплатных проектов для блога, автоматизации и работы с ИИ собрал в гайде. Ссылка — в шапке профиля 🔗\nvitaliy_egorov1985\n \n1 дн.\nСлышал что GitHub сейчас тоже будут бомбить блокировками, у меня сегодня уже на домашнем Ростелекоме начали жёс"
+      },
+      {
+        "shortcode": "DfCgwiyIcWN",
+        "url": "https://www.instagram.com/p/DfCgwiyIcWN/",
+        "extracted_at": "2026-11-03T00:28:12.088110",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfCgwiyIcWN\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfCgwiyIcWN\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "islam_khanin\nОригинальное аудио\nПодписаться\nislam_khanin\n \n5 дн.\n6 тем, которые за месяц сделают тебя неприлично образованным 👇\n\n1. Теория игр — 24 лекции Бена Поляка на YouTube (Йельский университет)\n2. Когнитивные искажения — Канеман, «Думай медленно… решай быстро»\n3. История философии — Уорбертон, «Краткая история философии»\n4. Почему одни страны богатеют — Аджемоглу и Робинсон, «Почему одни страны богатые, а другие бедные» + сайт Our World in Data\n5. История искусства — Гомбрих, «История искусства» + Google Arts & Culture\n6. Статистика — Хафф, «Как лгать при помощи статистики»\n\nПо 20–30 ми"
+      },
+      {
+        "shortcode": "DfCSD2ODGu9",
+        "url": "https://www.instagram.com/p/DfCSD2ODGu9/",
+        "extracted_at": "2026-11-03T00:27:57.147335",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfCSD2ODGu9\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfCSD2ODGu9\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "stend.check\nОригинальное аудио\nПодписаться\nstend.check\n \n5 дн.\nПодпишись и напиши АУДИТ в комментариях, пришлём в директ, как Claude проверит твой проект на дыры навыком Cloudflare 🛡\n\nКлод… кто-то скачивает всех наших пользователей.\nТы бы проверил свой код до запуска?\n\n#нейросети #claude #вайбкодинг #ии #безопасность\nanyapershyna\n \n5 дн.\nПодключаете Астра и говорите, что код писал Клод. Она с радостью находит все баги и дыры, а потом говорит, что Клода пора в утиль. 😅\nОтметки \"Нравится\": 7\nОтветить\nСмотреть все ответы (1)\ndr.ratinov\n \n2 дн.\nАудит\nОтветить\nСмотреть все ответы (1)\nrastriginpavel"
+      },
+      {
+        "shortcode": "DfDMKW-tr82",
+        "url": "https://www.instagram.com/p/DfDMKW-tr82/",
+        "extracted_at": "2026-11-03T00:28:05.327181",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 1,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfDMKW-tr82\\frames\\frame_01.jpg"
+        ],
+        "caption_excerpt": "bag_fact\nИИ-контент\nПодписаться\nbag_fact\n \n5 дн.\nУниверситет Эксетера запустил первую в Великобритании магистерскую программу по магии и оккультным наукам, и её первый набор стартовал в сентябре 2024 года. Программа MA, размещённая в Колледже гуманитарных наук, опирается на историю, археологию, социологию, философию и религиоведение, чтобы исследовать, как магия, колдовство и эзотерические традиции влияли на западную и мировую культуру.\n\nЭтот шаг отражает более широкий культурный тренд. Опросы последнего десятилетия показывают растущий интерес к таро, астрологии, кристаллам и народной магии, о"
+      },
+      {
+        "shortcode": "DfEHLIWs4dx",
+        "url": "https://www.instagram.com/p/DfEHLIWs4dx/",
+        "extracted_at": "2026-11-03T00:27:41.558037",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfEHLIWs4dx\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfEHLIWs4dx\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "nika_accountant\nОригинальное аудио\nВы подписаны\nnika_accountant\n \nОтредактировано\n•\n4 дн.\nЕсть одна ошибка, которую предприниматели часто совершают: считают, что если несколько лет всё спокойно, значит, можно ничего не менять.\n\nНо бизнес не стоит на месте. Выручка растёт, появляются новые продукты, меняется схема работы, подключаются новые способы приёма оплаты. \n\n🚩 А учёт иногда продолжают вести по правилам, которые подходили бизнесу два года назад.\n\nПоэтому я бы советовала пересматривать налоговую картину не только перед сдачей декларации, но и при изменениях в бизнесе.\n\nНапример:\n\n— Выросла"
+      },
+      {
+        "shortcode": "DfI3H2Ii3eU",
+        "url": "https://www.instagram.com/p/DfI3H2Ii3eU/",
+        "extracted_at": "2026-11-03T00:27:52.672802",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfI3H2Ii3eU\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfI3H2Ii3eU\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "gabbela_ai\nОригинальное аудио\nПодписаться\ngabbela_ai\n \ncafe_bulgakov\n \n1 дн.\nСтатья\nОтветить\nСмотреть все ответы (1)\nsashasmith_pr\n \n16 ч.\nСтатья\nОтветить\nСмотреть все ответы (1)\nyolademidova\n \n1 дн.\nСтатья\nОтветить\nСмотреть все ответы (2)\nproerina\n \n1 дн.\nСтатья\nОтветить\nСмотреть все ответы (1)\navtoraketa\n \n17 ч.\nСтатья и мне нужен с Вами звонок\nОтветить\nСмотреть все ответы (1)\nn.elichev\n \n1 дн.\nСтатья\nОтветить\nСмотреть все ответы (1)\nmidfoxxy\n \n1 дн.\nСтатья\nОтветить\nСмотреть все ответы (1)\nirinyaroslavtseva\n \n2 ч.\nСтатья\nОтветить\nСмотреть все ответы (1)\nsochidoma\n \n15 ч.\nСтатья\nОтветить\nСмот"
+      },
+      {
+        "shortcode": "DfM6rW-I1Er",
+        "url": "https://www.instagram.com/p/DfM6rW-I1Er/",
+        "extracted_at": "2026-11-03T00:27:37.219382",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfM6rW-I1Er\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfM6rW-I1Er\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "aldoniq\nИИ-контент\nОригинальное аудио\nПодписаться\naldoniq\n \n1 дн.\nКакие ошибки бывают когда делаешь свой ИИ?\ndaeteri\n \n11 ч.\nПотом Клод банит тебя , и вы с Евгением горюете)\nОтметки \"Нравится\": 51\nОтветить\nСмотреть все ответы (4)\ntairebien\n \n22 ч.\nВ целом собес на ai инженера пройден)\nОтметки \"Нравится\": 393\nОтветить\nСмотреть все ответы (2)\nvokulakov\n \n1 дн.\nЛя, не показывайте моему боссу 😂\nОтметки \"Нравится\": 194\nОтветить\nСмотреть все ответы (2)\naleksey_borsh\n \n23 ч.\nВсе грамотно, когда внедрял ии чат бота в свой проект , пришлось почти самому все эти этапы проходить, было б раньше видео ) ну"
+      },
+      {
+        "shortcode": "DfNIU0IoPzL",
+        "url": "https://www.instagram.com/p/DfNIU0IoPzL/",
+        "extracted_at": "2026-11-03T00:27:32.708244",
+        "github_hints": [],
+        "extracted_urls_and_domains": [],
+        "frames_count": 2,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfNIU0IoPzL\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DfNIU0IoPzL\\frames\\frame_02.jpg"
+        ],
+        "caption_excerpt": "ai_vibecode_guides\nОригинальное аудио\nПодписаться\nai_vibecode_guides\n \n1 дн.\n👉 тгк: alekseev_ai_products\nРассказал про SEO для вайбкодеров #вайбкодинг #нейросети #openai #ai #claudecode\nenot_swagga\n \n15 ч.\nАхахахаххахаахах автор нейрослоб бляяяч хахахахаахах\nОтметки \"Нравится\": 29\nОтветить\nПоказать перевод\novik7_\n \n23 ч.\nТак ведь тут SEO-оптимизация нужна 😂\n\nЭто круто , что ты улучшаешь его , но это совсем другое 😅\nОтметки \"Нравится\": 12\nОтветить\nСмотреть все ответы (2)\naleksandr.rio_spb\n \n1 дн.\nЕсли твой сайт грузится 2,5 секунды😂 это провал. Тебя ни один сервис не покажет 🤣\nОтметки \"Нравится"
+      },
+      {
+        "shortcode": "DYElea6MePH",
+        "url": "https://www.instagram.com/p/DYElea6MePH/",
+        "extracted_at": "2026-11-03T00:32:15.744834",
+        "github_hints": [],
+        "extracted_urls_and_domains": [
+          "FamilySearch.org",
+          "Geni.com",
+          "JewishGen.org",
+          "familysearch.org",
+          "rgia.su"
+        ],
+        "frames_count": 6,
+        "frames": [
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DYElea6MePH\\frames\\frame_01.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DYElea6MePH\\frames\\frame_02.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DYElea6MePH\\frames\\frame_03.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DYElea6MePH\\frames\\frame_04.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DYElea6MePH\\frames\\frame_05.jpg",
+          "c:\\Prime_Lead_Bussiness\\scratch\\ig_vault\\DYElea6MePH\\frames\\frame_06.jpg"
+        ],
+        "caption_excerpt": "denismalcev88\nslavacvet•Оригинальное аудио\nПодписаться\ndenismalcev88\n \n25 нед.\n1️⃣ FamilySearch.org - бесплатный сайт от мормонов, у них архивы с миллиардом записей со всего мира. Там есть метрики, церковные книги, списки эмигрантов. Это не просто база - это клад. Вводишь ФИО бабушки - и можешь найти её родителей, их брак, и даже кто крестил. Особенно сильная база по Восточной Европе и Российской империи. Зарегистрируйся и сразу строй древо.\n\n2️⃣ Geni.com - соцсеть мёртвых. Люди по всему миру собирают родословные и соединяются. Кто то уже мог внести твою прабабку - и если ваши ветки совпадут, "
+      }
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Гербовник и Архивные Пруфы Рода Графа Каретникова (РГИА • ГИМ • 2026)</title>
+<style>
+  :root {
+    --bg: #FAF6EE;
+    --card: #FFFFFF;
+    --border: rgba(124, 94, 36, 0.28);
+    --gold: #7A1C1C;
+    --gold-light: #8B261E;
+    --crimson: #7A1C1C;
+    --emerald: #146C43;
+    --text: #1A1715;
+    --muted: #4A423B;
+  }
+  .svg-icon {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    stroke: currentColor;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    padding: 24px;
+    line-height: 1.55;
+  }
+  .container { max-width: 1280px; margin: 0 auto; }
+  .header {
+    text-align: center;
+    padding: 28px 24px;
+    border: 1px solid var(--gold);
+    border-radius: 14px;
+    background: #FFFFFF; border: 1.5px solid #7C5E24;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 20px rgba(74,66,59,0.1);
+  }
+  .header h1 {
+    color: var(--gold);
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .header p {
+    color: var(--muted);
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 14px;
+    max-width: 900px;
+    margin: 0 auto 14px;
+  }
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+  }
+  .nav-links a {
+    color: var(--gold-light);
+    text-decoration: none;
+    border: 1px solid var(--gold);
+    padding: 7px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    background: rgba(122, 28, 28, 0.08);
+    transition: 0.2s;
+  }
+  .nav-links a:hover {
+    background: var(--gold);
+    color: #FFF;
+    font-weight: 700;
+  }
+  .hero-compare {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+    margin-bottom: 32px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 16px rgba(74,66,59,0.08);
+  }
+  .card.featured {
+    border: 2px solid var(--gold);
+    box-shadow: 0 0 28px rgba(212, 175, 55, 0.22);
+  }
+  .img-box {
+    width: 100%;
+    height: 440px;
+    background: #FDFBF7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+    cursor: zoom-in;
+  }
+  .img-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+  }
+  .body { padding: 18px; font-family: system-ui, -apple-system, sans-serif; }
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .badge-gold { background: rgba(122, 28, 28, 0.1); color: var(--gold-light); border: 1px solid var(--gold); }
+  .badge-green { background: rgba(16, 185, 129, 0.18); color: #146C43; border: 1px solid #059669; }
+  .badge-amber { background: rgba(245, 158, 11, 0.18); color: #B45309; border: 1px solid #d97706; }
+  .title { font-family: 'Georgia', serif; font-size: 18px; color: var(--gold-light); margin-bottom: 8px; }
+  .desc { font-size: 13.5px; color: var(--muted); margin-bottom: 10px; }
+  .archive-ref {
+    font-size: 12px;
+    color: var(--gold);
+    background: rgba(122, 28, 28, 0.06);
+    border-left: 3px solid var(--gold);
+    padding: 8px 10px;
+    border-radius: 0 6px 6px 0;
+  }
+  .archive-ref a { color: var(--gold-light); }
+  .section-title {
+    color: var(--gold);
+    font-size: 21px;
+    margin: 28px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 18px;
+  }
+  .grid-3 .img-box { height: 290px; }
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(5, 7, 12, 0.95);
+    z-index: 9999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox img {
+    max-width: 95vw;
+    max-height: 84vh;
+    object-fit: contain;
+    border: 2px solid var(--gold);
+    border-radius: 8px;
+  }
+  .lightbox-caption {
+    margin-top: 12px;
+    color: var(--gold-light);
+    font-size: 16px;
+    text-align: center;
+  }
+  .lightbox-close {
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    background: var(--crimson);
+    color: #fff;
+    border: 1px solid var(--gold);
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 12px; }
+    .header { padding: 18px 12px; }
+    .header h1 { font-size: 20px; }
+    .img-box { height: 280px; }
+    .hero-compare { grid-template-columns: 1fr; }
+    .grid-3 { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1><svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 4l9 5.5"/><path d="M4 10h16M2 20h20M5 10v10M9 10v10M15 10v10M19 10v10"/></svg>Гербовник и Архивный Пруф-Атлас Рода Графа Каретникова</h1>
+    <p>Инструментальная сверка (Playwright + РГИА Ф. 1411 + ГИМ) и Полный Свод 20 реликвий родов Каретниковых, Куманиных, Зубковых и Юхиных</p>
+    <div class="nav-links">
+      <a href="/"><svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>На главную (Родовой Архив VII Колен)</a>
+      <a href="https://gerbovnik.ru/arms/1862.html" target="_blank" rel="noopener"><svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a3 3 0 0 1 3-3z"/><path d="M4 7h13a2 2 0 0 1 2 2"/><path d="M8 11h7M8 14h5"/></svg>ОГ XI, 54 (А. А. Куманин, 1838)</a>
+      <a href="https://gerbovnik.ru/arms/5527.html" target="_blank" rel="noopener"><svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 4l9 5.5"/><path d="M4 10h16M2 20h20M5 10v10M9 10v10M15 10v10M19 10v10"/></svg>ДС XIX, 30 (К. А. Куманин, ГИМ 1836)</a>
+      <a href="https://gerbovnik.ru/arms/5528.html" target="_blank" rel="noopener"><svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="6"/><path d="M12 6V2M12 22v-4M4 12H2M22 12h-2M7.5 7.5L5 5M19 19l-2.5-2.5M16.5 7.5L19 5M5 19l2.5-2.5"/></svg>ДС XIX, 31 (В. А. Куманин, 1836)</a>
+    </div>
+  </div>
+
+  <h2 class="section-title"><svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4l3 12h14l3-12-6 7-4-7-4 7-6-7zm3 16h14v2H5z"/></svg>I. Эталонный Большой Герб Рода Графа Каретникова и Подлинник ГИМ (1836–1838 гг.)</h2>
+  <div class="hero-compare">
+    <div class="card featured">
+      <div class="img-box" onclick="openLb('/images/heraldry/group07_master_arms/01_great_coat_of_arms_count_karetnikov_v2_no_unicorn.jpg', 'Большой Герб Графа Каретникова — Каноническая редакция V2 (БЕЗ единорога)')">
+        <img src="/images/heraldry/group07_master_arms/01_great_coat_of_arms_count_karetnikov_v2_no_unicorn.jpg" alt="Большой Герб V2">
+      </div>
+      <div class="body">
+        <span class="badge badge-gold">КАНОНИЧЕСКИЙ БОЛЬШОЙ ГЕРБ РОДА • 100% ИСТОРИЧЕСКИЙ КАНОН</span>
+        <div class="title">Большой Герб Рода Графа Каретникова («Честью, Трудомъ и Служеніемъ»)</div>
+        <div class="desc">Очищенная от западноевропейского единорога каноническая редакция: два золотых русских льва держат <b>стрелецкий бердыш Ломовской черты 1648 г.</b> и <b>каретный циркуль</b>. В 4 четвертях: 1) Колесо каретного цеха под Императорским орлом 1896 г. (Каретниковы); 2) Крыло орла, кадуцей, серп и колосья (Куманины, ОГ XI, 54); 3) Сабля и циркуль (Зубковы); 4) Бердыши 1648 г. и золотой улей с пчелами (Юхины + ДС XIX, 31). Девиз: <b>«ЧЕСТЬЮ, ТРУДОМЪ И СЛУЖЕНІЕМЪ»</b>.</div>
+        <div class="archive-ref"><b>Основание:</b> Синтез ОГ XI, 54 (РГИА Ф. 1411, Оп. 1, Д. 101) + ДС XIX, 31 + тройной Государственный орел Мануфактур Каретниковых (1853, 1882, 1896).</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/proofs/proof_02_gim_authentic_kumanin_watercolor_19c.png', 'Подлинный жалованный герб Куманиных (ГИМ, Инв. № КР ОН 1524259, 1836 г.)')">
+        <img src="/images/heraldry/proofs/proof_02_gim_authentic_kumanin_watercolor_19c.png" alt="Подлинник ГИМ">
+      </div>
+      <div class="body">
+        <span class="badge badge-green">ПОДЛИННИК XIX ВЕКА • МУЗЕЙНЫЙ ФАКТ ГИМ</span>
+        <div class="title">Жалованный герб Куманиных (ГИМ, 1836 / 1838 гг.)</div>
+        <div class="desc">Подлинная акварель XIX века из собрания Государственного исторического музея (ГИМ). Подтверждает: в историческом гербе предков <b>не было щитодержателей (ни единорога, ни льва) и девизной ленты</b> — только щит с орлиным крылом, 6-лучевой звездой, кадуцеем и хлебным снопом/серпом под дворянским шлемом с тремя страусовыми перьями.</div>
+        <div class="archive-ref"><b>Источник:</b> ГИМ, Инв. № КР ОН 1524259 (<a href="https://gerbovnik.ru/arms/5527.html" target="_blank">gerbovnik.ru/arms/5527.html</a>) и РГИА Ф. 1411, Оп. 1, Д. 101 (<a href="https://gerbovnik.ru/arms/1862.html" target="_blank">gerbovnik.ru/arms/1862.html</a>).</div>
+      </div>
+    </div>
+
+      </div>
+
+  <h2 class="section-title"><svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h4l2-3h4l2 3h4a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"/><circle cx="12" cy="14" r="4"/></svg>II. Документальные скриншоты Playwright-аудита (gerbovnik.ru • РГИА • ГИМ)</h2>
+  <div class="grid-3">
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/proofs/proof_03_rgia_kumanin_og_11_54_text_sheet.png', 'РГИА Ф. 1411, Оп. 1, Д. 101 — Лист описания герба А. А. Куманина (1838 г.)')">
+        <img src="/images/heraldry/proofs/proof_03_rgia_kumanin_og_11_54_text_sheet.png" alt="РГИА ОГ XI 54">
+      </div>
+      <div class="body">
+        <span class="badge badge-green">РГИА Ф. 1411, ОП. 1, Д. 101</span>
+        <div class="title">Рукописный лист Сената (ОГ XI, 54 — 21.11.1838)</div>
+        <div class="desc">Подлинный каллиграфический лист блазона герба Александра Алексеевича Куманина, утвержденного Императором Николаем I.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/proofs/proof_04_moscow_necropolis_kumanin_tombstone.png', 'Герб В. А. Куманина (ДС XIX, 31) на надгробии в Даниловом монастыре')">
+        <img src="/images/heraldry/proofs/proof_04_moscow_necropolis_kumanin_tombstone.png" alt="Московский Некрополь">
+      </div>
+      <div class="body">
+        <span class="badge badge-green">ДС XIX, 31 • ДАНИЛОВ МОНАСТЫРЬ</span>
+        <div class="title">Герб В. А. Куманина с ульем и пчелами (1836 г.)</div>
+        <div class="desc">Издание Великого Князя Николая Михайловича «Московский Некрополь» (Т. 2, с. 123) — улей и три летящие пчелы на могильном памятнике В. А. Куманина.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/proofs/proof_01_gerbovnik_1862_kumanin.png', 'Карточка ОГ XI, 54 на портале gerbovnik.ru')">
+        <img src="/images/heraldry/proofs/proof_01_gerbovnik_1862_kumanin.png" alt="Карточка gerbovnik.ru">
+      </div>
+      <div class="body">
+        <span class="badge badge-green">PLAYWRIGHT LIVE PROOF</span>
+        <div class="title">Карточка ОГ XI, 54 (gerbovnik.ru/arms/1862.html)</div>
+        <div class="desc">Прямой снимок страницы Общего Гербовника дворянских родов Всероссийской Империи.</div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-title"><svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l3 4 5-1-2 6 4 3-5 3-1 4-4-2-4 2-1-4-5-3 4-3-2-6 5 1z"/></svg>III. Полная Галерея Фамильной Атрибутики (Каретниковы • Куманины • Зубковы • Юхины)</h2>
+  <div class="grid-3">
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/group01_stamps/01_imperial_triple_eagle_1896.jpg', 'Тройной Государственный двуглавый орел Мануфактур Каретниковых (1853, 1882, 1896)')">
+        <img src="/images/heraldry/group01_stamps/01_imperial_triple_eagle_1896.jpg" alt="Тройной Орел 1896">
+      </div>
+      <div class="body">
+        <span class="badge badge-gold">КАРЕТНИКОВЫ • ПСЗРИ № 49329</span>
+        <div class="title">Тройной Императорский Орел (1853, 1882, 1896)</div>
+        <div class="desc">Высшая награда Российской Империи с правом размещения Государственного герба на ярлыках, тканях и вывесках Тейковской мануфактуры Каретниковых.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/group01_stamps/05_lithograph_fabric_ticket_1896.jpg', 'Парадный хромолитографический ярлык Товарищества Мануфактур А. Каретниковой с Сыном')">
+        <img src="/images/heraldry/group01_stamps/05_lithograph_fabric_ticket_1896.jpg" alt="Ярлык 1896">
+      </div>
+      <div class="body">
+        <span class="badge badge-gold">КАРЕТНИКОВЫ • ЭКСПОНАТ ГИМ</span>
+        <div class="title">Фабричный ярлык Тейковской мануфактуры (1896)</div>
+        <div class="desc">Хромолитография с золотым тиснением и тремя Государственными двуглавыми орлами (ГИМ Ф. 424).</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/group02_woodblocks/03_teikovo_brick_stamps_collection.jpg', 'Кирпичные клейма «К», «СК», «ВК» в кладке села Тейково')">
+        <img src="/images/heraldry/group02_woodblocks/03_teikovo_brick_stamps_collection.jpg" alt="Кирпичные клейма">
+      </div>
+      <div class="body">
+        <span class="badge badge-gold">КАРЕТНИКОВЫ • ТЕЙКОВО (1787–1895)</span>
+        <div class="title">Кирпичные клейма «К», «СК», «ВК»</div>
+        <div class="desc">Подлинные оттиски в кладке фабричных корпусов на р. Вязьме и белокаменной стены Ильинского храма в Тейкове.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/group02_woodblocks/04_cast_iron_staircase_ak_1882.jpg', 'Чугунное литье с вензелем «АК» (1882 г.)')">
+        <img src="/images/heraldry/group02_woodblocks/04_cast_iron_staircase_ak_1882.jpg" alt="Чугунное литье АК">
+      </div>
+      <div class="body">
+        <span class="badge badge-gold">КАРЕТНИКОВЫ • ПРОМЫШЛЕННАЯ АРХИТЕКТУРА</span>
+        <div class="title">Чугунная балюстрада с вензелем «АК» (1882)</div>
+        <div class="desc">Ажурное чугунное литье парадной лестницы главной конторы в Тейкове.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/group03_coachmakers/01_coachmaker_guild_official_emblem.jpg', 'Официальная эмблема Каретно-колесного цеха Российской империи')">
+        <img src="/images/heraldry/group03_coachmakers/01_coachmaker_guild_official_emblem.jpg" alt="Эмблема каретного цеха">
+      </div>
+      <div class="body">
+        <span class="badge badge-gold">КАРЕТНИКОВЫ • ЦЕХОВОЕ ЗНАМЯ 1785 Г.</span>
+        <div class="title">Цеховая эмблема Каретно-колесного цеха</div>
+        <div class="desc">8-спицевое золоченое колесо, стальной кованый циркуль и ступичный бурав на червленом щите.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/group03_coachmakers/05_steppes_horse_brands_trio.jpg', 'Конские тавра Бузулукского уезда (Плешаново / Подольск)')">
+        <img src="/images/heraldry/group03_coachmakers/05_steppes_horse_brands_trio.jpg" alt="Конские тавра">
+      </div>
+      <div class="body">
+        <span class="badge badge-gold">КАРЕТНИКОВЫ • ОРЕНБУРЖЬЕ / БУЗУЛУК</span>
+        <div class="title">Кованые конские тавра (Токская волость)</div>
+        <div class="desc">Железные тавра «Колесо со спицами», «Прямой крест в круге» и «Двузубые вилы с полумесяцем» (ГАОО Ф. 6 / ЦГАСО).</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/group05_kumanin/01b_kumanin_coat_of_arms_painted_parchment.jpg', 'Парадная реконструкция герба рода Куманиных (ОГ XI, 54)')">
+        <img src="/images/heraldry/group05_kumanin/01b_kumanin_coat_of_arms_painted_parchment.jpg" alt="Герб Куманиных ОГ XI 54">
+      </div>
+      <div class="body">
+        <span class="badge badge-green">КУМАНИНЫ • ОГ XI, 54 (1838 Г.)</span>
+        <div class="title">Парадный лист герба Куманиных (ОГ XI, 54)</div>
+        <div class="desc">Художественная реконструкция жалованного герба 1838 года строго по блазону РГИА Ф. 1411, Оп. 1, Д. 101.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/group07_master_arms/03_brass_matrix_and_red_wax_seal_count_karetnikov.jpg', 'Кабинетный латунный штемпель и сургучный оттиск Графа Каретникова')">
+        <img src="/images/heraldry/group07_master_arms/03_brass_matrix_and_red_wax_seal_count_karetnikov.jpg" alt="Сургучная печать">
+      </div>
+      <div class="body">
+        <span class="badge badge-gold">ГРАФ КАРЕТНИКОВ • СФРАГИСТИКА</span>
+        <div class="title">Латунная матрица и сургучная печать</div>
+        <div class="desc">Кабинетный гербовый штемпель и оттиск на красном испанском сургуче с девизом «ЧЕСТЬЮ, ТРУДОМЪ И СЛУЖЕНІЕМЪ».</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="img-box" onclick="openLb('/images/heraldry/group07_master_arms/04_gold_signet_ring_black_agate_count_karetnikov.jpg', 'Золотой перстень-печатка с инталией на черном агате')">
+        <img src="/images/heraldry/group07_master_arms/04_gold_signet_ring_black_agate_count_karetnikov.jpg" alt="Перстень-печатка">
+      </div>
+      <div class="body">
+        <span class="badge badge-gold">ГРАФ КАРЕТНИКОВ • ГЛИПТИКА</span>
+        <div class="title">Золотой перстень-печатка на черном агате</div>
+        <div class="desc">Глубокая зеркальная инталия четверочастного гербового щита для личного скрепления сургучом.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="lb" class="lightbox" onclick="closeLb()">
+  <button class="lightbox-close" onclick="closeLb()"><svg class="svg-icon" style="margin-right:4px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>Закрыть</button>
+  <img id="lb-img" src="" alt="">
+  <div id="lb-cap" class="lightbox-caption"></div>
+</div>
+
+<script>
+function openLb(src, cap) {
+  document.getElementById('lb-img').src = src;
+  document.getElementById('lb-cap').textContent = cap;
+  document.getElementById('lb').classList.add('open');
+}
+function closeLb() {
+  document.getElementById('lb').classList.remove('open');
+}
+</script>
+</body>
+</html>

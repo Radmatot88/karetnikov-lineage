@@ -1,0 +1,1238 @@
+{
+  "metadata": {
+    "project": "Karetnikov Lineage",
+    "target": "Yandex Archive Search (ya.ru/archive) & Regional AIS",
+    "version": "1.0.0",
+    "generator": "paleography_ocr_runner.py",
+    "description": "Поисковые маски и палеографические варианты для обхода ошибок OCR/HTR скорописи"
+  },
+  "surnames": {
+    "Каретников": {
+      "clan_info": "Каретниковы (Отцовская линия, дед)",
+      "modern": "Каретников",
+      "variants_count": 28,
+      "variants": [
+        "Каретников",
+        "Каретниковъ",
+        "Коретниковъ",
+        "Каретникова",
+        "Коретникова",
+        "Каретниковы",
+        "Коретниковы",
+        "Каретникъ",
+        "Коретникъ",
+        "Каретииков",
+        "Кареттиков",
+        "Карепников",
+        "Карешиков",
+        "Кареников",
+        "Каремиков",
+        "Коретииков",
+        "Кореттиков",
+        "Корепников",
+        "Корешиков",
+        "Кореников",
+        "Коремиков",
+        "Наретников",
+        "Паретников",
+        "Иаретников",
+        "Норетников",
+        "Поретников",
+        "Каретииковъ",
+        "Коретииковъ"
+      ],
+      "top_search_urls": [
+        {
+          "query": "Каретников",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2"
+        },
+        {
+          "query": "Каретниковъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Коретниковъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Каретникова",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0"
+        },
+        {
+          "query": "Коретникова",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0"
+        },
+        {
+          "query": "Каретниковы",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B"
+        },
+        {
+          "query": "Коретниковы",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B"
+        },
+        {
+          "query": "Каретникъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D1%8A"
+        },
+        {
+          "query": "Коретникъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D1%8A"
+        },
+        {
+          "query": "Каретииков",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%B8%D0%B8%D0%BA%D0%BE%D0%B2"
+        }
+      ]
+    },
+    "Юхин": {
+      "clan_info": "Юхины (Отцовская линия, бабушка)",
+      "modern": "Юхин",
+      "variants_count": 16,
+      "variants": [
+        "Юхин",
+        "Юхинъ",
+        "Юшинъ",
+        "Юхина",
+        "Юшина",
+        "Юхины",
+        "Юшины",
+        "Юха",
+        "Юшин",
+        "Южин",
+        "Ютин",
+        "Юпин",
+        "Юин",
+        "Юхии",
+        "Юшии",
+        "Южинъ"
+      ],
+      "top_search_urls": [
+        {
+          "query": "Юхин",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD"
+        },
+        {
+          "query": "Юхинъ",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD%D1%8A"
+        },
+        {
+          "query": "Юшинъ",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D1%88%D0%B8%D0%BD%D1%8A"
+        },
+        {
+          "query": "Юхина",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD%D0%B0"
+        },
+        {
+          "query": "Юшина",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D1%88%D0%B8%D0%BD%D0%B0"
+        },
+        {
+          "query": "Юхины",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD%D1%8B"
+        },
+        {
+          "query": "Юшины",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D1%88%D0%B8%D0%BD%D1%8B"
+        },
+        {
+          "query": "Юха",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B0"
+        },
+        {
+          "query": "Юшин",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D1%88%D0%B8%D0%BD"
+        },
+        {
+          "query": "Южин",
+          "url": "https://ya.ru/archive/search?text=%D0%AE%D0%B6%D0%B8%D0%BD"
+        }
+      ]
+    },
+    "Зубков": {
+      "clan_info": "Зубковы (Материнская линия, дед)",
+      "modern": "Зубков",
+      "variants_count": 18,
+      "variants": [
+        "Зубков",
+        "Зубковъ",
+        "Зупковъ",
+        "Зубкова",
+        "Зупкова",
+        "Зубковы",
+        "Зупковы",
+        "Зубокъ",
+        "Зупков",
+        "Зудков",
+        "Зувков",
+        "Зубнов",
+        "Зупиов",
+        "Зутиов",
+        "Вубков",
+        "Рубков",
+        "Зудковъ",
+        "Вубковъ"
+      ],
+      "top_search_urls": [
+        {
+          "query": "Зубков",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2"
+        },
+        {
+          "query": "Зубковъ",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Зупковъ",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%BF%D0%BA%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Зубкова",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D0%B0"
+        },
+        {
+          "query": "Зупкова",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%BF%D0%BA%D0%BE%D0%B2%D0%B0"
+        },
+        {
+          "query": "Зубковы",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D1%8B"
+        },
+        {
+          "query": "Зупковы",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%BF%D0%BA%D0%BE%D0%B2%D1%8B"
+        },
+        {
+          "query": "Зубокъ",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BE%D0%BA%D1%8A"
+        },
+        {
+          "query": "Зупков",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%BF%D0%BA%D0%BE%D0%B2"
+        },
+        {
+          "query": "Зудков",
+          "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B4%D0%BA%D0%BE%D0%B2"
+        }
+      ]
+    },
+    "Куманин": {
+      "clan_info": "Куманины (Материнская линия, бабушка)",
+      "modern": "Куманин",
+      "variants_count": 17,
+      "variants": [
+        "Куманин",
+        "Куманинъ",
+        "Команинъ",
+        "Куманина",
+        "Команина",
+        "Куманины",
+        "Команины",
+        "Куманъ",
+        "Команин",
+        "Кумании",
+        "Куматин",
+        "Кумапин",
+        "Комании",
+        "Купанин",
+        "Кушанин",
+        "Куманииъ",
+        "Команииъ"
+      ],
+      "top_search_urls": [
+        {
+          "query": "Куманин",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD"
+        },
+        {
+          "query": "Куманинъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D1%8A"
+        },
+        {
+          "query": "Команинъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D1%8A"
+        },
+        {
+          "query": "Куманина",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0"
+        },
+        {
+          "query": "Команина",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0"
+        },
+        {
+          "query": "Куманины",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D1%8B"
+        },
+        {
+          "query": "Команины",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D1%8B"
+        },
+        {
+          "query": "Куманъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D1%8A"
+        },
+        {
+          "query": "Команин",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD"
+        },
+        {
+          "query": "Кумании",
+          "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%B8"
+        }
+      ]
+    },
+    "Логинов": {
+      "clan_info": "Логиновы (Боковая/смежная ветвь по деду)",
+      "modern": "Логинов",
+      "variants_count": 15,
+      "variants": [
+        "Логинов",
+        "Логиновъ",
+        "Логвиновъ",
+        "Логгиновъ",
+        "Лагиновъ",
+        "Лагвиновъ",
+        "Логинова",
+        "Логвинова",
+        "Логгинъ",
+        "Логвинов",
+        "Лагинов",
+        "Лагвинов",
+        "Лочинов",
+        "Лоринов",
+        "Логиноз"
+      ],
+      "top_search_urls": [
+        {
+          "query": "Логинов",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2"
+        },
+        {
+          "query": "Логиновъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Логвиновъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Логгиновъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Лагиновъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%B0%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Лагвиновъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%B0%D0%B3%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Логинова",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0"
+        },
+        {
+          "query": "Логвинова",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0"
+        },
+        {
+          "query": "Логгинъ",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B3%D0%B8%D0%BD%D1%8A"
+        },
+        {
+          "query": "Логвинов",
+          "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2"
+        }
+      ]
+    },
+    "Романов": {
+      "clan_info": "Романовы (Боковая/смежная ветвь по деду)",
+      "modern": "Романов",
+      "variants_count": 15,
+      "variants": [
+        "Романов",
+        "Романовъ",
+        "Рамановъ",
+        "Романова",
+        "Раманова",
+        "Романовы",
+        "Рамановы",
+        "Романъ",
+        "Раманов",
+        "Ромаиов",
+        "Роматиов",
+        "Ромапов",
+        "Ромаиовъ",
+        "Рамаиов",
+        "Рамаповъ"
+      ],
+      "top_search_urls": [
+        {
+          "query": "Романов",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2"
+        },
+        {
+          "query": "Романовъ",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Рамановъ",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%B0%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%8A"
+        },
+        {
+          "query": "Романова",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0"
+        },
+        {
+          "query": "Раманова",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%B0%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0"
+        },
+        {
+          "query": "Романовы",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%8B"
+        },
+        {
+          "query": "Рамановы",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%B0%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%8B"
+        },
+        {
+          "query": "Романъ",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D1%8A"
+        },
+        {
+          "query": "Раманов",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%B0%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2"
+        },
+        {
+          "query": "Ромаиов",
+          "url": "https://ya.ru/archive/search?text=%D0%A0%D0%BE%D0%BC%D0%B0%D0%B8%D0%BE%D0%B2"
+        }
+      ]
+    }
+  },
+  "names": {
+    "Григорий": {
+      "modern": "Григорий",
+      "variants_count": 10,
+      "variants": [
+        "Григорий",
+        "Григорій",
+        "Григорьевъ",
+        "Григорьевичъ",
+        "Григорьева",
+        "Григории",
+        "Григорін",
+        "Григорiй",
+        "Григорьев",
+        "Григоріи"
+      ]
+    },
+    "Анисим": {
+      "modern": "Анисим",
+      "variants_count": 16,
+      "variants": [
+        "Анисим",
+        "Анисимъ",
+        "Онисимъ",
+        "Анисимовъ",
+        "Онисимовъ",
+        "Анисимовичъ",
+        "Онисимовичъ",
+        "Онисима",
+        "Анисима",
+        "Онисим",
+        "Аписим",
+        "Описим",
+        "Атисим",
+        "Отисим",
+        "Ониеим",
+        "Аниетм"
+      ]
+    },
+    "Агриппина": {
+      "modern": "Агриппина",
+      "variants_count": 13,
+      "variants": [
+        "Агриппина",
+        "Агриппіна",
+        "Аграфена",
+        "Аграфѣна",
+        "Агрипина",
+        "Огрипина",
+        "Агрофена",
+        "Агриппины",
+        "Аграфены",
+        "Аграфина",
+        "Огриппина",
+        "Агриппипа",
+        "Аграфепа"
+      ]
+    },
+    "Сергей": {
+      "modern": "Сергей",
+      "variants_count": 13,
+      "variants": [
+        "Сергей",
+        "Сергій",
+        "Сергий",
+        "Сергіевъ",
+        "Сергеевъ",
+        "Сергіевичъ",
+        "Сергеевичъ",
+        "Сергія",
+        "Сергии",
+        "Сергiй",
+        "Сергеи",
+        "Сергиев",
+        "Сергіи"
+      ]
+    },
+    "Петр": {
+      "modern": "Петр",
+      "variants_count": 9,
+      "variants": [
+        "Петр",
+        "Петръ",
+        "Петровъ",
+        "Петровичъ",
+        "Петра",
+        "Петроз",
+        "Петро",
+        "Петрозъ",
+        "Нетръ"
+      ]
+    },
+    "Егор": {
+      "modern": "Егор",
+      "variants_count": 12,
+      "variants": [
+        "Егор",
+        "Егоръ",
+        "Георгій",
+        "Георгий",
+        "Юрій",
+        "Егоровъ",
+        "Георгіевъ",
+        "Егоровичъ",
+        "Георгіевичъ",
+        "Георгии",
+        "Георгiй",
+        "Георгіи"
+      ]
+    },
+    "Федор": {
+      "modern": "Федор",
+      "variants_count": 14,
+      "variants": [
+        "Федор",
+        "Ѳедоръ",
+        "Федоръ",
+        "Ѳедоровъ",
+        "Федоровъ",
+        "Ѳедоровичъ",
+        "Федоровичъ",
+        "Ѳедора",
+        "Федора",
+        "Тедоръ",
+        "Оедоръ",
+        "Ѳедор",
+        "Тедор",
+        "Оедор"
+      ]
+    },
+    "Иван": {
+      "modern": "Иван",
+      "variants_count": 13,
+      "variants": [
+        "Иван",
+        "Иванъ",
+        "Іоаннъ",
+        "Иоаннъ",
+        "Ивановъ",
+        "Іоанновъ",
+        "Ивановичъ",
+        "Іоанновичъ",
+        "Ивана",
+        "Иванов",
+        "Іоаннов",
+        "Ивапъ",
+        "Ивап"
+      ]
+    }
+  },
+  "toponyms": {
+    "Плешаново": {
+      "modern": "Плешаново",
+      "historical_status": "с. Плешаново (Люксембургский / Ивановский / Красногвардейский р-н Оренбургской губ./обл.)",
+      "variants_count": 11,
+      "variants": [
+        "Плешаново",
+        "Плешанова",
+        "Плешановка",
+        "Плешановъ",
+        "Плешановское",
+        "Плешановской",
+        "Тлешаново",
+        "Илешаново",
+        "Нлешаново",
+        "Плешапово",
+        "Плешанозо"
+      ]
+    },
+    "Подольск": {
+      "modern": "Подольск",
+      "historical_status": "с. Подольск (Красногвардейский р-н Оренбургской обл., бывш. Бузулукский уезд)",
+      "variants_count": 8,
+      "variants": [
+        "Подольск",
+        "Подольскъ",
+        "Подольское",
+        "Подольской",
+        "Подольскаго",
+        "Тодольск",
+        "Подольси",
+        "Подольсн"
+      ]
+    },
+    "Ивановка": {
+      "modern": "Ивановка",
+      "historical_status": "с. Ивановка (центр Ивановской вол. Бузулукского уезда Самарской губ. / Оренбуржье)",
+      "variants_count": 8,
+      "variants": [
+        "Ивановка",
+        "Ивановское",
+        "Ивановской",
+        "Ивановки",
+        "Ивановскаго",
+        "Иваповка",
+        "Ивановна",
+        "Ивановкаго"
+      ]
+    },
+    "Владимировка": {
+      "modern": "Владимировка",
+      "historical_status": "с. Владимировка (Бузулукский уезд, 1858 г. Ревизия Каретниковых)",
+      "variants_count": 7,
+      "variants": [
+        "Владимировка",
+        "Владиміровка",
+        "Владимировское",
+        "Владиміровское",
+        "Владимировской",
+        "Владимирозна",
+        "Владимирозка"
+      ]
+    },
+    "Залесово": {
+      "modern": "Залесово",
+      "historical_status": "с. Залесово / дер. Залесье (Бузулукский уезд)",
+      "variants_count": 9,
+      "variants": [
+        "Залесово",
+        "Залѣсово",
+        "Залѣсова",
+        "Залесова",
+        "Залѣсье",
+        "Залесье",
+        "Залъсово",
+        "Зальсово",
+        "Залезово"
+      ]
+    },
+    "Шуструй": {
+      "modern": "Новый Шуструй",
+      "historical_status": "с. Новый Шуструй (Нижнеломовский уезд Пензенской губ., приход Никольской церкви)",
+      "variants_count": 12,
+      "variants": [
+        "Новый Шуструй",
+        "Шуструй",
+        "Шуструя",
+        "Новаго Шуструя",
+        "Шуструйскаго",
+        "Шуструйскій",
+        "Шуструйская",
+        "Шуетруй",
+        "Шуструи",
+        "Шуструн",
+        "Шустрпи",
+        "Новыи Шуструи"
+      ]
+    },
+    "Бузулук": {
+      "modern": "Бузулук",
+      "historical_status": "г. Бузулук / Бузулукский уезд Самарской губернии (до 1918 г.)",
+      "variants_count": 9,
+      "variants": [
+        "Бузулук",
+        "Бузулукъ",
+        "Бузулукскій",
+        "Бузулукскаго",
+        "Бузулукской",
+        "Бузулука",
+        "Бузулун",
+        "Бузулуи",
+        "Дузулук"
+      ]
+    },
+    "Тейково": {
+      "modern": "Тейково",
+      "historical_status": "с./г. Тейково (Шуйский уезд Владимирской губ. / Ивановская обл., колыбель фабрикантов Каретниковых)",
+      "variants_count": 8,
+      "variants": [
+        "Тейково",
+        "Тейкова",
+        "Тейковское",
+        "Тейковской",
+        "Тейковскаго",
+        "Тейкозо",
+        "Тейнозо",
+        "Тейпово"
+      ]
+    }
+  },
+  "composite_queries": [
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Плешаново",
+      "query": "Каретников Плешаново",
+      "description": "Оренбург: Поиск прямого предка деда в Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Каретниковъ",
+      "target_anchor": "Плешаново",
+      "query": "Каретниковъ Плешаново",
+      "description": "Оренбург: Дореформенный поиск Каретниковых в Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Коретников",
+      "target_anchor": "Плешаново",
+      "query": "Коретников Плешаново",
+      "description": "Оренбург: Диалектное 'о' в Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Коретниковъ",
+      "target_anchor": "Плешаново",
+      "query": "Коретниковъ Плешаново",
+      "description": "Оренбург: Дореформенное Коретниковъ в Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Каретииков",
+      "target_anchor": "Плешаново",
+      "query": "Каретииков Плешаново",
+      "description": "Оренбург: Скорописная HTR-ошибка т->и в Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%B8%D0%B8%D0%BA%D0%BE%D0%B2+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Подольск",
+      "query": "Каретников Подольск",
+      "description": "Оренбург: Ветка Подольска",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%9F%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA"
+    },
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Ивановка",
+      "query": "Каретников Ивановка",
+      "description": "Оренбург: Волостной центр Ивановка",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "target_clan": "Коретников",
+      "target_anchor": "Ивановка",
+      "query": "Коретников Ивановка",
+      "description": "Оренбург: Волостной центр Ивановка (вариант О)",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Владимировка",
+      "query": "Каретников Владимировка",
+      "description": "Оренбург: Владимировка 1858 г. Ревизия Кирилла Евсеева",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "target_clan": "Коретниковъ",
+      "target_anchor": "Владимировка",
+      "query": "Коретниковъ Владимировка",
+      "description": "Оренбург: Дореформенный поиск ревизии Владимировки",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Залесово",
+      "query": "Каретников Залесово",
+      "description": "Оренбург: Село Залесово",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%97%D0%B0%D0%BB%D0%B5%D1%81%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Каретниковъ",
+      "target_anchor": "Залѣсово",
+      "query": "Каретниковъ Залѣсово",
+      "description": "Оренбург: Дореформенное Залѣсово с ятем",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%97%D0%B0%D0%BB%D1%A3%D1%81%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Григорий",
+      "query": "Каретников Григорий",
+      "description": "Оренбург: Поиск деда Григория",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9"
+    },
+    {
+      "target_clan": "Коретниковъ",
+      "target_anchor": "Григорій",
+      "query": "Коретниковъ Григорій",
+      "description": "Оренбург: Дореформенный поиск Григория",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%96%D0%B9"
+    },
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Анисим",
+      "query": "Каретников Анисим",
+      "description": "Оренбург: Прадед Анисим",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%90%D0%BD%D0%B8%D1%81%D0%B8%D0%BC"
+    },
+    {
+      "target_clan": "Коретниковъ",
+      "target_anchor": "Онисимъ",
+      "query": "Коретниковъ Онисимъ",
+      "description": "Оренбург: Прадед Онисимъ (метрики)",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%9E%D0%BD%D0%B8%D1%81%D0%B8%D0%BC%D1%8A"
+    },
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Федор",
+      "query": "Каретников Федор",
+      "description": "Оренбург: Прапрадед Федор Иванович",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%A4%D0%B5%D0%B4%D0%BE%D1%80"
+    },
+    {
+      "target_clan": "Коретниковъ",
+      "target_anchor": "Ѳедоръ",
+      "query": "Коретниковъ Ѳедоръ",
+      "description": "Оренбург: Ѳедоръ Ивановичъ (с фитой)",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D1%B2%D0%B5%D0%B4%D0%BE%D1%80%D1%8A"
+    },
+    {
+      "target_clan": "Логинов",
+      "target_anchor": "Плешаново",
+      "query": "Логинов Плешаново",
+      "description": "Оренбург: Родня Логиновы в Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Логвиновъ",
+      "target_anchor": "Плешаново",
+      "query": "Логвиновъ Плешаново",
+      "description": "Оренбург: Логвиновы дореформенные",
+      "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D1%8A+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Романов",
+      "target_anchor": "Подольск",
+      "query": "Романов Подольск",
+      "description": "Оренбург: Романовы в Подольске",
+      "url": "https://ya.ru/archive/search?text=%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2+%D0%9F%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA"
+    },
+    {
+      "target_clan": "Рамановъ",
+      "target_anchor": "Подольскъ",
+      "query": "Рамановъ Подольскъ",
+      "description": "Оренбург: Романовы/Рамановы дореформенные",
+      "url": "https://ya.ru/archive/search?text=%D0%A0%D0%B0%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%8A+%D0%9F%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D1%8A"
+    },
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Тейково",
+      "query": "Каретников Тейково",
+      "description": "Владимир/Иваново: Купцы-фабриканты Каретниковы",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%A2%D0%B5%D0%B9%D0%BA%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Коретниковъ",
+      "target_anchor": "Тейково",
+      "query": "Коретниковъ Тейково",
+      "description": "Владимир/Иваново: Дореформенное Тейково",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%A2%D0%B5%D0%B9%D0%BA%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "target_clan": "Каретников",
+      "target_anchor": "Тейкова",
+      "query": "Каретников Тейкова",
+      "description": "Владимир/Иваново: Родительный падеж села Тейкова",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%A2%D0%B5%D0%B9%D0%BA%D0%BE%D0%B2%D0%B0"
+    },
+    {
+      "target_clan": "Юхин",
+      "target_anchor": "Четыровка",
+      "query": "Юхин Четыровка",
+      "description": "Самара: Четыровка (родовое гнездо Юхиных)",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD+%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "target_clan": "Юхинъ",
+      "target_anchor": "Четыровка",
+      "query": "Юхинъ Четыровка",
+      "description": "Самара: Дореформенный поиск Юхиных в Четыровке",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD%D1%8A+%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "target_clan": "Юшин",
+      "target_anchor": "Четыровка",
+      "query": "Юшин Четыровка",
+      "description": "Самара: Скорописная HTR-ошибка х->ш в Четыровке",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%88%D0%B8%D0%BD+%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "target_clan": "Юхин",
+      "target_anchor": "Кошки",
+      "query": "Юхин Кошки",
+      "description": "Самара: Волостной центр Кошки",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD+%D0%9A%D0%BE%D1%88%D0%BA%D0%B8"
+    },
+    {
+      "target_clan": "Юхин",
+      "target_anchor": "Кондурча",
+      "query": "Юхин Кондурча",
+      "description": "Самара: Река Кондурча / станция",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD+%D0%9A%D0%BE%D0%BD%D0%B4%D1%83%D1%80%D1%87%D0%B0"
+    },
+    {
+      "target_clan": "Юхин",
+      "target_anchor": "Елховка",
+      "query": "Юхин Елховка",
+      "description": "Самара: Елховский приход",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD+%D0%95%D0%BB%D1%85%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "target_clan": "Куманин",
+      "target_anchor": "Шуструй",
+      "query": "Куманин Шуструй",
+      "description": "Пенза: Куманины в Новом Шуструе",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "target_clan": "Куманинъ",
+      "target_anchor": "Шуструй",
+      "query": "Куманинъ Шуструй",
+      "description": "Пенза: Дореформенный поиск Куманиных",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D1%8A+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "target_clan": "Команин",
+      "target_anchor": "Шуструй",
+      "query": "Команин Шуструй",
+      "description": "Пенза: Вариант Команин в Шуструе",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "target_clan": "Кумании",
+      "target_anchor": "Шуструй",
+      "query": "Кумании Шуструй",
+      "description": "Пенза: HTR-ошибка н->и в Шуструе",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%B8+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "target_clan": "Куманин",
+      "target_anchor": "Сергей",
+      "query": "Куманин Сергей",
+      "description": "Пенза: Прадед Сергей Куманин",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD+%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9"
+    },
+    {
+      "target_clan": "Куманинъ",
+      "target_anchor": "Сергій",
+      "query": "Куманинъ Сергій",
+      "description": "Пенза: Сергій Куманинъ (метрики Никольской ц.)",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D1%8A+%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9"
+    },
+    {
+      "target_clan": "Зубков",
+      "target_anchor": "Шуструй",
+      "query": "Зубков Шуструй",
+      "description": "Пенза: Зубковы в Новом Шуструе",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "target_clan": "Зубковъ",
+      "target_anchor": "Шуструй",
+      "query": "Зубковъ Шуструй",
+      "description": "Пенза: Дореформенные Зубковы в Шуструе",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D1%8A+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "target_clan": "Зупков",
+      "target_anchor": "Шуструй",
+      "query": "Зупков Шуструй",
+      "description": "Пенза: Фонетическое Зупков в Шуструе",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%BF%D0%BA%D0%BE%D0%B2+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "target_clan": "Зудков",
+      "target_anchor": "Шуструй",
+      "query": "Зудков Шуструй",
+      "description": "Пенза: HTR-ошибка б->д в скорописи",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B4%D0%BA%D0%BE%D0%B2+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "target_clan": "Зубков",
+      "target_anchor": "Агриппина",
+      "query": "Зубков Агриппина",
+      "description": "Пенза: Прабабушка Агриппина Зубкова",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2+%D0%90%D0%B3%D1%80%D0%B8%D0%BF%D0%BF%D0%B8%D0%BD%D0%B0"
+    },
+    {
+      "target_clan": "Зубкова",
+      "target_anchor": "Агриппіна",
+      "query": "Зубкова Агриппіна",
+      "description": "Пенза: Дореформенная Агриппіна Зубкова",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D0%B0+%D0%90%D0%B3%D1%80%D0%B8%D0%BF%D0%BF%D1%96%D0%BD%D0%B0"
+    },
+    {
+      "target_clan": "Зубкова",
+      "target_anchor": "Аграфена",
+      "query": "Зубкова Аграфена",
+      "description": "Пенза: Народная форма имени Аграфена",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D0%B0+%D0%90%D0%B3%D1%80%D0%B0%D1%84%D0%B5%D0%BD%D0%B0"
+    },
+    {
+      "target_clan": "Зубкова",
+      "target_anchor": "Аграфѣна",
+      "query": "Зубкова Аграфѣна",
+      "description": "Пенза: Аграфѣна с ятем",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D0%B0+%D0%90%D0%B3%D1%80%D0%B0%D1%84%D1%A3%D0%BD%D0%B0"
+    }
+  ],
+  "quick_links_yandex_archive": [
+    {
+      "title": "[Каретников] Оренбург: Поиск прямого предка деда в Плешаново",
+      "query": "Каретников Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Каретниковъ] Оренбург: Дореформенный поиск Каретниковых в Плешаново",
+      "query": "Каретниковъ Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Коретников] Оренбург: Диалектное 'о' в Плешаново",
+      "query": "Коретников Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Коретниковъ] Оренбург: Дореформенное Коретниковъ в Плешаново",
+      "query": "Коретниковъ Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Каретииков] Оренбург: Скорописная HTR-ошибка т->и в Плешаново",
+      "query": "Каретииков Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%B8%D0%B8%D0%BA%D0%BE%D0%B2+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Каретников] Оренбург: Ветка Подольска",
+      "query": "Каретников Подольск",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%9F%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA"
+    },
+    {
+      "title": "[Каретников] Оренбург: Волостной центр Ивановка",
+      "query": "Каретников Ивановка",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "title": "[Коретников] Оренбург: Волостной центр Ивановка (вариант О)",
+      "query": "Коретников Ивановка",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "title": "[Каретников] Оренбург: Владимировка 1858 г. Ревизия Кирилла Евсеева",
+      "query": "Каретников Владимировка",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "title": "[Коретниковъ] Оренбург: Дореформенный поиск ревизии Владимировки",
+      "query": "Коретниковъ Владимировка",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "title": "[Каретников] Оренбург: Село Залесово",
+      "query": "Каретников Залесово",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%97%D0%B0%D0%BB%D0%B5%D1%81%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Каретниковъ] Оренбург: Дореформенное Залѣсово с ятем",
+      "query": "Каретниковъ Залѣсово",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%97%D0%B0%D0%BB%D1%A3%D1%81%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Каретников] Оренбург: Поиск деда Григория",
+      "query": "Каретников Григорий",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9"
+    },
+    {
+      "title": "[Коретниковъ] Оренбург: Дореформенный поиск Григория",
+      "query": "Коретниковъ Григорій",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D1%96%D0%B9"
+    },
+    {
+      "title": "[Каретников] Оренбург: Прадед Анисим",
+      "query": "Каретников Анисим",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%90%D0%BD%D0%B8%D1%81%D0%B8%D0%BC"
+    },
+    {
+      "title": "[Коретниковъ] Оренбург: Прадед Онисимъ (метрики)",
+      "query": "Коретниковъ Онисимъ",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%9E%D0%BD%D0%B8%D1%81%D0%B8%D0%BC%D1%8A"
+    },
+    {
+      "title": "[Каретников] Оренбург: Прапрадед Федор Иванович",
+      "query": "Каретников Федор",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%A4%D0%B5%D0%B4%D0%BE%D1%80"
+    },
+    {
+      "title": "[Коретниковъ] Оренбург: Ѳедоръ Ивановичъ (с фитой)",
+      "query": "Коретниковъ Ѳедоръ",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D1%B2%D0%B5%D0%B4%D0%BE%D1%80%D1%8A"
+    },
+    {
+      "title": "[Логинов] Оренбург: Родня Логиновы в Плешаново",
+      "query": "Логинов Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE%D0%B2+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Логвиновъ] Оренбург: Логвиновы дореформенные",
+      "query": "Логвиновъ Плешаново",
+      "url": "https://ya.ru/archive/search?text=%D0%9B%D0%BE%D0%B3%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D1%8A+%D0%9F%D0%BB%D0%B5%D1%88%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Романов] Оренбург: Романовы в Подольске",
+      "query": "Романов Подольск",
+      "url": "https://ya.ru/archive/search?text=%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2+%D0%9F%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA"
+    },
+    {
+      "title": "[Рамановъ] Оренбург: Романовы/Рамановы дореформенные",
+      "query": "Рамановъ Подольскъ",
+      "url": "https://ya.ru/archive/search?text=%D0%A0%D0%B0%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%8A+%D0%9F%D0%BE%D0%B4%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D1%8A"
+    },
+    {
+      "title": "[Каретников] Владимир/Иваново: Купцы-фабриканты Каретниковы",
+      "query": "Каретников Тейково",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%A2%D0%B5%D0%B9%D0%BA%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Коретниковъ] Владимир/Иваново: Дореформенное Тейково",
+      "query": "Коретниковъ Тейково",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D1%8A+%D0%A2%D0%B5%D0%B9%D0%BA%D0%BE%D0%B2%D0%BE"
+    },
+    {
+      "title": "[Каретников] Владимир/Иваново: Родительный падеж села Тейкова",
+      "query": "Каретников Тейкова",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%B0%D1%80%D0%B5%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2+%D0%A2%D0%B5%D0%B9%D0%BA%D0%BE%D0%B2%D0%B0"
+    },
+    {
+      "title": "[Юхин] Самара: Четыровка (родовое гнездо Юхиных)",
+      "query": "Юхин Четыровка",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD+%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "title": "[Юхинъ] Самара: Дореформенный поиск Юхиных в Четыровке",
+      "query": "Юхинъ Четыровка",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD%D1%8A+%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "title": "[Юшин] Самара: Скорописная HTR-ошибка х->ш в Четыровке",
+      "query": "Юшин Четыровка",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%88%D0%B8%D0%BD+%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "title": "[Юхин] Самара: Волостной центр Кошки",
+      "query": "Юхин Кошки",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD+%D0%9A%D0%BE%D1%88%D0%BA%D0%B8"
+    },
+    {
+      "title": "[Юхин] Самара: Река Кондурча / станция",
+      "query": "Юхин Кондурча",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD+%D0%9A%D0%BE%D0%BD%D0%B4%D1%83%D1%80%D1%87%D0%B0"
+    },
+    {
+      "title": "[Юхин] Самара: Елховский приход",
+      "query": "Юхин Елховка",
+      "url": "https://ya.ru/archive/search?text=%D0%AE%D1%85%D0%B8%D0%BD+%D0%95%D0%BB%D1%85%D0%BE%D0%B2%D0%BA%D0%B0"
+    },
+    {
+      "title": "[Куманин] Пенза: Куманины в Новом Шуструе",
+      "query": "Куманин Шуструй",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "title": "[Куманинъ] Пенза: Дореформенный поиск Куманиных",
+      "query": "Куманинъ Шуструй",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D1%8A+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "title": "[Команин] Пенза: Вариант Команин в Шуструе",
+      "query": "Команин Шуструй",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "title": "[Кумании] Пенза: HTR-ошибка н->и в Шуструе",
+      "query": "Кумании Шуструй",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%B8+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "title": "[Куманин] Пенза: Прадед Сергей Куманин",
+      "query": "Куманин Сергей",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD+%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9"
+    },
+    {
+      "title": "[Куманинъ] Пенза: Сергій Куманинъ (метрики Никольской ц.)",
+      "query": "Куманинъ Сергій",
+      "url": "https://ya.ru/archive/search?text=%D0%9A%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D0%BD%D1%8A+%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9"
+    },
+    {
+      "title": "[Зубков] Пенза: Зубковы в Новом Шуструе",
+      "query": "Зубков Шуструй",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "title": "[Зубковъ] Пенза: Дореформенные Зубковы в Шуструе",
+      "query": "Зубковъ Шуструй",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D1%8A+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "title": "[Зупков] Пенза: Фонетическое Зупков в Шуструе",
+      "query": "Зупков Шуструй",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%BF%D0%BA%D0%BE%D0%B2+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "title": "[Зудков] Пенза: HTR-ошибка б->д в скорописи",
+      "query": "Зудков Шуструй",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B4%D0%BA%D0%BE%D0%B2+%D0%A8%D1%83%D1%81%D1%82%D1%80%D1%83%D0%B9"
+    },
+    {
+      "title": "[Зубков] Пенза: Прабабушка Агриппина Зубкова",
+      "query": "Зубков Агриппина",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2+%D0%90%D0%B3%D1%80%D0%B8%D0%BF%D0%BF%D0%B8%D0%BD%D0%B0"
+    },
+    {
+      "title": "[Зубкова] Пенза: Дореформенная Агриппіна Зубкова",
+      "query": "Зубкова Агриппіна",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D0%B0+%D0%90%D0%B3%D1%80%D0%B8%D0%BF%D0%BF%D1%96%D0%BD%D0%B0"
+    },
+    {
+      "title": "[Зубкова] Пенза: Народная форма имени Аграфена",
+      "query": "Зубкова Аграфена",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D0%B0+%D0%90%D0%B3%D1%80%D0%B0%D1%84%D0%B5%D0%BD%D0%B0"
+    },
+    {
+      "title": "[Зубкова] Пенза: Аграфѣна с ятем",
+      "query": "Зубкова Аграфѣна",
+      "url": "https://ya.ru/archive/search?text=%D0%97%D1%83%D0%B1%D0%BA%D0%BE%D0%B2%D0%B0+%D0%90%D0%B3%D1%80%D0%B0%D1%84%D1%A3%D0%BD%D0%B0"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+.astro/
+.wrangler/
+
+# Secrets & Environment Variables (CRITICAL: NEVER COMMIT PASSWORDS OR KEYS)
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.secrets/
+*.pem
+*.key
+
+# Unencrypted local lineage master files (ONLY AES-256-GCM encrypted payload goes to public/vault/)
+_SOVEREIGN_OWNER_VAULT/
+data/vault/lineage_graph.json
+data/vault/*.ged
+data/raw_scans/
+data/private_docs/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

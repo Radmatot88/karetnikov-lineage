@@ -1,0 +1,21 @@
+{
+  "name": "karetnikov-lineage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sovereign Heritage Archive — Родословное древо 7 поколений рода Каретниковых, Юхиных, Зубковых и Куманиных (Astro + Cloudflare Pages + AES-256-GCM Zero-Hardcode Auth)",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --port 4328",
+    "build": "astro build",
+    "preview": "astro preview --port 4328",
+    "vault:encrypt": "python scripts/crypto_vault.py --sync",
+    "gedcom:export": "python scripts/export_gedcom.py"
+  },
+  "dependencies": {
+    "astro": "^5.1.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "typescript": "^5.7.2"
+  }
+}

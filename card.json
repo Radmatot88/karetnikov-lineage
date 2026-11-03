@@ -1,0 +1,27 @@
+{
+  "project_id": "karetnikov-lineage",
+  "project_name": "Родословное древо 7 поколений (Каретниковы • Юхины • Зубковы • Куманины)",
+  "archetype": "CUSTOM_HYBRID",
+  "cwd": "C:/Karetnikov_Lineage",
+  "deploy_target": "https://karetnikov-family.pages.dev",
+  "owner": "Граф Каретников (Каретников Дмитрий Иванович)",
+  "validation_status": "N/A [PENDING_FOUNDER_EVAL]",
+  "tech_stack": [
+    "Astro 5/7 Static + Edge Functions",
+    "Cloudflare Pages + Pages Functions (_middleware.ts)",
+    "PBKDF2-HMAC-SHA256 + AES-256-GCM Zero-Hardcode Vault",
+    "GEDCOM 5.5.1 / 7.0 Bidirectional Engine",
+    "Playwright Archive OSINT Scouts"
+  ],
+  "core_regions": [
+    "Самарская область (Куйбышевская обл. / Самарская губерния — АИС ЦГАСО)",
+    "Оренбургская область (Чкаловская обл. 1938-1957 / Оренбургская губерния — ГАОО)",
+    "Пензенская область (Нижнеломовский уезд, с. Новый Шуструй — ГАПО)"
+  ],
+  "core_surnames": [
+    "Каретников (Оренбургская / Самарская)",
+    "Юхин (Самарская / Куйбышевская)",
+    "Зубков (Пензенская, Нижнеломовский уезд, с. Новый Шуструй)",
+    "Куманин (Пензенская, Нижнеломовский уезд, с. Новый Шуструй)"
+  ]
+}

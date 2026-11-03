@@ -1,0 +1,122 @@
+[
+  {
+    "id": "zubkov_shustruy",
+    "label": "Зубковы (Шуструй / Пензенская)",
+    "query": {
+      "last_name": "Зубков",
+      "birth_place": "Шуструй"
+    },
+    "total_reported": null,
+    "retrieved": 0,
+    "blocked": {
+      "status": null,
+      "message": "Сетевая ошибка или ошибка TLS; проверьте доступ к источнику."
+    },
+    "records": []
+  },
+  {
+    "id": "kumanin_penza",
+    "label": "Куманины (Пензенская губ.)",
+    "query": {
+      "last_name": "Куманин",
+      "birth_place_gubernia": "Пензенская"
+    },
+    "total_reported": null,
+    "retrieved": 0,
+    "blocked": {
+      "status": null,
+      "message": "Сетевая ошибка или ошибка TLS; проверьте доступ к источнику."
+    },
+    "records": []
+  },
+  {
+    "id": "kumanin_shustruy",
+    "label": "Куманины (Шуструй)",
+    "query": {
+      "last_name": "Куманин",
+      "birth_place": "Шуструй"
+    },
+    "total_reported": null,
+    "retrieved": 0,
+    "blocked": {
+      "status": null,
+      "message": "Сетевая ошибка или ошибка TLS; проверьте доступ к источнику."
+    },
+    "records": []
+  },
+  {
+    "id": "yukhin_samara",
+    "label": "Юхины (Самарская губ.)",
+    "query": {
+      "last_name": "Юхин",
+      "birth_place_gubernia": "Самарская"
+    },
+    "total_reported": null,
+    "retrieved": 0,
+    "blocked": {
+      "status": null,
+      "message": "Сетевая ошибка или ошибка TLS; проверьте доступ к источнику."
+    },
+    "records": []
+  },
+  {
+    "id": "karetnikov_samara",
+    "label": "Каретниковы (Самарская губ. / Бузулукский уезд)",
+    "query": {
+      "last_name": "Каретников",
+      "birth_place_gubernia": "Самарская"
+    },
+    "total_reported": null,
+    "retrieved": 0,
+    "blocked": {
+      "status": null,
+      "message": "Сетевая ошибка или ошибка TLS; проверьте доступ к источнику."
+    },
+    "records": []
+  },
+  {
+    "id": "karetnikov_orenburg",
+    "label": "Каретниковы (Оренбургская губ.)",
+    "query": {
+      "last_name": "Каретников",
+      "birth_place_gubernia": "Оренбургская"
+    },
+    "total_reported": null,
+    "retrieved": 0,
+    "blocked": {
+      "status": null,
+      "message": "Сетевая ошибка или ошибка TLS; проверьте доступ к источнику."
+    },
+    "records": []
+  },
+  {
+    "id": "karetnikov_orel",
+    "label": "Каретниковы (Орловская губ.)",
+    "query": {
+      "last_name": "Каретников",
+      "birth_place_gubernia": "Орловская"
+    },
+    "total_reported": null,
+    "retrieved": 0,
+    "blocked": {
+      "status": null,
+      "message": "Сетевая ошибка или ошибка TLS; проверьте доступ к источнику."
+    },
+    "records": []
+  },
+  {
+    "id": "karetnikov_vladimir",
+    "label": "Каретниковы (Владимирская губ. / Шуйский уезд / Тейково)",
+    "query": {
+      "last_name": "Каретников",
+      "birth_place_gubernia": "Владимирская"
+    },
+    "total_reported": null,
+    "retrieved": 0,
+    "blocked": {
+      "status": null,
+      "message": "Сетевая ошибка или ошибка TLS; проверьте доступ к источнику."
+    },
+    "records": []
+  }
+]

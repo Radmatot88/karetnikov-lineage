@@ -544,7 +544,7 @@ import '../styles/heritage.css';
 
       <div id="wizSuccessBox" class="wizard-success-box" style="display:none;">
         <div style="margin-bottom:8px;"><svg class="svg-icon" style="width:38px;height:38px;"><use href="#icon-branch"/></svg></div>
-        <div style="font-size:18px; font-weight:700; color:#6ee7b7; margin-bottom:6px;">Семейная ветвь успешно присоединена!</div>
+        <div style="font-size:18px; font-weight:700; color:#146C43; margin-bottom:6px;">Семейная ветвь успешно присоединена!</div>
         <p style="font-size:13px; color:var(--text-muted); margin-bottom:14px; line-height:1.5;">
           Ваше дополнение добавлено в родовой архив и отображается на Дорожной Карте с отметкой «Добавлено родственниками».
         </p>
@@ -1128,7 +1128,7 @@ import '../styles/heritage.css';
         if (q) {
           const hay = `${node.full_name} ${node.birth_place} ${node.sub_clan} ${node.notes} #${node.ahnentafel}`.toLowerCase();
           if (hay.includes(q)) {
-            searchHighlightStyle = 'outline: 3px solid #f3dc8a; box-shadow: 0 0 28px rgba(243,220,138,0.65); z-index: 15;';
+            searchHighlightStyle = 'outline: 3px solid #7A1C1C; box-shadow: 0 0 24px rgba(122,28,28,0.3); z-index: 15;';
           } else {
             searchHighlightStyle = 'opacity: 0.25;';
           }
@@ -1187,7 +1187,7 @@ import '../styles/heritage.css';
           }
         }
         if (activeFilter === 'hypotheses') {
-          hypHighlightStyle = 'outline: 3px solid #fbbf24; box-shadow: 0 0 36px rgba(251,191,36,0.85); z-index: 20;';
+          hypHighlightStyle = 'outline: 3px solid #B45309; box-shadow: 0 0 36px rgba(251,191,36,0.85); z-index: 20;';
         }
 
         htmlParts.push(`
@@ -1200,12 +1200,12 @@ import '../styles/heritage.css';
             <div class="rm-content" style="width:100%;">
               <div class="rm-top-badges" style="margin-bottom:5px;">
                 <span class="badge-floating-hyp">ГИПОТЕЗА / КАНДИДАТ В РОД</span>
-                <span class="ahnentafel-badge" style="background:rgba(245,158,11,0.25); color:#fbbf24;">${hyp.confidence}%</span>
+                <span class="ahnentafel-badge" style="background:#FEF7ED; color:#B45309;">${hyp.confidence}%</span>
               </div>
-              <div class="rm-name" style="color:#fef3c7; font-size:12.5px;">${hyp.full_name}</div>
-              <div class="rm-dates" style="color:#fbbf24; font-size:11px;">${hyp.era}</div>
-              <div class="rm-place" style="color:#cbd5e1;" title="${hyp.village}"><svg class="svg-icon sm"><use href="#icon-pin"/></svg> ${hyp.village}</div>
-              <div style="font-size:10px; color:#f59e0b; margin-top:4px; font-weight:700;">
+              <div class="rm-name" style="color:#1A1715; font-size:13px; font-weight:800;">${hyp.full_name}</div>
+              <div class="rm-dates" style="color:#7A1C1C; font-size:11.5px; font-weight:600;">${hyp.era}</div>
+              <div class="rm-place" style="color:#4A423B;" title="${hyp.village}"><svg class="svg-icon sm"><use href="#icon-pin"/></svg> ${hyp.village}</div>
+              <div style="font-size:10px; color:#B45309; margin-top:4px; font-weight:700;">
                 <svg class="svg-icon sm"><use href="#icon-link"/></svg> Связь: Слот #${hyp.probable_relative_ahnentafel} (${hyp.clan})
               </div>
             </div>
@@ -1606,9 +1606,9 @@ import '../styles/heritage.css';
             const statusBadgeHtml = isFact
               ? `<span class="badge-fact-100"><svg class="svg-icon sm"><use href="#icon-seal-confirmed"/></svg> 100% ФАКТ</span>`
               : node.status === 'FAMILY_ORAL'
-                ? `<span class="ahnentafel-badge" style="color:#38bdf8;"><svg class="svg-icon sm"><use href="#icon-seal-oral"/></svg> ПРЕДАНИЕ</span>`
+                ? `<span class="ahnentafel-badge" style="color:#1D4ED8;"><svg class="svg-icon sm"><use href="#icon-seal-oral"/></svg> ПРЕДАНИЕ</span>`
                 : node.status === 'ARCHIVE_CANDIDATE'
-                  ? `<span class="ahnentafel-badge" style="color:#fbbf24;"><svg class="svg-icon sm"><use href="#icon-seal-candidate"/></svg> КАНДИДАТ</span>`
+                  ? `<span class="ahnentafel-badge" style="color:#B45309;"><svg class="svg-icon sm"><use href="#icon-seal-candidate"/></svg> КАНДИДАТ</span>`
                   : `<span class="ahnentafel-badge" style="color:#64748b;"><svg class="svg-icon sm"><use href="#icon-seal-unknown"/></svg> ПОИСК</span>`;
 
             return `
@@ -1702,25 +1702,25 @@ import '../styles/heritage.css';
           const hypCardsHtml = filteredHyps.map(hyp => `
             <article class="scroll-person-card is-hyp-card" data-scroll-hyp="${hyp.id}">
               <div class="scroll-card-top">
-                <div class="scroll-avatar" style="border-color:#f59e0b; color:#fbbf24;"><svg class="svg-icon" style="width:24px;height:24px;"><use href="#icon-orbit-hypothesis"/></svg></div>
+                <div class="scroll-avatar" style="border-color:#B45309; color:#B45309;"><svg class="svg-icon" style="width:24px;height:24px;"><use href="#icon-orbit-hypothesis"/></svg></div>
                 <div class="scroll-person-main">
                   <div class="scroll-badges-row">
                     <span class="badge-floating-hyp">ГИПОТЕЗА • ${hyp.confidence}%</span>
                     <span class="ahnentafel-badge">${hyp.generation_label || ''}</span>
                   </div>
                   <div class="scroll-person-name" style="color:#fef3c7;">${hyp.full_name}</div>
-                  <div class="scroll-person-role" style="color:#fbbf24;">${hyp.role_badge || ''}</div>
+                  <div class="scroll-person-role" style="color:#B45309;">${hyp.role_badge || ''}</div>
                   <div class="scroll-person-meta">
                     <span><svg class="svg-icon sm"><use href="#icon-calendar"/></svg> ${hyp.era || ''}</span>
                     <span><svg class="svg-icon sm"><use href="#icon-pin"/></svg> ${hyp.village || ''}</span>
                   </div>
                 </div>
               </div>
-              <div class="scroll-person-bio" style="border-left-color:#f59e0b;">
+              <div class="scroll-person-bio" style="border-left-color:#B45309;">
                 ${hyp.relationship_hypothesis}
               </div>
               <div class="scroll-card-actions">
-                <button type="button" class="scroll-act-btn" style="border-color:rgba(245,158,11,0.5); color:#fbbf24;" data-open-hyp="${hyp.id}">
+                <button type="button" class="scroll-act-btn" style="border-color:#B45309; color:#B45309;" data-open-hyp="${hyp.id}">
                   <svg class="svg-icon sm"><use href="#icon-book"/></svg> Архивное досье гипотезы
                 </button>
                 ${hyp.probable_relative_ahnentafel ? `
@@ -1736,10 +1736,10 @@ import '../styles/heritage.css';
             <div class="scroll-gen-section" id="scroll-gen-hyp">
               <div class="scroll-gen-header" style="border-color:rgba(245,158,11,0.4);">
                 <div class="scroll-gen-title">
-                  <span class="gen-roman-badge" style="background:rgba(245,158,11,0.2); color:#fbbf24;"><svg class="svg-icon sm"><use href="#icon-orbit-hypothesis"/></svg></span>
+                  <span class="gen-roman-badge" style="background:#FEF7ED; color:#B45309;"><svg class="svg-icon sm"><use href="#icon-orbit-hypothesis"/></svg></span>
                   <div>
                     <div style="color:#fef3c7;">Орбитальные архивные гипотезы и кандидаты в род</div>
-                    <div style="font-size:11px; color:#fbbf24;">Кандидаты из ревизских сказок и метрик (требуют архивной склейки)</div>
+                    <div style="font-size:11px; color:#B45309;">Кандидаты из ревизских сказок и метрик (требуют архивной склейки)</div>
                   </div>
                 </div>
                 <span class="scroll-gen-stats">${filteredHyps.length} канд.</span>
@@ -1987,7 +1987,7 @@ import '../styles/heritage.css';
 
       const statusColors = {
         CONFIRMED_DOC: '#10b981',
-        FAMILY_ORAL: '#38bdf8',
+        FAMILY_ORAL: '#1D4ED8',
         ARCHIVE_CANDIDATE: '#f59e0b',
         UNKNOWN_SLOT: '#1e293b'
       };
@@ -1995,11 +1995,11 @@ import '../styles/heritage.css';
       let pathsHtml = '';
       const probandNode = nodeMap[1];
       pathsHtml += `
-        <circle cx="${cx}" cy="${cy}" r="36" fill="#d4af37" stroke="#07090e" stroke-width="2"
+        <circle cx="${cx}" cy="${cy}" r="36" fill="#7A1C1C" stroke="#7C5E24" stroke-width="2"
           style="cursor:pointer;" data-ahnentafel="1">
           <title>#1 ${probandNode ? probandNode.full_name : ''} (${probandNode ? probandNode.birth_date : ''})</title>
         </circle>
-        <text x="${cx}" y="${cy + 4}" text-anchor="middle" fill="#07090e" font-size="11" font-weight="800" pointer-events="none">#1 Я</text>
+        <text x="${cx}" y="${cy + 4}" text-anchor="middle" fill="#1A1715" font-size="11" font-weight="800" pointer-events="none">#1 Я</text>
       `;
 
       const ringThickness = 42;
@@ -2176,7 +2176,7 @@ import '../styles/heritage.css';
             <div id="burialInlineForm" class="burial-inline-form" style="display:none; margin-top:8px;">
               <input type="text" id="burialInputVal" class="gate-input" value="${burialPlace}" placeholder="Кладбище, населенный пункт, сектор/могила..." style="padding:7px 10px; font-size:12px; margin-bottom:8px;" />
               <div style="display:flex; gap:8px;">
-                <button type="button" id="saveBurialBtn" class="btn-outline" style="border-color:#10b981; color:#6ee7b7; font-size:11.5px;">Сохранить</button>
+                <button type="button" id="saveBurialBtn" class="btn-outline" style="border-color:#146C43; color:#146C43; font-size:11.5px;">Сохранить</button>
                 <button type="button" id="cancelBurialBtn" class="btn-outline" style="font-size:11.5px;">Отмена</button>
               </div>
             </div>
@@ -2193,7 +2193,7 @@ import '../styles/heritage.css';
             <div id="burialInlineForm" class="burial-inline-form" style="display:none; margin-top:8px;">
               <input type="text" id="burialInputVal" class="gate-input" placeholder="Кладбище, населенный пункт, сектор/могила..." style="padding:7px 10px; font-size:12px; margin-bottom:8px;" />
               <div style="display:flex; gap:8px;">
-                <button type="button" id="saveBurialBtn" class="btn-outline" style="border-color:#10b981; color:#6ee7b7; font-size:11.5px;">Сохранить место</button>
+                <button type="button" id="saveBurialBtn" class="btn-outline" style="border-color:#146C43; color:#146C43; font-size:11.5px;">Сохранить место</button>
                 <button type="button" id="cancelBurialBtn" class="btn-outline" style="font-size:11.5px;">Отмена</button>
               </div>
             </div>
@@ -2226,9 +2226,9 @@ import '../styles/heritage.css';
         : (fc || 'Верифицировано прямыми документами ЗАГС, военными фондами и свидетельствами семьи.');
 
       const factCertHtml = isFactConfirmed ? `
-        <div style="padding:10px 12px; border-radius:10px; background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.45); margin-bottom:12px; font-size:12px; color:#6ee7b7;">
+        <div style="padding:10px 12px; border-radius:10px; background:#EDF7F1; border:1px solid rgba(16,185,129,0.45); margin-bottom:12px; font-size:12px; color:#146C43;">
           <strong><svg class="svg-icon sm"><use href="#icon-seal-confirmed"/></svg> АРХИВНЫЙ СЕРТИФИКАТ: 100% ФАКТ</strong><br/>
-          <span style="color:#cbd5e1; font-size:11.5px;">${fcText}</span>
+          <span style="color:#4A423B; font-size:11.5px;">${fcText}</span>
         </div>
       ` : '';
 
@@ -2361,7 +2361,7 @@ import '../styles/heritage.css';
         <div class="memories-section">
           <div class="field-label" style="display:flex; justify-content:space-between;">
             <span>Фамильные воспоминания и предания</span>
-            <span style="color:#10b981; font-weight:700;">${memories.length} записей</span>
+            <span style="color:#146C43; font-weight:700;">${memories.length} записей</span>
           </div>
 
           <div id="memoriesContainer" class="memories-list">
@@ -2387,7 +2387,7 @@ import '../styles/heritage.css';
               style="min-height:60px; padding:8px 12px; font-size:12px; resize:vertical; margin-bottom:8px;"
               required
             ></textarea>
-            <button type="button" id="submitMemoryBtn" class="btn-outline" style="width:100%; border-color:#10b981; color:#6ee7b7; font-weight:700;">
+            <button type="button" id="submitMemoryBtn" class="btn-outline" style="width:100%; border-color:#146C43; color:#146C43; font-weight:700;">
               + Добавить свидетельство в архив
             </button>
           </div>
@@ -2523,19 +2523,19 @@ import '../styles/heritage.css';
       `).join('');
 
       const relAncestorBtn = hyp.probable_relative_ahnentafel
-        ? `<button class="btn-outline" id="jumpToProbableAncestorBtn" style="border-color:#f59e0b; color:#fbbf24; font-weight:700;">
+        ? `<button class="btn-outline" id="jumpToProbableAncestorBtn" style="border-color:#B45309; color:#B45309; font-weight:700;">
              <svg class="svg-icon sm"><use href="#icon-link"/></svg> Перейти к родственнику в древе (Слот #${hyp.probable_relative_ahnentafel})
            </button>`
         : '';
 
       const citationsHtml = (hyp.citation_links || []).map(link => `
-        <li><a href="${link}" target="_blank" rel="noopener noreferrer" style="color:#6ee7b7; text-decoration:none;">${link} ↗</a></li>
+        <li><a href="${link}" target="_blank" rel="noopener noreferrer" style="color:#146C43; text-decoration:none;">${link} ↗</a></li>
       `).join('');
 
       const drawerBody = document.getElementById('drawerBody');
       drawerBody.innerHTML = `
-        <div class="drawer-portrait-hero" style="border-color:rgba(245,158,11,0.5); background:linear-gradient(145deg, rgba(38,28,12,0.96) 0%, rgba(14,18,27,0.98) 100%);">
-          <div class="drawer-portrait-box" style="border-color:#f59e0b; color:#f59e0b;"><svg class="svg-icon" style="width:32px;height:32px;"><use href="#icon-orbit-hypothesis"/></svg></div>
+        <div class="drawer-portrait-hero" style="border-color:#B45309; background:linear-gradient(145deg, rgba(38,28,12,0.96) 0%, rgba(14,18,27,0.98) 100%);">
+          <div class="drawer-portrait-box" style="border-color:#B45309; color:#B45309;"><svg class="svg-icon" style="width:32px;height:32px;"><use href="#icon-orbit-hypothesis"/></svg></div>
           <div style="flex:1;">
             <div class="badge-floating-hyp" style="margin-bottom:6px;">ГИПОТЕЗА / КАНДИДАТ В РОД • ${hyp.confidence}%</div>
             <h2 style="font-size:18px; color:#fef3c7; margin-bottom:4px;">${hyp.full_name}</h2>
@@ -2545,7 +2545,7 @@ import '../styles/heritage.css';
 
         <div class="field-row">
           <div class="field-label">Родовой кластер и поколение</div>
-          <div class="field-val" style="color:#fbbf24; font-weight:700;">
+          <div class="field-val" style="color:#B45309; font-weight:700;">
             ${(hyp.clan || '').toUpperCase()} • ${hyp.generation_label}
           </div>
         </div>
@@ -2606,7 +2606,7 @@ import '../styles/heritage.css';
         <div class="memories-section">
           <div class="field-label" style="display:flex; justify-content:space-between;">
             <span>Свидетельства и предания по гипотезе</span>
-            <span style="color:#fbbf24; font-weight:700;">${memories.length} записей</span>
+            <span style="color:#B45309; font-weight:700;">${memories.length} записей</span>
           </div>
 
           <div id="hypMemoriesContainer" class="memories-list">
@@ -2614,7 +2614,7 @@ import '../styles/heritage.css';
           </div>
 
           <div class="add-memory-box" style="border-color:rgba(245,158,11,0.4);">
-            <div style="font-weight:700; font-size:12px; margin-bottom:8px; color:#fbbf24;">
+            <div style="font-weight:700; font-size:12px; margin-bottom:8px; color:#B45309;">
               Дополнить свидетельство к гипотезе
             </div>
             <input
@@ -2632,7 +2632,7 @@ import '../styles/heritage.css';
               style="min-height:60px; padding:8px 12px; font-size:12px; resize:vertical; margin-bottom:8px;"
               required
             ></textarea>
-            <button type="button" id="submitHypMemoryBtn" class="btn-outline" style="width:100%; border-color:#f59e0b; color:#fbbf24; font-weight:700;">
+            <button type="button" id="submitHypMemoryBtn" class="btn-outline" style="width:100%; border-color:#B45309; color:#B45309; font-weight:700;">
               + Сохранить свидетельство по гипотезе
             </button>
           </div>
@@ -2734,7 +2734,7 @@ import '../styles/heritage.css';
         const bPlace = (document.getElementById('wizBirthPlace').value || '').trim();
 
         document.getElementById('wizSummaryPreview').innerHTML = `
-          <strong style="color:#6ee7b7;">Сводка присоединяемой ветви:</strong><br/>
+          <strong style="color:#146C43;">Сводка присоединяемой ветви:</strong><br/>
           К кому: ${targetText}<br/>
           Отношение: <strong>${rel}</strong><br/>
           ФИО персоны: <strong>${fullName}</strong> ${bDate ? `(${bDate} г.р.)` : ''}<br/>

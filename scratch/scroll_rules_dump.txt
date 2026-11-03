@@ -1,0 +1,427 @@
+994: .badge-fact-100 {
+995:   font-size: 9.5px;
+996:   font-weight: 800;
+997:   padding: 2px 7px;
+998:   border-radius: 4px;
+999:   background: rgba(16, 185, 129, 0.2);
+1000:   border: 1px solid rgba(16, 185, 129, 0.45);
+1001:   color: #6ee7b7;
+1002:   text-transform: uppercase;
+1003:   letter-spacing: 0.04em;
+1004:   display: inline-flex;
+1005:   align-items: center;
+1006:   gap: 3px;
+1007: }
+
+---
+1152: .badge-floating-hyp {
+1153:   font-size: 9px;
+1154:   font-weight: 800;
+1155:   padding: 2px 7px;
+1156:   border-radius: 4px;
+1157:   background: rgba(245, 158, 11, 0.22);
+1158:   border: 1px solid rgba(245, 158, 11, 0.55);
+1159:   color: #fbbf24;
+1160:   text-transform: uppercase;
+1161:   letter-spacing: 0.04em;
+1162:   display: inline-flex;
+1163:   align-items: center;
+1164:   gap: 4px;
+1165: }
+
+---
+1507: .scroll-app-container {
+1508:   max-width: 860px;
+1509:   margin: 0 auto;
+1510:   padding: 14px 14px 110px 14px;
+1511:   display: flex;
+1512:   flex-direction: column;
+1513:   gap: 14px;
+1514: }
+
+---
+1516: .scroll-sticky-header {
+1517:   position: sticky;
+1518:   top: 0;
+1519:   z-index: 60;
+1520:   background: rgba(10, 14, 22, 0.95);
+1521:   backdrop-filter: blur(16px);
+1522:   -webkit-backdrop-filter: blur(16px);
+1523:   border: 1px solid var(--border-strong);
+1524:   border-radius: 16px;
+1525:   padding: 12px 14px;
+1526:   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.72);
+1527:   display: flex;
+1528:   flex-direction: column;
+1529:   gap: 10px;
+1530: }
+
+---
+1591: .scroll-search-row {
+1592:   display: flex;
+1593:   gap: 8px;
+1594:   align-items: center;
+1595: }
+
+---
+1597: .scroll-search-wrap {
+1598:   position: relative;
+1599:   flex: 1;
+1600: }
+
+---
+1602: .scroll-search-icon {
+1603:   position: absolute;
+1604:   left: 11px;
+1605:   top: 50%;
+1606:   transform: translateY(-50%);
+1607:   font-size: 13px;
+1608:   pointer-events: none;
+1609: }
+
+---
+1611: .scroll-search-input {
+1612:   width: 100%;
+1613:   padding: 9px 12px 9px 34px;
+1614:   border-radius: 10px;
+1615:   background: #FFFFFF;
+1616:   border: 1px solid rgba(148, 163, 184, 0.25);
+1617:   color: var(--text-main);
+1618:   font-size: 13px;
+1619: }
+
+---
+1621: .scroll-search-input:focus {
+1622:   outline: none;
+1623:   border-color: var(--gold-primary);
+1624:   box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
+1625: }
+
+---
+1628: .scroll-mode-switch {
+1629:   display: grid;
+1630:   grid-template-columns: 1fr 1fr;
+1631:   gap: 6px;
+1632:   background: #FFFFFF;
+1633:   padding: 4px;
+1634:   border-radius: 11px;
+1635:   border: 1px solid rgba(148, 163, 184, 0.18);
+1636: }
+
+---
+1638: .scroll-mode-btn {
+1639:   padding: 8px 10px;
+1640:   border-radius: 8px;
+1641:   border: 1px solid transparent;
+1642:   background: transparent;
+1643:   color: var(--text-muted);
+1644:   font-size: 12px;
+1645:   font-weight: 800;
+1646:   cursor: pointer;
+1647:   display: flex;
+1648:   align-items: center;
+1649:   justify-content: center;
+1650:   gap: 6px;
+1651:   transition: all 0.18s ease;
+1652: }
+
+---
+1654: .scroll-mode-btn.active-facts {
+1655:   background: linear-gradient(135deg, rgba(16, 185, 129, 0.26) 0%, rgba(16, 185, 129, 0.14) 100%);
+1656:   border-color: #10b981;
+1657:   color: #6ee7b7;
+1658:   box-shadow: 0 2px 12px rgba(16, 185, 129, 0.22);
+1659: }
+
+---
+1661: .scroll-mode-btn.active-all {
+1662:   background: linear-gradient(135deg, #8B261E 0%, #7A1C1C 100%);
+1663:   border-color: #d4af37;
+1664:   color: #07090e;
+1665:   box-shadow: 0 2px 12px rgba(212, 175, 55, 0.3);
+1666: }
+
+---
+1668: .badge-count {
+1669:   padding: 1px 6px;
+1670:   border-radius: 999px;
+1671:   background: rgba(0, 0, 0, 0.35);
+1672:   font-size: 10.5px;
+1673:   font-weight: 900;
+1674: }
+
+---
+1677: .scroll-clan-pills {
+1678:   display: flex;
+1679:   gap: 6px;
+1680:   overflow-x: auto;
+1681:   padding-bottom: 2px;
+1682:   scrollbar-width: none;
+1683: }
+
+---
+1684: .scroll-clan-pills::-webkit-scrollbar { display: none; }
+1685: 
+1686: .scroll-clan-pill {
+1687:   padding: 6px 12px;
+1688:   border-radius: 999px;
+1689:   border: 1px solid rgba(148, 163, 184, 0.22);
+1690:   background: rgba(18, 24, 36, 0.88);
+1691:   color: var(--text-muted);
+1692:   font-size: 11.5px;
+1693:   font-weight: 700;
+1694:   white-space: nowrap;
+1695:   cursor: pointer;
+1696:   transition: all 0.15s ease;
+1697: }
+
+---
+1699: .scroll-clan-pill.active {
+1700:   background: rgba(212, 175, 55, 0.22);
+1701:   border-color: var(--gold-primary);
+1702:   color: var(--gold-light);
+1703:   box-shadow: 0 0 12px rgba(212, 175, 55, 0.2);
+1704: }
+
+---
+1707: .scroll-gen-jumpbar {
+1708:   display: flex;
+1709:   align-items: center;
+1710:   gap: 5px;
+1711:   overflow-x: auto;
+1712:   scrollbar-width: none;
+1713: }
+
+---
+1714: .scroll-gen-jumpbar::-webkit-scrollbar { display: none; }
+1715: 
+1716: .jumpbar-label {
+1717:   font-size: 10.5px;
+1718:   color: var(--text-dim);
+1719:   font-weight: 800;
+1720:   text-transform: uppercase;
+1721:   margin-right: 2px;
+1722:   white-space: nowrap;
+1723: }
+
+---
+1745: .scroll-gen-section {
+1746:   display: flex;
+1747:   flex-direction: column;
+1748:   gap: 10px;
+1749:   scroll-margin-top: 230px;
+1750:   margin-bottom: 14px;
+1751: }
+
+---
+1753: .scroll-gen-header {
+1754:   display: flex;
+1755:   justify-content: space-between;
+1756:   align-items: center;
+1757:   padding: 10px 14px;
+1758:   border-radius: 12px;
+1759:   background: linear-gradient(90deg, rgba(212, 175, 55, 0.16) 0%, rgba(14, 18, 27, 0.92) 100%);
+1760:   border: 1px solid rgba(212, 175, 55, 0.35);
+1761: }
+
+---
+1763: .scroll-gen-title {
+1764:   display: flex;
+1765:   align-items: center;
+1766:   gap: 10px;
+1767:   font-size: 14px;
+1768:   font-weight: 800;
+1769:   color: var(--gold-light);
+1770: }
+
+---
+1786: .scroll-gen-stats {
+1787:   font-size: 11.5px;
+1788:   color: var(--text-muted);
+1789:   font-weight: 700;
+1790: }
+
+---
+1793: .scroll-person-card {
+1794:   background: #FFFFFF;
+1795:   border: 1px solid rgba(148, 163, 184, 0.22);
+1796:   border-left: 5px solid var(--gold-primary);
+1797:   border-radius: 16px;
+1798:   padding: 14px;
+1799:   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.55);
+1800:   display: flex;
+1801:   flex-direction: column;
+1802:   gap: 11px;
+1803:   transition: all 0.2s ease;
+1804:   scroll-margin-top: 240px;
+1805: }
+
+---
+1807: .scroll-person-card.branch-paternal {
+1808:   border-left-color: #e07a5f;
+1809: }
+
+---
+1811: .scroll-person-card.branch-maternal {
+1812:   border-left-color: #2a9d8f;
+1813: }
+
+---
+1815: .scroll-person-card.is-fact-card {
+1816:   border-color: rgba(212, 175, 55, 0.55);
+1817:   border-left: 5px solid #10b981;
+1818:   background: linear-gradient(155deg, rgba(28, 25, 16, 0.97) 0%, rgba(13, 18, 27, 0.99) 100%);
+1819: }
+
+---
+1821: .scroll-person-card.is-hyp-card {
+1822:   border: 1.5px dashed #f59e0b;
+1823:   border-left: 5px solid #f59e0b;
+1824:   background: linear-gradient(155deg, rgba(36, 26, 12, 0.96) 0%, rgba(15, 13, 10, 0.98) 100%);
+1825: }
+
+---
+1827: .scroll-person-card.highlight-target {
+1828:   outline: 3px solid #f3dc8a;
+1829:   box-shadow: 0 0 32px rgba(243, 220, 138, 0.75);
+1830: }
+
+---
+1832: .scroll-card-top {
+1833:   display: flex;
+1834:   gap: 13px;
+1835:   align-items: flex-start;
+1836: }
+
+---
+1838: .scroll-avatar {
+1839:   width: 62px;
+1840:   height: 62px;
+1841:   min-width: 62px;
+1842:   border-radius: 14px;
+1843:   background: #090d14;
+1844:   border: 2px solid var(--gold-primary);
+1845:   overflow: hidden;
+1846:   display: flex;
+1847:   align-items: center;
+1848:   justify-content: center;
+1849:   position: relative;
+1850:   cursor: pointer;
+1851: }
+
+---
+1853: .scroll-avatar img {
+1854:   width: 100%;
+1855:   height: 100%;
+1856:   object-fit: cover;
+1857: }
+
+---
+1859: .scroll-avatar-cam {
+1860:   position: absolute;
+1861:   bottom: 0;
+1862:   left: 0;
+1863:   right: 0;
+1864:   background: rgba(0, 0, 0, 0.75);
+1865:   color: var(--gold-light);
+1866:   font-size: 9px;
+1867:   text-align: center;
+1868:   padding: 2px 0;
+1869:   font-weight: 700;
+1870: }
+
+---
+1872: .scroll-person-main {
+1873:   flex: 1;
+1874:   min-width: 0;
+1875: }
+
+---
+1877: .scroll-badges-row {
+1878:   display: flex;
+1879:   flex-wrap: wrap;
+1880:   gap: 5px;
+1881:   margin-bottom: 5px;
+1882: }
+
+---
+1884: .scroll-person-name {
+1885:   font-size: 16px;
+1886:   font-weight: 800;
+1887:   color: var(--text-main);
+1888:   line-height: 1.25;
+1889:   margin-bottom: 3px;
+1890: }
+
+---
+1892: .scroll-person-role {
+1893:   font-size: 12px;
+1894:   color: var(--gold-light);
+1895:   font-weight: 600;
+1896:   margin-bottom: 4px;
+1897: }
+
+---
+1899: .scroll-person-meta {
+1900:   display: flex;
+1901:   flex-wrap: wrap;
+1902:   gap: 8px;
+1903:   font-size: 12px;
+1904:   color: var(--text-muted);
+1905: }
+
+---
+1907: .scroll-person-bio {
+1908:   font-size: 12.5px;
+1909:   color: #cbd5e1;
+1910:   line-height: 1.5;
+1911:   padding: 9px 11px;
+1912:   border-radius: 10px;
+1913:   background: #FAF6EE;
+1914:   border-left: 3px solid rgba(212, 175, 55, 0.45);
+1915: }
+
+---
+1918: .scroll-kinship-pills {
+1919:   display: flex;
+1920:   flex-wrap: wrap;
+1921:   gap: 6px;
+1922: }
+
+---
+1951: .scroll-card-actions {
+1952:   display: flex;
+1953:   flex-wrap: wrap;
+1954:   gap: 7px;
+1955:   padding-top: 6px;
+1956:   border-top: 1px solid rgba(148, 163, 184, 0.14);
+1957: }
+
+---
+1959: .scroll-act-btn {
+1960:   padding: 7px 12px;
+1961:   border-radius: 8px;
+1962:   border: 1px solid rgba(148, 163, 184, 0.25);
+1963:   background: #FAF6EE;
+1964:   color: var(--text-main);
+1965:   font-size: 11.5px;
+1966:   font-weight: 700;
+1967:   cursor: pointer;
+1968:   display: inline-flex;
+1969:   align-items: center;
+1970:   gap: 5px;
+1971:   transition: all 0.15s ease;
+1972: }
+
+---
+1974: .scroll-act-btn:hover {
+1975:   border-color: var(--gold-primary);
+1976:   color: var(--gold-light);
+1977: }
+
+---
+1979: .scroll-act-btn.primary-act {
+1980:   background: rgba(212, 175, 55, 0.16);
+1981:   border-color: rgba(212, 175, 55, 0.5);
+1982:   color: var(--gold-light);
+1983: }

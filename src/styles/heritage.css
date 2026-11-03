@@ -399,10 +399,10 @@ html, body {
   width: 100%;
   height: calc(100vh - 68px);
   overflow: hidden;
-  background-color: #06080d;
+  background-color: #FAF6EE;
   background-image:
-    radial-gradient(rgba(212, 175, 55, 0.16) 1px, transparent 1px),
-    radial-gradient(rgba(42, 157, 143, 0.08) 1px, transparent 1px);
+    radial-gradient(rgba(124, 94, 36, 0.25) 1.2px, transparent 1.2px),
+    radial-gradient(rgba(122, 28, 28, 0.12) 1.2px, transparent 1.2px);
   background-size: 28px 28px;
   background-position: 0 0, 14px 14px;
   cursor: grab;
@@ -548,43 +548,41 @@ html, body {
 /* Generation Column Banner on the Canvas */
 .canvas-gen-banner {
   position: absolute;
-  width: 310px;
-  padding: 8px 14px;
-  background: #EDE4D4;
-  border: 1px solid var(--border-strong);
+  padding: 8px 16px;
+  background: #FFFFFF;
+  border: 1.5px solid #7C5E24;
   border-radius: 10px;
-  text-align: center;
+  box-shadow: 0 4px 12px rgba(74, 66, 59, 0.08);
   pointer-events: none;
+  z-index: 5;
 }
 
 .canvas-gen-banner .t1 {
-  font-size: 12.5px;
+  font-size: 12px;
   font-weight: 800;
-  color: var(--gold-light);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  color: #7A1C1C;
+  letter-spacing: 0.05em;
 }
 
 .canvas-gen-banner .t2 {
-  font-size: 11px;
-  color: var(--text-muted);
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #1A1715;
 }
 
 /* ================= ROADMAP NODE CARD WITH PHOTO PORTRAIT ================= */
 .rm-node {
   position: absolute;
-  width: 310px;
-  background: #FFFFFF;
-  border: 1px solid rgba(148, 163, 184, 0.22);
-  border-left: 4px solid var(--status-unknown);
   border-radius: 14px;
-  padding: 12px;
+  border: 1.5px solid var(--border-medium);
+  background: #FFFFFF;
+  box-shadow: 0 4px 14px rgba(74, 66, 59, 0.08);
   display: flex;
+  padding: 10px 12px;
   gap: 12px;
-  align-items: flex-start;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.55);
   cursor: pointer;
-  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  user-select: none;
 }
 
 .rm-node:hover {
@@ -594,15 +592,16 @@ html, body {
 }
 
 .rm-node.proband-node {
-  width: 330px;
-  border: 2px solid var(--gold-primary);
-  background: linear-gradient(145deg, rgba(35, 30, 18, 0.96) 0%, rgba(15, 19, 28, 0.98) 100%);
-  box-shadow: 0 0 36px rgba(212, 175, 55, 0.25);
+  border: 2.5px solid #7A1C1C !important;
+  border-left: 7px solid #7A1C1C !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 6px 20px rgba(122, 28, 28, 0.18) !important;
 }
 
 .rm-node.collateral-node {
   border-style: dashed;
-  background: linear-gradient(160deg, rgba(19, 32, 38, 0.95) 0%, rgba(12, 18, 26, 0.98) 100%);
+  border-color: #7C5E24;
+  background: #FFFFFF;
 }
 
 .rm-node.status-CONFIRMED_DOC { border-left-color: var(--status-confirmed); }
@@ -617,8 +616,8 @@ html, body {
   height: 62px;
   min-width: 62px;
   border-radius: 12px;
-  background: radial-gradient(circle at 30% 30%, #263147 0%, #0d121c 100%);
-  border: 1.5px solid rgba(212, 175, 55, 0.45);
+  background: #F5EFEB;
+  border: 1.5px solid #7C5E24;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -628,7 +627,19 @@ html, body {
 }
 
 .rm-node.branch-maternal .rm-portrait {
-  border-color: rgba(42, 157, 143, 0.6);
+  position: relative;
+  width: 62px;
+  height: 62px;
+  min-width: 62px;
+  border-radius: 12px;
+  background: #F5EFEB;
+  border: 1.5px solid #7C5E24;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .rm-portrait img {
@@ -714,23 +725,25 @@ html, body {
 }
 
 .rm-name {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--text-main);
+  font-size: 15px;
+  font-weight: 800;
+  color: #1A1715;
   margin-bottom: 2px;
-  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .rm-dates {
-  font-size: 11px;
+  font-size: 12px;
+  color: #4A423B;
   font-weight: 600;
-  color: var(--gold-light);
   margin-bottom: 2px;
 }
 
 .rm-place {
-  font-size: 10.5px;
-  color: var(--text-muted);
+  font-size: 11.5px;
+  color: #6E645A;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -780,10 +793,10 @@ html, body {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 12px;
   padding: 10px 12px;
-  background: #FFFFFF;
-  border: 1px solid rgba(212, 175, 55, 0.25);
+  background: #FAF6EE;
+  border: 1.5px solid #7C5E24;
   border-radius: var(--radius-sm);
-  color: #f3dc8a;
+  color: #7A1C1C;
 }
 
 /* ================= DOSSIER DRAWER ================= */
@@ -842,9 +855,9 @@ html, body {
   height: 96px;
   min-width: 96px;
   border-radius: 14px;
-  border: 2px solid var(--gold-primary);
+  border: 2px solid #7C5E24;
   overflow: hidden;
-  background: #0a0e17;
+  background: #F5EFEB;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -980,10 +993,10 @@ html, body {
 
 /* 2. Карточки подтвержденных персон в режиме «Только факты» */
 .rm-node.is-fact-confirmed {
-  border: 2px solid #d4af37 !important;
-  border-left: 5px solid #10b981 !important;
-  background: linear-gradient(155deg, rgba(32, 27, 16, 0.98) 0%, rgba(14, 18, 27, 0.98) 100%) !important;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7), 0 0 24px rgba(212, 175, 55, 0.3) !important;
+  border: 2px solid #146C43 !important;
+  border-left: 6px solid #146C43 !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 4px 16px rgba(20, 108, 67, 0.12) !important;
 }
 
 .rm-node.is-fact-confirmed:hover {
@@ -992,29 +1005,23 @@ html, body {
 }
 
 .badge-fact-100 {
-  font-size: 9.5px;
+  font-size: 12px;
   font-weight: 800;
-  padding: 2px 7px;
-  border-radius: 4px;
-  background: rgba(16, 185, 129, 0.2);
-  border: 1px solid rgba(16, 185, 129, 0.45);
-  color: #6ee7b7;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: 6px;
+  background: #EDF7F1;
+  border: 1.5px solid #146C43;
+  color: #146C43;
   display: inline-flex;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
 }
 
 /* 3. Компактные слоты ожидания архивной выписки */
 .rm-node.is-pending-fact {
-  height: 52px !important;
-  padding: 8px 12px !important;
-  background: rgba(14, 18, 27, 0.5) !important;
-  border: 1px dashed rgba(212, 175, 55, 0.28) !important;
-  border-left: 3px solid rgba(148, 163, 184, 0.3) !important;
-  opacity: 0.65;
-  box-shadow: none !important;
+  background: #FDFBF7 !important;
+  border: 1.5px dashed var(--border-subtle) !important;
+  opacity: 0.85;
 }
 
 .rm-node.is-pending-fact:hover {
@@ -1023,14 +1030,29 @@ html, body {
 }
 
 .rm-node.is-pending-fact .rm-portrait {
-  width: 34px !important;
-  height: 34px !important;
-  min-width: 34px !important;
+  position: relative;
+  width: 62px;
+  height: 62px;
+  min-width: 62px;
+  border-radius: 12px;
+  background: #F5EFEB;
+  border: 1.5px solid #7C5E24;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .rm-node.is-pending-fact .rm-name {
-  font-size: 11.5px !important;
-  color: var(--text-muted) !important;
+  font-size: 15px;
+  font-weight: 800;
+  color: #1A1715;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .rm-node.is-pending-fact .rm-dates,
@@ -1138,9 +1160,9 @@ html, body {
 
 /* ==================== 7. ПАРЯЩИЕ ОРБИТАЛЬНЫЕ ГИПОТЕЗЫ (FLOATING_HYPOTHESIS) ==================== */
 .rm-node.floating-hypothesis-node {
-  border: 2px dashed #f59e0b !important;
-  background: linear-gradient(160deg, rgba(38, 28, 12, 0.96) 0%, rgba(18, 14, 10, 0.98) 100%) !important;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.65), 0 0 22px rgba(245, 158, 11, 0.18) !important;
+  border: 2px dashed #B45309 !important;
+  background: #FFFDF9 !important;
+  box-shadow: 0 4px 14px rgba(180, 83, 9, 0.12) !important;
 }
 
 .rm-node.floating-hypothesis-node:hover {
@@ -1150,34 +1172,32 @@ html, body {
 }
 
 .badge-floating-hyp {
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 800;
-  padding: 2px 7px;
-  border-radius: 4px;
-  background: rgba(245, 158, 11, 0.22);
-  border: 1px solid rgba(245, 158, 11, 0.55);
-  color: #fbbf24;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: 6px;
+  background: #FEF7ED;
+  border: 1.5px solid #B45309;
+  color: #B45309;
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 5px;
 }
 
 .canvas-hyp-banner {
   position: absolute;
   width: 310px;
-  padding: 6px 12px;
-  background: rgba(30, 22, 10, 0.92);
-  border: 1px dashed rgba(245, 158, 11, 0.45);
+  padding: 8px 14px;
+  background: #FEF7ED;
+  border: 1.5px dashed #B45309;
   border-radius: 8px;
   text-align: center;
-  font-size: 11px;
+  font-size: 11.5px;
   font-weight: 800;
-  color: #fbbf24;
+  color: #9A3412;
   letter-spacing: 0.05em;
   pointer-events: none;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 12px rgba(180, 83, 9, 0.08);
 }
 
 /* ==================== 8. УМНОЕ ПРАВИЛО ЗАХОРОНЕНИЙ (НЕКРОПОЛЬ) ==================== */
@@ -1515,18 +1535,19 @@ html, body {
 
 .scroll-sticky-header {
   position: sticky;
-  top: 0;
-  z-index: 60;
-  background: rgba(10, 14, 22, 0.95);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--border-strong);
+  top: 66px;
+  z-index: 50;
+  background: #FFFFFF;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1.5px solid #7C5E24;
   border-radius: 16px;
-  padding: 12px 14px;
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.72);
+  padding: 14px;
+  margin-bottom: 18px;
+  box-shadow: 0 6px 20px rgba(74, 66, 59, 0.1);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 /* Smart Kinship Path Breadcrumb */
@@ -1610,12 +1631,15 @@ html, body {
 
 .scroll-search-input {
   width: 100%;
-  padding: 9px 12px 9px 34px;
+  padding: 11px 14px 11px 38px;
   border-radius: 10px;
-  background: #FFFFFF;
-  border: 1px solid rgba(148, 163, 184, 0.25);
-  color: var(--text-main);
-  font-size: 13px;
+  background: #FAF6EE;
+  border: 1.5px solid var(--border-medium);
+  color: #1A1715;
+  font-size: 15px;
+  font-weight: 600;
+  outline: none;
+  transition: all 0.15s ease;
 }
 
 .scroll-search-input:focus {
@@ -1626,51 +1650,60 @@ html, body {
 
 /* Mode Toggle inside Scroll View */
 .scroll-mode-switch {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6px;
-  background: #FFFFFF;
-  padding: 4px;
+  display: flex;
+  background: #FAF6EE;
   border-radius: 11px;
-  border: 1px solid rgba(148, 163, 184, 0.18);
+  border: 1.5px solid var(--border-medium);
+  padding: 4px;
+  gap: 4px;
 }
 
 .scroll-mode-btn {
-  padding: 8px 10px;
-  border-radius: 8px;
-  border: 1px solid transparent;
-  background: transparent;
-  color: var(--text-muted);
-  font-size: 12px;
-  font-weight: 800;
-  cursor: pointer;
-  display: flex;
+  flex: 1;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  transition: all 0.18s ease;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  background: transparent;
+  color: #4A423B;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
 }
 
 .scroll-mode-btn.active-facts {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.26) 0%, rgba(16, 185, 129, 0.14) 100%);
-  border-color: #10b981;
-  color: #6ee7b7;
-  box-shadow: 0 2px 12px rgba(16, 185, 129, 0.22);
+  background: #146C43;
+  border-color: #146C43;
+  color: #FFFFFF !important;
+  font-weight: 800;
+  box-shadow: 0 2px 8px rgba(20, 108, 67, 0.28);
+}
+.scroll-mode-btn.active-facts svg {
+  stroke: #FFFFFF;
 }
 
 .scroll-mode-btn.active-all {
-  background: linear-gradient(135deg, #8B261E 0%, #7A1C1C 100%);
-  border-color: #d4af37;
-  color: #07090e;
-  box-shadow: 0 2px 12px rgba(212, 175, 55, 0.3);
+  background: #7A1C1C;
+  border-color: #7A1C1C;
+  color: #FFFFFF !important;
+  font-weight: 800;
+  box-shadow: 0 2px 8px rgba(122, 28, 28, 0.32);
+}
+.scroll-mode-btn.active-all svg {
+  stroke: #FFFFFF;
 }
 
 .badge-count {
-  padding: 1px 6px;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 2px 7px;
   border-radius: 999px;
-  background: rgba(0, 0, 0, 0.35);
-  font-size: 10.5px;
-  font-weight: 900;
+  background: rgba(0, 0, 0, 0.2);
+  color: inherit;
 }
 
 /* Clan Filter Chips */
@@ -1684,23 +1717,30 @@ html, body {
 .scroll-clan-pills::-webkit-scrollbar { display: none; }
 
 .scroll-clan-pill {
-  padding: 6px 12px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
   border-radius: 999px;
-  border: 1px solid rgba(148, 163, 184, 0.22);
-  background: rgba(18, 24, 36, 0.88);
-  color: var(--text-muted);
-  font-size: 11.5px;
+  border: 1.5px solid var(--border-medium);
+  background: #FAF6EE;
+  color: #1A1715;
+  font-size: 13px;
   font-weight: 700;
-  white-space: nowrap;
   cursor: pointer;
+  white-space: nowrap;
   transition: all 0.15s ease;
 }
 
 .scroll-clan-pill.active {
-  background: rgba(212, 175, 55, 0.22);
-  border-color: var(--gold-primary);
-  color: var(--gold-light);
-  box-shadow: 0 0 12px rgba(212, 175, 55, 0.2);
+  background: #7A1C1C !important;
+  border-color: #7A1C1C !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 2px 8px rgba(122, 28, 28, 0.3);
+}
+.scroll-clan-pill.active svg {
+  stroke: #FFFFFF;
 }
 
 /* Generation Quick-Jump Bar (I - VII) */
@@ -1723,22 +1763,27 @@ html, body {
 }
 
 .gen-jump-btn {
-  padding: 5px 10px;
-  border-radius: 8px;
-  background: #FFFFFF;
-  border: 1px solid rgba(212, 175, 55, 0.25);
-  color: var(--gold-light);
-  font-size: 11.5px;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 1.5px solid var(--border-medium);
+  background: #FAF6EE;
+  color: #1A1715;
+  font-size: 13.5px;
   font-weight: 800;
   cursor: pointer;
-  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition: all 0.15s ease;
 }
 
 .gen-jump-btn:hover, .gen-jump-btn.active {
-  background: var(--gold-primary);
-  color: #07090e;
-  border-color: var(--gold-light);
+  background: #7A1C1C;
+  border-color: #7A1C1C;
+  color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(122, 28, 28, 0.3);
 }
 
 /* Generation Section Block */
@@ -1751,22 +1796,24 @@ html, body {
 }
 
 .scroll-gen-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 14px;
+  margin: 24px 0 12px 0;
+  padding: 12px 16px;
   border-radius: 12px;
-  background: linear-gradient(90deg, rgba(212, 175, 55, 0.16) 0%, rgba(14, 18, 27, 0.92) 100%);
-  border: 1px solid rgba(212, 175, 55, 0.35);
+  background: #FFFFFF;
+  border: 1.5px solid #7C5E24;
+  box-shadow: 0 3px 12px rgba(74, 66, 59, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .scroll-gen-title {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
-  color: var(--gold-light);
+  color: #7A1C1C;
+  margin-bottom: 2px;
 }
 
 .gen-roman-badge {
@@ -1784,24 +1831,24 @@ html, body {
 }
 
 .scroll-gen-stats {
-  font-size: 11.5px;
-  color: var(--text-muted);
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 800;
+  color: #7C5E24;
 }
 
 /* Native Ancestor Card in Scroll */
 .scroll-person-card {
   background: #FFFFFF;
-  border: 1px solid rgba(148, 163, 184, 0.22);
-  border-left: 5px solid var(--gold-primary);
-  border-radius: 16px;
-  padding: 14px;
-  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.55);
+  border: 1.5px solid var(--border-medium);
+  border-left: 6px solid var(--border-strong);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 4px 14px rgba(74, 66, 59, 0.07);
   display: flex;
   flex-direction: column;
-  gap: 11px;
-  transition: all 0.2s ease;
-  scroll-margin-top: 240px;
+  gap: 12px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .scroll-person-card.branch-paternal {
@@ -1813,15 +1860,17 @@ html, body {
 }
 
 .scroll-person-card.is-fact-card {
-  border-color: rgba(212, 175, 55, 0.55);
-  border-left: 5px solid #10b981;
-  background: linear-gradient(155deg, rgba(28, 25, 16, 0.97) 0%, rgba(13, 18, 27, 0.99) 100%);
+  background: #FFFFFF !important;
+  border: 1.5px solid #146C43 !important;
+  border-left: 6px solid #146C43 !important;
+  box-shadow: 0 4px 16px rgba(20, 108, 67, 0.1) !important;
 }
 
 .scroll-person-card.is-hyp-card {
-  border: 1.5px dashed #f59e0b;
-  border-left: 5px solid #f59e0b;
-  background: linear-gradient(155deg, rgba(36, 26, 12, 0.96) 0%, rgba(15, 13, 10, 0.98) 100%);
+  background: #FEFBF6 !important;
+  border: 1.5px dashed #B45309 !important;
+  border-left: 6px solid #B45309 !important;
+  box-shadow: 0 4px 14px rgba(180, 83, 9, 0.08) !important;
 }
 
 .scroll-person-card.highlight-target {
@@ -1836,17 +1885,20 @@ html, body {
 }
 
 .scroll-avatar {
-  width: 62px;
-  height: 62px;
-  min-width: 62px;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
   border-radius: 14px;
-  background: #090d14;
-  border: 2px solid var(--gold-primary);
+  background: #F5EFEB;
+  border: 2px solid #7C5E24;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  color: #7A1C1C;
+  font-size: 20px;
+  font-weight: 800;
   cursor: pointer;
 }
 
@@ -1882,36 +1934,38 @@ html, body {
 }
 
 .scroll-person-name {
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 800;
-  color: var(--text-main);
-  line-height: 1.25;
+  color: #1A1715 !important;
+  line-height: 1.3;
   margin-bottom: 3px;
 }
 
 .scroll-person-role {
-  font-size: 12px;
-  color: var(--gold-light);
-  font-weight: 600;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #7A1C1C !important;
   margin-bottom: 4px;
 }
 
 .scroll-person-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  font-size: 12px;
-  color: var(--text-muted);
+  gap: 10px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #4A423B !important;
+  line-height: 1.4;
 }
 
 .scroll-person-bio {
-  font-size: 12.5px;
-  color: #cbd5e1;
+  color: #1A1715 !important;
+  font-size: 13.5px;
   line-height: 1.5;
-  padding: 9px 11px;
-  border-radius: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
   background: #FAF6EE;
-  border-left: 3px solid rgba(212, 175, 55, 0.45);
+  border-left: 3px solid #7C5E24;
 }
 
 /* Smart Kinship Quick-Jump Pills inside each card */
@@ -1924,14 +1978,14 @@ html, body {
 .kinship-pill {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  padding: 5px 10px;
-  border-radius: 8px;
-  background: rgba(15, 22, 34, 0.9);
-  border: 1px solid rgba(148, 163, 184, 0.25);
-  color: var(--text-main);
-  font-size: 11.5px;
-  font-weight: 600;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #FFFFFF;
+  border: 1.5px solid #7C5E24;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1A1715;
   cursor: pointer;
   transition: all 0.15s ease;
 }
@@ -1957,29 +2011,35 @@ html, body {
 }
 
 .scroll-act-btn {
-  padding: 7px 12px;
+  padding: 8px 14px;
   border-radius: 8px;
-  border: 1px solid rgba(148, 163, 184, 0.25);
+  border: 1.5px solid var(--border-medium);
   background: #FAF6EE;
-  color: var(--text-main);
-  font-size: 11.5px;
+  color: #1A1715;
+  font-size: 13px;
   font-weight: 700;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
+  min-height: 42px;
   transition: all 0.15s ease;
 }
 
 .scroll-act-btn:hover {
-  border-color: var(--gold-primary);
-  color: var(--gold-light);
+  border-color: #7A1C1C;
+  color: #7A1C1C;
+  background: #F3ECE0;
 }
 
 .scroll-act-btn.primary-act {
-  background: rgba(212, 175, 55, 0.16);
-  border-color: rgba(212, 175, 55, 0.5);
-  color: var(--gold-light);
+  background: #7A1C1C;
+  border-color: #7A1C1C;
+  color: #FFFFFF !important;
+  font-weight: 700;
+}
+.scroll-act-btn.primary-act svg {
+  stroke: #FFFFFF;
 }
 
 /* 12 Rubrics Accordion inside Dossier Drawer */

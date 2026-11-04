@@ -124,6 +124,24 @@ body[data-clan-theme="yukhin"] {
   --bg-panel-elevated: #E7D5F2;
 }
 
+/* 5. ДОМ САБАНОВЫХ (Византийский Церковный Индиго и Старое Сусальное Золото Клира) */
+html[data-clan-theme="sabanov"],
+body[data-clan-theme="sabanov"] {
+  --theme-primary: #1E3A5F;
+  --theme-primary-hover: #152C4A;
+  --theme-accent: #9A7B2C;
+  --theme-accent-light: #B89438;
+  --theme-bg: #F5F7FA;
+  --theme-surface: #FFFFFF;
+  --theme-surface-warm: #EDF2F8;
+  --theme-border: #2B5282;
+  --theme-border-subtle: rgba(43, 82, 130, 0.28);
+  --theme-glow: rgba(30, 58, 95, 0.18);
+  --theme-badge-bg: rgba(30, 58, 95, 0.08);
+  --bg-panel: #E3EAF3;
+  --bg-panel-elevated: #D5E0EE;
+}
+
 /* Плавный кинематографичный переход тинктур */
 html, body, .topbar, .brand-seal, .scroll-person-card, .rm-node, .mob-bottom-nav,
 .mob-nav-item, .chip-btn, .scroll-clan-pill, .seg-btn, .roadmap-shell, .clan-theme-pill {
@@ -2719,4 +2737,87 @@ html, body {
   opacity: var(--theme-watermark-opacity);
   z-index: 0;
   transition: opacity 0.5s ease;
+}
+
+/* ================= WAVE T1: 5-CLAN SPECIAL HERALDIC & HISTORICAL BADGES ================= */
+.special-badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.badge-wave-t1 {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 10.5px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  border: 1px solid transparent;
+}
+
+.badge-centenarian-105 {
+  background: linear-gradient(135deg, #FEF7ED 0%, #FDE68A 100%);
+  color: #7C2D12;
+  border-color: #B45309;
+  box-shadow: 0 1px 4px rgba(180, 83, 9, 0.18);
+}
+
+.badge-clergy {
+  background: #EDF2F8;
+  color: #1E3A5F;
+  border-color: rgba(30, 58, 95, 0.45);
+}
+
+.badge-midwife {
+  background: #FDF2F8;
+  color: #831843;
+  border-color: rgba(131, 24, 67, 0.35);
+}
+
+.badge-chrono-40 {
+  background: #FEFCE8;
+  color: #854D0E;
+  border-color: #CA8A04;
+}
+
+.badge-stary-shustrui {
+  background: #EFF6FF;
+  color: #1E40AF;
+  border-color: rgba(37, 99, 235, 0.35);
+}
+
+
+
+/* Level of Detail (LOD) High-Performance Minimap Mode when zoom < 0.52 */
+.roadmap-world.lod-simplified .rm-node {
+  box-shadow: 0 1px 4px rgba(74, 66, 59, 0.12) !important;
+  transition: none !important;
+}
+.roadmap-world.lod-simplified .rm-meta-row,
+.roadmap-world.lod-simplified .badge-wave-t1,
+.roadmap-world.lod-simplified .rm-photo-badge,
+.roadmap-world.lod-simplified .rm-role-sub {
+  display: none !important;
+}
+.roadmap-world.lod-simplified .rm-card-body {
+  padding: 4px 6px !important;
+  gap: 6px !important;
+}
+.roadmap-world.lod-simplified .rm-portrait {
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+}
+
+/* Roadmap Shell Parchment Safe Background (No Black Void) */
+.roadmap-shell {
+  background-color: #FAF6EE !important;
+}
+#view-tree {
+  background-color: #FAF6EE !important;
 }

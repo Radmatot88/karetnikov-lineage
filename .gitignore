@@ -20,9 +20,11 @@ dist/
 # Unencrypted local lineage master files (ONLY AES-256-GCM encrypted payload goes to public/vault/)
 _SOVEREIGN_OWNER_VAULT/
 data/vault/lineage_graph.json
+data/vault/lineage_graph.backup_*.json
 data/vault/*.ged
 data/raw_scans/
 data/private_docs/
+scratch/
 
 # OS & IDE
 .DS_Store

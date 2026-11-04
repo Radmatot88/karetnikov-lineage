@@ -3,7 +3,7 @@
     "title": "Unified Evidence and Candidates Ledger (Karetnikov Sovereign Heritage)",
     "curator": "Граф Каретников (Каретников Дмитрий Иванович)",
     "compiler": "Субагент №2 роя сведения родословной (cross-matching-synthesizer, роль из AGENTS.md)",
-    "generated_at": "2026-11-03T16:04:04.676239",
+    "generated_at": "2026-11-04T17:44:52.377152",
     "epistemic_standard": "ZERO_HALLUCINATION_LAW + Genealogical Proof Standard (GPS)",
     "anti_homonym_score_thresholds": {
       "verified_core": ">= 90 (Безусловный документальный факт)",
@@ -14,7 +14,7 @@
     "summary_counts": {
       "total_slices": 6,
       "total_graph_nodes": 127,
-      "confirmed_doc_nodes": 12,
+      "confirmed_doc_nodes": 18,
       "archive_candidates_count": 18,
       "quarantine_hypotheses_count": 8,
       "total_archive_records_indexed": 32,

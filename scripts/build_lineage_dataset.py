@@ -2868,6 +2868,11 @@ def build_collateral_relatives():
 
     """Боковые родственные ветви (подтвержденные братья и сестры)."""
 
+    collateral_file = VAULT_DIR / "collateral_relatives.json"
+    if collateral_file.exists():
+        with open(collateral_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+
     relatives = [
 
         {

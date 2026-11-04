@@ -21,6 +21,7 @@ dist/
 _SOVEREIGN_OWNER_VAULT/
 data/vault/lineage_graph.json
 data/vault/lineage_graph.backup_*.json
+data/vault/collateral_relatives.json
 data/vault/*.ged
 data/raw_scans/
 data/private_docs/

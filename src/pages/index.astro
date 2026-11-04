@@ -2341,728 +2341,418 @@ import '../styles/heritage.css';
 
 
 
+      const hasGen0 = visibleCollateral.some(c => c.generation === 0);
+      const startGen = hasGen0 ? 0 : 1;
       const genGroups = {};
-
-      for (let g = 1; g <= maxGen; g++) genGroups[g] = [];
+      for (let g = startGen; g <= maxGen; g++) genGroups[g] = [];
 
       visibleDirect.forEach(n => {
-
-        genGroups[n.generation].push(n);
-
+        if (genGroups[n.generation]) {
+          genGroups[n.generation].push(n);
+        }
       });
 
-
-
-      // Sort each generation by Ahnentafel number so binary pairs (2n, 2n+1) are strictly adjacent
-
+      // Sort each direct generation by Ahnentafel number
       for (let g = 1; g <= maxGen; g++) {
-
-        genGroups[g].sort((a, b) => a.ahnentafel - b.ahnentafel);
-
+        if (genGroups[g]) {
+          genGroups[g].sort((a, b) => a.ahnentafel - b.ahnentafel);
+        }
       }
-
-
 
       const COL_X_STEP = 470;
-
       const CARD_W = 350;
-
       const CARD_H = 124;
 
-
-
-      // Insert collateral siblings right next to their sibling in the same generation column so cards never overlap
-
+      // Insert collateral siblings/descendants into their respective generation column
       visibleCollateral.forEach(c => {
-
         const col = genGroups[c.generation];
-
         if (!col) return;
-
-        const sibIdx = col.findIndex(x => x.ahnentafel === c.sibling_of_ahnentafel);
-
-        if (sibIdx !== -1) {
-
-          col.splice(sibIdx + 1, 0, c);
-
-        } else {
-
-          col.push(c);
-
+        if (c.sibling_of_ahnentafel) {
+          const sibIdx = col.findIndex(x => x.ahnentafel === c.sibling_of_ahnentafel);
+          if (sibIdx !== -1) {
+            col.splice(sibIdx + 1, 0, c);
+            return;
+          }
         }
-
+        col.push(c);
       });
 
-
-
-      // Progressive vertical gap per generation so every column strictly expands outward
-
       const GEN_GAPS = {
-
+        0: 36,
         1: 40,
-
-        2: 60,
-
-        3: 54,
-
-        4: 64,
-
-        5: 52,
-
-        6: 36,
-
+        2: 50,
+        3: 46,
+        4: 52,
+        5: 42,
+        6: 32,
         7: 20
-
       };
 
-
-
       function getColHeight(g) {
-
-        const count = genGroups[g].length;
-
+        const count = genGroups[g] ? genGroups[g].length : 0;
         if (count === 0) return 0;
-
         const gap = GEN_GAPS[g] || 24;
-
         return count * CARD_H + (count - 1) * gap;
-
       }
-
-
 
       function getTotalColHeight(g) {
-
         const baseH = getColHeight(g);
-
         const hyps = visibleHypotheses.filter(h => h.generation === g);
-
         const hypH = hyps.length > 0 ? (60 + hyps.length * (CARD_H + 20)) : 0;
-
         return baseH + hypH;
-
       }
-
-
 
       const maxColH = Math.max(...Object.keys(genGroups).map(g => getTotalColHeight(Number(g))), 900);
-
       const TOP_PAD = 110;
-
       const totalCanvasH = maxColH + TOP_PAD * 2;
-
-      const totalCanvasW = maxGen * COL_X_STEP + 360;
-
+      const totalCols = maxGen - startGen + 1;
+      const totalCanvasW = totalCols * COL_X_STEP + 360;
       const centerY = totalCanvasH / 2;
 
-
-
       svgEdges.setAttribute('width', String(totalCanvasW));
-
       svgEdges.setAttribute('height', String(totalCanvasH));
 
-
-
       const coordsByAhn = {};
-
       const coordsByHyp = {};
-
       globalCanvasW = totalCanvasW;
-
       globalCanvasH = totalCanvasH;
 
-
-
-      // Calculate coordinates for direct nodes
-
-      for (let g = 1; g <= maxGen; g++) {
-
-        const list = genGroups[g];
-
-        const colX = 80 + (g - 1) * COL_X_STEP;
-
+      // Calculate coordinates for direct & collateral nodes
+      for (let g = startGen; g <= maxGen; g++) {
+        const list = genGroups[g] || [];
+        const colIndex = g - startGen;
+        const colX = 80 + colIndex * COL_X_STEP;
         const gap = GEN_GAPS[g] || 24;
-
         const colH = getColHeight(g);
-
         const startY = centerY - colH / 2;
 
-
-
         list.forEach((node, idx) => {
-
           const y = startY + idx * (CARD_H + gap);
-
           coordsByAhn[node.ahnentafel] = {
-
             x: colX,
-
             y,
-
             w: node.ahnentafel === 1 ? 370 : CARD_W,
-
             h: CARD_H,
-
             node
-
           };
-
         });
 
-
-
         // Place floating hypotheses below the column
-
         const hypsInGen = visibleHypotheses.filter(h => h.generation === g);
-
         if (hypsInGen.length > 0) {
-
           const hypStartY = startY + colH + 60;
-
           hypsInGen.forEach((hyp, hIdx) => {
-
             const hypY = hypStartY + hIdx * (CARD_H + 22);
-
             coordsByHyp[hyp.id] = {
-
               x: colX,
-
               y: hypY,
-
               w: CARD_W,
-
               h: CARD_H,
-
               hyp
-
             };
-
           });
-
         }
-
       }
-
-
 
       globalCoordsByAhn = coordsByAhn;
       let htmlParts = [];
 
       const genTitles = {
-
-        1: ['I КОЛЕНО — 1 СЛОТ', 'Пробанд (#1)'],
-
-        2: ['II КОЛЕНО — 2 СЛОТА (+1 БРАТ)', 'Родители (#2–#3)'],
-
-        3: ['III КОЛЕНО — 4 СЛОТА (+2 БРАТА)', 'Дедушки и бабушки (#4–#7)'],
-
-        4: ['IV КОЛЕНО — 8 СЛОТОВ', 'Прадеды и прабабушки (#8–#15)'],
-
-        5: ['V КОЛЕНО — 16 СЛОТОВ', 'Прапрадеды • Перепись 1917 г. (#16–#31)'],
-
+        0: ['XXI ВЕК • ПОТОМКИ', 'Дети и племянники рода'],
+        1: ['I КОЛЕНО — ПРОБАНД', 'Основатель родового архива (#1)'],
+        2: ['II КОЛЕНО — РОДИТЕЛИ', 'Отец, мать, родные дяди и тёти'],
+        3: ['III КОЛЕНО — ДЕДУШКИ И БАБУШКИ', 'Оренбургская, Пензенская и Самарская ветви'],
+        4: ['IV КОЛЕНО — ПРАДЕДЫ', 'Прадеды и прабабушки • Мост через 1917 год'],
+        5: ['V КОЛЕНО — ПРАПРАДЕДЫ', 'Прапрадеды • Перепись 1917 г. (#16–#31)'],
         6: ['VI КОЛЕНО — 32 СЛОТА', 'Прапрапрадеды • Ревизия 1858 г. (#32–#63)'],
-
-        7: ['VII КОЛЕНО — 64 СЛОТА', 'Прапрапрапрадеды • 1815–1834 гг. (#64–#127)']
-
+        7: ['VII КОЛЕНО — 64 СЛОТА', 'Корни рода • Ревизии 1795–1834 гг. (#64–#127)']
       };
 
+      const romanNumerals = {
+        0: 'XXI',
+        1: 'I',
+        2: 'II',
+        3: 'III',
+        4: 'IV',
+        5: 'V',
+        6: 'VI',
+        7: 'VII'
+      };
 
-
-      const romanNumerals = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII'];
-
-      // Generation Banners: start from g = 2 because Proband (#1) has its own sovereign royal crown header
-
-      for (let g = 2; g <= maxGen; g++) {
-
-        const colX = 80 + (g - 1) * COL_X_STEP;
-
+      // Generation Banners
+      for (let g = startGen; g <= maxGen; g++) {
+        if (g === 1) continue; // Proband has royal crown bar
+        const colIndex = g - startGen;
+        const colX = 80 + colIndex * COL_X_STEP;
         const colH = getColHeight(g);
-
         const startY = centerY - colH / 2;
-
         const bannerTop = Math.max(24, startY - 82);
-
-        const [t1, t2] = genTitles[g];
+        const [t1, t2] = genTitles[g] || [`${g} КОЛЕНО`, ''];
 
         htmlParts.push(`
-
           <div class="canvas-gen-banner" style="left:${colX}px; top:${bannerTop}px; width:${CARD_W}px;">
-
-            <div class="gen-banner-badge">${romanNumerals[g]}</div>
-
+            <div class="gen-banner-badge">${romanNumerals[g] || g}</div>
             <div class="gen-banner-titles">
-
               <div class="t1">${t1}</div>
-
               <div class="t2">${t2}</div>
-
             </div>
-
           </div>
-
         `);
-
-
 
         // Floating hypothesis banner if column has hypotheses
-
         const hypsInGen = visibleHypotheses.filter(h => h.generation === g);
-
         if (hypsInGen.length > 0) {
-
           const hypBannerTop = (centerY - colH / 2) + colH + 24;
-
           htmlParts.push(`
-
             <div class="canvas-hyp-banner" style="left:${colX}px; top:${hypBannerTop}px; width:${CARD_W}px;">
-
               <svg class="svg-icon sm"><use href="#icon-orbit-hypothesis"/></svg> ПАРЯЩИЕ ГИПОТЕЗЫ КОЛЕНА (${hypsInGen.length})
-
             </div>
-
           `);
-
         }
-
       }
 
-
-
       // Render direct & collateral nodes (Imperial Architectural Standard)
-
       Object.values(coordsByAhn).forEach(box => {
-
         const node = box.node;
-
         const photoSrc = getNodePhoto(node);
-
         const portraitInner = photoSrc
-
           ? `<img src="${photoSrc}" alt="${node.full_name}" />`
-
           : `<div class="rm-portrait-placeholder">${getInitials(node)}</div>`;
 
-
-
-        const branchLabel = node.is_relative_proposal
-
-          ? 'Ветвь родственников'
-
-          : node.is_collateral
-
-            ? 'Родной брат'
-
-            : node.branch === 'paternal'
-
-              ? 'Линия Отца'
-
-              : node.branch === 'maternal'
-
-                ? 'Линия Матери'
-
-                : 'Пробанд (#1)';
-
-
+        const relBadge = node.relation_label || (
+          node.is_collateral
+            ? (node.generation === 0
+                ? (node.gender === 'F' ? 'Племянница' : 'Племянник')
+                : node.generation === 1
+                  ? (node.sibling_of_ahnentafel === 1
+                      ? (node.gender === 'F' ? 'Родная сестра' : 'Родной брат')
+                      : (node.gender === 'F' ? 'Двоюродная сестра' : 'Двоюродный брат'))
+                  : node.generation === 2
+                    ? (node.gender === 'F' ? 'Тётя' : 'Дядя')
+                    : (node.gender === 'F' ? 'Сестра' : 'Брат'))
+            : `Слот #${node.ahnentafel}`
+        );
 
         const deathStr = node.death_date ? ` — ${node.death_date}` : '';
-
         const extraClass = node.ahnentafel === 1 ? 'proband-node' : node.is_collateral ? 'collateral-node' : '';
 
-
-
         let searchHighlightStyle = '';
-
         if (q) {
-
-          const hay = `${node.full_name} ${node.birth_place} ${node.sub_clan} ${node.notes} #${node.ahnentafel}`.toLowerCase();
-
+          const hay = `${node.full_name || ''} ${node.birth_place || ''} ${node.sub_clan || ''} ${node.notes || ''} #${node.ahnentafel}`.toLowerCase();
           if (hay.includes(q)) {
-
             searchHighlightStyle = 'outline: 3px solid #7A1C1C; box-shadow: 0 0 24px rgba(122,28,28,0.3); z-index: 15;';
-
           } else {
-
             searchHighlightStyle = 'opacity: 0.25;';
-
           }
-
         }
-
-
 
         if (activeFilter === 'hypotheses') {
-
           searchHighlightStyle += ' opacity: 0.35;';
-
         }
 
-
-
-        const isFactConfirmed = CONFIRMED_FACT_AHNENTAFELS.has(node.ahnentafel) || node.is_fact_confirmed;
-
+        const isFactConfirmed = node.is_collateral || node.is_relative_proposal || CONFIRMED_FACT_AHNENTAFELS.has(node.ahnentafel) || node.is_fact_confirmed;
         const isPendingSlot = (epistemicMode === 'facts_only' && !isFactConfirmed);
 
-
-
         let cardClasses = `rm-node status-${node.status} branch-${node.branch} ${extraClass}`;
-
         if (isFactConfirmed) cardClasses += ' is-fact-confirmed';
-
         if (isPendingSlot) cardClasses += ' is-pending-fact';
 
-
-
         const factBadge = isFactConfirmed ? `<span class="badge-fact-100"><svg class="svg-icon xs"><use href="#icon-seal-confirmed"/></svg> 100% ФАКТ</span>` : '';
-
         const displayName = isPendingSlot
-
           ? `Слот #${node.ahnentafel} • Ожидает выписки архива`
-
           : node.full_name;
 
-
-
-        // PROBAND (#1): Sovereign Royal Master Card
-
+        // PROBAND (#1): Founder Card
         if (node.ahnentafel === 1) {
-
           htmlParts.push(`
-
             <article
-
               class="${cardClasses}"
-
               style="left:${box.x}px; top:${box.y}px; width:${box.w}px; ${searchHighlightStyle}"
-
               data-ahnentafel="1"
-
             >
-
               <div class="rm-proband-crown-bar">
-
                 <div class="rm-proband-crown-title">
-
                   <svg class="svg-icon xs" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-
                     <path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"/>
-
                   </svg>
-
                   <span>I КОЛЕНО • ОСНОВАТЕЛЬ РОДОВОГО АРХИВА</span>
-
                 </div>
-
                 ${factBadge}
-
               </div>
-
               <div class="rm-card-body">
-
                 <div class="rm-portrait proband-portrait" data-photo-trigger="${node.id}" title="Загрузить фотографию Пробанда">
-
                   ${portraitInner}
-
                   <span class="rm-photo-badge"><svg class="svg-icon sm"><use href="#icon-photo"/></svg> Фото</span>
-
                 </div>
-
                 <div class="rm-content">
-
                   <div class="rm-proband-clan">КАРЕТНИКОВЫ • ЗУБКОВЫ • КУМАНИНЫ • ЮХИНЫ</div>
-
                   <div class="rm-name proband-name">${displayName}</div>
-
                   <div class="rm-role-sub">Предприниматель • Основатель Prime Lead • Хранитель архива</div>
-
                   <div class="rm-meta-row">
-
                     <span class="rm-dates"><svg class="svg-icon xs"><use href="#icon-calendar"/></svg> 14.09.1994</span>
-
                     <span class="rm-place"><svg class="svg-icon xs"><use href="#icon-pin"/></svg> г. Самара</span>
-
                   </div>
-
                 </div>
-
               </div>
-
             </article>
-
           `);
-
         } else {
-
-          // GENERATIONS II-VII & COLLATERALS
-
+          // OTHER GENERATIONS & COLLATERALS
           htmlParts.push(`
-
             <article
-
               class="${cardClasses}"
-
               style="left:${box.x}px; top:${box.y}px; width:${box.w}px; ${searchHighlightStyle}"
-
               data-ahnentafel="${node.ahnentafel}"
-
               data-node-clan="${node.sub_clan || node.clan || ''}"
-
             >
-
               <div class="rm-card-top-bar">
-
                 <div style="display:flex; align-items:center; gap:5px;">
-
-                  <span class="rm-gen-pill">${romanNumerals[node.generation]} КОЛЕНО</span>
-
-                  <span class="ahnentafel-badge">${node.is_collateral ? `Брат #${node.sibling_of_ahnentafel}` : `Слот #${node.ahnentafel}`}</span>
-
+                  <span class="rm-gen-pill">${romanNumerals[node.generation] || 'I'} КОЛЕНО</span>
+                  <span class="ahnentafel-badge">${relBadge}</span>
                 </div>
-
                 <div style="display:flex; align-items:center; gap:5px;">
-
                   ${factBadge}
-
-                  <span class="branch-tag ${node.branch}">${branchLabel}</span>
-
+                  <span class="branch-tag ${node.branch}">${node.sub_clan || (node.branch === 'paternal' ? 'Линия Отца' : 'Линия Матери')}</span>
                 </div>
-
               </div>
-
               <div class="rm-card-body">
-
                 <div class="rm-portrait" data-photo-trigger="${node.id}" title="Нажмите, чтобы загрузить или обновить фотографию">
-
                   ${portraitInner}
-
                   <span class="rm-photo-badge"><svg class="svg-icon sm"><use href="#icon-photo"/></svg> Фото</span>
-
                 </div>
-
                 <div class="rm-content">
-
                   <div class="rm-name">${displayName}</div>
-
                   <div class="rm-dates"><svg class="svg-icon xs"><use href="#icon-calendar"/></svg> ${node.birth_date || ''}${deathStr}</div>
-
                   <div class="rm-place" title="${node.birth_place || ''}"><svg class="svg-icon xs"><use href="#icon-pin"/></svg> ${node.birth_place || 'Село не указано'}</div>
-
                   ${!isPendingSlot ? getSpecialWaveT1Badges(node) : ''}
-
                 </div>
-
               </div>
-
             </article>
-
           `);
-
         }
-
       });
 
-
-
-      // Render floating orbital hypotheses    // Render floating orbital hypotheses
-
+      // Render floating orbital hypotheses
       Object.values(coordsByHyp).forEach(box => {
-
         const hyp = box.hyp;
-
         let hypHighlightStyle = '';
-
         if (q) {
-
           const hay = `${hyp.full_name} ${hyp.village} ${hyp.role_badge} ${hyp.relationship_hypothesis}`.toLowerCase();
-
           if (hay.includes(q)) {
-
             hypHighlightStyle = 'outline: 3px solid #f59e0b; box-shadow: 0 0 32px rgba(245,158,11,0.8); z-index: 15;';
-
           } else {
-
             hypHighlightStyle = 'opacity: 0.3;';
-
           }
-
         }
-
         if (activeFilter === 'hypotheses') {
-
           hypHighlightStyle = 'outline: 3px solid #B45309; box-shadow: 0 0 36px rgba(251,191,36,0.85); z-index: 20;';
-
         }
-
-
 
         htmlParts.push(`
-
           <article
-
-            class="rm-node floating-hypothesis-node"
-
-            style="left:${box.x}px; top:${box.y}px; ${hypHighlightStyle}"
-
-            data-hypothesis-id="${hyp.id}"
-
-            title="Орбитальная гипотеза: нажмите для просмотра архивного обоснования"
-
+            class="rm-node branch-hypothesis is-hypothesis"
+            style="left:${box.x}px; top:${box.y}px; width:${box.w}px; ${hypHighlightStyle}"
+            data-hyp-id="${hyp.id}"
           >
-
-            <div class="rm-content" style="width:100%;">
-
-              <div class="rm-top-badges" style="margin-bottom:5px;">
-
-                <span class="badge-floating-hyp">ГИПОТЕЗА / КАНДИДАТ В РОД</span>
-
-                <span class="ahnentafel-badge" style="background:#FEF7ED; color:#B45309;">${hyp.confidence}%</span>
-
-              </div>
-
-              <div class="rm-name" style="color:#1A1715; font-size:13px; font-weight:800;">${hyp.full_name}</div>
-
-              <div class="rm-dates" style="color:#7A1C1C; font-size:11.5px; font-weight:600;">${hyp.era}</div>
-
-              <div class="rm-place" style="color:#4A423B;" title="${hyp.village}"><svg class="svg-icon sm"><use href="#icon-pin"/></svg> ${hyp.village}</div>
-
-              <div style="font-size:10px; color:#B45309; margin-top:4px; font-weight:700;">
-
-                <svg class="svg-icon sm"><use href="#icon-link"/></svg> Связь: Слот #${hyp.probable_relative_ahnentafel} (${hyp.clan})
-
-              </div>
-
+            <div class="rm-card-top-bar">
+              <span class="rm-gen-pill">ГИПОТЕЗА</span>
+              <span class="branch-tag branch-hypothesis">${hyp.clan}</span>
             </div>
-
+            <div class="rm-card-body">
+              <div class="rm-portrait-placeholder hyp-glyph">
+                <svg class="svg-icon sm"><use href="#icon-orbit-hypothesis"/></svg>
+              </div>
+              <div class="rm-content">
+                <div class="rm-name">${hyp.full_name}</div>
+                <div class="rm-dates">${hyp.era} • ${hyp.role_badge}</div>
+                <div class="rm-place">${hyp.village}</div>
+              </div>
+            </div>
           </article>
-
         `);
-
       });
-
-
 
       nodesLayer.innerHTML = htmlParts.join('');
 
-
-
-      // Draw SVG Bezier Connectors strictly expanding 1 -> 2 -> 4 -> 8 -> 16 -> 32 -> 64
-
+      // Build SVG connection lines
       let pathsSvg = '';
 
       Object.values(coordsByAhn).forEach(srcBox => {
-
         const n = srcBox.node;
-
         if (!n.is_collateral) {
-
-          const targets = [n.father_ahnentafel, n.mother_ahnentafel].filter(Boolean);
-
-          targets.forEach(targetAhn => {
-
-            const dstBox = coordsByAhn[targetAhn];
-
+          const fatherAhn = n.ahnentafel * 2;
+          const motherAhn = n.ahnentafel * 2 + 1;
+          [fatherAhn, motherAhn].forEach(dstAhn => {
+            const dstBox = coordsByAhn[dstAhn];
             if (!dstBox) return;
 
             const x1 = srcBox.x + srcBox.w;
-
             const y1 = srcBox.y + srcBox.h / 2;
-
             const x2 = dstBox.x;
-
             const y2 = dstBox.y + dstBox.h / 2;
-
             const cpx1 = x1 + (x2 - x1) * 0.45;
-
             const cpx2 = x1 + (x2 - x1) * 0.55;
 
-            const strokeColor = dstBox.node.branch === 'paternal'
-
-              ? '#8B261E'
-
+            const strokeColor = dstBox.node.status === 'UNKNOWN_SLOT'
+              ? 'rgba(180, 160, 130, 0.4)'
+              : dstBox.node.branch === 'paternal'
+              ? '#8C6D32'
               : '#146C43';
-
             const strokeWidth = dstBox.node.status === 'UNKNOWN_SLOT' ? '1.5' : '2.8';
-
             const dash = dstBox.node.status === 'UNKNOWN_SLOT' ? 'stroke-dasharray="6,5"' : '';
 
-
-
             pathsSvg += `
-
               <path
-
                 d="M ${x1} ${y1} C ${cpx1} ${y1}, ${cpx2} ${y2}, ${x2} ${y2}"
-
                 fill="none"
-
                 stroke="${strokeColor}"
-
                 stroke-width="${strokeWidth}"
-
                 ${dash}
-
               />
-
               <circle cx="${x1}" cy="${y1}" r="3.5" fill="#8C6D32" />
-
               <circle cx="${x2}" cy="${y2}" r="3.5" fill="${strokeColor}" />
-
             `;
-
           });
-
         } else {
-
-          const sibBox = coordsByAhn[n.sibling_of_ahnentafel];
-
+          // Collateral node connectors
+          const sibBox = n.sibling_of_ahnentafel ? coordsByAhn[n.sibling_of_ahnentafel] : null;
           if (sibBox) {
-
             const x1 = sibBox.x + 32;
-
             const y1 = sibBox.y + sibBox.h;
-
             const x2 = srcBox.x + 32;
-
             const y2 = srcBox.y;
-
             pathsSvg += `
-
               <line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"
-
                 stroke="#d4af37" stroke-width="2.2" stroke-dasharray="4,4" />
-
             `;
-
           }
-
-          const parentBox = coordsByAhn[n.parent_ahnentafel];
-
+          const parentAhn = n.parent_ahnentafel || n.father_ahnentafel;
+          const parentBox = parentAhn ? coordsByAhn[parentAhn] : null;
           if (parentBox) {
-
-            const x1 = srcBox.x + srcBox.w;
-
-            const y1 = srcBox.y + srcBox.h / 2;
-
-            const x2 = parentBox.x;
-
-            const y2 = parentBox.y + parentBox.h / 2;
-
+            let x1, y1, x2, y2;
+            if (srcBox.x < parentBox.x) {
+              // Child on the left (e.g. Gen 0 -> Gen 1)
+              x1 = srcBox.x + srcBox.w;
+              y1 = srcBox.y + srcBox.h / 2;
+              x2 = parentBox.x;
+              y2 = parentBox.y + parentBox.h / 2;
+            } else {
+              // Child on the right
+              x1 = srcBox.x;
+              y1 = srcBox.y + srcBox.h / 2;
+              x2 = parentBox.x + parentBox.w;
+              y2 = parentBox.y + parentBox.h / 2;
+            }
             const cpx = x1 + (x2 - x1) * 0.5;
-
             pathsSvg += `
-
               <path d="M ${x1} ${y1} C ${cpx} ${y1}, ${cpx} ${y2}, ${x2} ${y2}"
-
-                fill="none" stroke="rgba(212, 175, 55, 0.5)" stroke-width="1.8" stroke-dasharray="6,4" />
-
+                fill="none" stroke="rgba(212, 175, 55, 0.65)" stroke-width="2" stroke-dasharray="6,4" />
+              <circle cx="${x1}" cy="${y1}" r="3" fill="#d4af37" />
+              <circle cx="${x2}" cy="${y2}" r="3" fill="#d4af37" />
             `;
-
           }
-
         }
-
       });
-
-
 
       // Draw SVG connectors for floating hypotheses
 
@@ -3615,34 +3305,20 @@ import '../styles/heritage.css';
 
 
       function matchesScrollFilters(node) {
-
-        const isFact = CONFIRMED_FACT_AHNENTAFELS.has(node.ahnentafel) || node.is_fact_confirmed || node.is_relative_proposal;
-
+        const isFact = node.is_collateral || CONFIRMED_FACT_AHNENTAFELS.has(node.ahnentafel) || node.is_fact_confirmed || node.is_relative_proposal;
         if (scrollEpistemicMode === 'facts_only' && !isFact) return false;
-
         if (scrollClanFilter === 'hypotheses') return false;
-
         if (scrollClanFilter !== 'all') {
-
-          const clanStr = (node.sub_clan || '').toLowerCase();
-
-          if (!clanStr.includes(scrollClanFilter.toLowerCase())) return false;
-
+          const target = scrollClanFilter.toLowerCase();
+          const clanStr = `${node.sub_clan || ''} ${node.clan || ''} ${node.branch === 'paternal' ? 'каретниковы юхины фризины' : 'зубковы куманины котельниковы'}`.toLowerCase();
+          if (!clanStr.includes(target)) return false;
         }
-
         if (q) {
-
           const hay = `${node.full_name || ''} ${node.birth_place || ''} ${node.sub_clan || ''} ${node.role_label || ''} ${node.notes || ''} #${node.ahnentafel}`.toLowerCase();
-
           if (!hay.includes(q)) return false;
-
         }
-
         return true;
-
       }
-
-
 
       const genMeta = {
 
